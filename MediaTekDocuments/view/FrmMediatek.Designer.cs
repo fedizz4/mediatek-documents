@@ -32,11 +32,25 @@ namespace MediaTekDocuments.view
             this.tabOngletsApplication = new System.Windows.Forms.TabControl();
             this.tabLivres = new System.Windows.Forms.TabPage();
             this.grpLivresInfos = new System.Windows.Forms.GroupBox();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.txbIdRayonLivre = new System.Windows.Forms.TextBox();
             this.lblIdRayon = new System.Windows.Forms.Label();
             this.txbIdPublicLivre = new System.Windows.Forms.TextBox();
             this.lblIdPublic = new System.Windows.Forms.Label();
             this.txbIdGenreLivre = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
+=======
+=======
+            this.txtIdRayonLivre = new System.Windows.Forms.TextBox();
+            this.lblIdRayon = new System.Windows.Forms.Label();
+            this.txtIdPublicLivre = new System.Windows.Forms.TextBox();
+            this.lblIdPublic = new System.Windows.Forms.Label();
+            this.txtIdGenreLivre = new System.Windows.Forms.TextBox();
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.lblIdGenre = new System.Windows.Forms.Label();
             this.btnInfosLivreVider = new System.Windows.Forms.Button();
             this.btnSupprimerLivre = new System.Windows.Forms.Button();
@@ -188,6 +202,10 @@ namespace MediaTekDocuments.view
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.btnReceptionRechercher = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.btnInfosDvdVider = new System.Windows.Forms.Button();
             this.btnReceptionDvdAjouter = new System.Windows.Forms.Button();
             this.btnReceptionDvdModifier = new System.Windows.Forms.Button();
@@ -198,6 +216,7 @@ namespace MediaTekDocuments.view
             this.txbIdGenreDvd = new System.Windows.Forms.TextBox();
             this.txbIdPublicDvd = new System.Windows.Forms.TextBox();
             this.txbIdRayonDvd = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
             this.btnInfosRevueVider = new System.Windows.Forms.Button();
             this.btnReceptionRevueAjouter = new System.Windows.Forms.Button();
             this.btnReceptionRevueModifier = new System.Windows.Forms.Button();
@@ -208,6 +227,10 @@ namespace MediaTekDocuments.view
             this.txbIdGenreRevue = new System.Windows.Forms.TextBox();
             this.txbIdPublicRevue = new System.Windows.Forms.TextBox();
             this.txbIdRayonRevue = new System.Windows.Forms.TextBox();
+=======
+=======
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.tabOngletsApplication.SuspendLayout();
             this.tabLivres.SuspendLayout();
             this.grpLivresInfos.SuspendLayout();
@@ -261,11 +284,25 @@ namespace MediaTekDocuments.view
             // 
             // grpLivresInfos
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.grpLivresInfos.Controls.Add(this.txbIdRayonLivre);
             this.grpLivresInfos.Controls.Add(this.lblIdRayon);
             this.grpLivresInfos.Controls.Add(this.txbIdPublicLivre);
             this.grpLivresInfos.Controls.Add(this.lblIdPublic);
             this.grpLivresInfos.Controls.Add(this.txbIdGenreLivre);
+<<<<<<< HEAD
+=======
+=======
+            this.grpLivresInfos.Controls.Add(this.txtIdRayonLivre);
+            this.grpLivresInfos.Controls.Add(this.lblIdRayon);
+            this.grpLivresInfos.Controls.Add(this.txtIdPublicLivre);
+            this.grpLivresInfos.Controls.Add(this.lblIdPublic);
+            this.grpLivresInfos.Controls.Add(this.txtIdGenreLivre);
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.grpLivresInfos.Controls.Add(this.lblIdGenre);
             this.grpLivresInfos.Controls.Add(this.btnInfosLivreVider);
             this.grpLivresInfos.Controls.Add(this.btnSupprimerLivre);
@@ -298,12 +335,27 @@ namespace MediaTekDocuments.view
             this.grpLivresInfos.TabStop = false;
             this.grpLivresInfos.Text = "Informations détaillées";
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             // txbIdRayonLivre
             // 
             this.txbIdRayonLivre.Location = new System.Drawing.Point(441, 170);
             this.txbIdRayonLivre.Name = "txbIdRayonLivre";
             this.txbIdRayonLivre.Size = new System.Drawing.Size(100, 20);
             this.txbIdRayonLivre.TabIndex = 53;
+<<<<<<< HEAD
+=======
+=======
+            // txtIdRayonLivre
+            // 
+            this.txtIdRayonLivre.Location = new System.Drawing.Point(441, 170);
+            this.txtIdRayonLivre.Name = "txtIdRayonLivre";
+            this.txtIdRayonLivre.Size = new System.Drawing.Size(100, 20);
+            this.txtIdRayonLivre.TabIndex = 53;
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             // 
             // lblIdRayon
             // 
@@ -315,12 +367,27 @@ namespace MediaTekDocuments.view
             this.lblIdRayon.TabIndex = 52;
             this.lblIdRayon.Text = "IdRayon :";
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             // txbIdPublicLivre
             // 
             this.txbIdPublicLivre.Location = new System.Drawing.Point(441, 145);
             this.txbIdPublicLivre.Name = "txbIdPublicLivre";
             this.txbIdPublicLivre.Size = new System.Drawing.Size(100, 20);
             this.txbIdPublicLivre.TabIndex = 51;
+<<<<<<< HEAD
+=======
+=======
+            // txtIdPublicLivre
+            // 
+            this.txtIdPublicLivre.Location = new System.Drawing.Point(441, 145);
+            this.txtIdPublicLivre.Name = "txtIdPublicLivre";
+            this.txtIdPublicLivre.Size = new System.Drawing.Size(100, 20);
+            this.txtIdPublicLivre.TabIndex = 51;
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             // 
             // lblIdPublic
             // 
@@ -332,12 +399,27 @@ namespace MediaTekDocuments.view
             this.lblIdPublic.TabIndex = 50;
             this.lblIdPublic.Text = "IdPublic :";
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             // txbIdGenreLivre
             // 
             this.txbIdGenreLivre.Location = new System.Drawing.Point(441, 121);
             this.txbIdGenreLivre.Name = "txbIdGenreLivre";
             this.txbIdGenreLivre.Size = new System.Drawing.Size(100, 20);
             this.txbIdGenreLivre.TabIndex = 49;
+<<<<<<< HEAD
+=======
+=======
+            // txtIdGenreLivre
+            // 
+            this.txtIdGenreLivre.Location = new System.Drawing.Point(441, 121);
+            this.txtIdGenreLivre.Name = "txtIdGenreLivre";
+            this.txtIdGenreLivre.Size = new System.Drawing.Size(100, 20);
+            this.txtIdGenreLivre.TabIndex = 49;
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             // 
             // lblIdGenre
             // 
@@ -351,7 +433,15 @@ namespace MediaTekDocuments.view
             // 
             // btnInfosLivreVider
             // 
+<<<<<<< HEAD
             this.btnInfosLivreVider.Location = new System.Drawing.Point(9, 243);
+=======
+<<<<<<< HEAD
+            this.btnInfosLivreVider.Location = new System.Drawing.Point(9, 243);
+=======
+            this.btnInfosLivreVider.Location = new System.Drawing.Point(9, 221);
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.btnInfosLivreVider.Name = "btnInfosLivreVider";
             this.btnInfosLivreVider.Size = new System.Drawing.Size(75, 24);
             this.btnInfosLivreVider.TabIndex = 47;
@@ -758,6 +848,10 @@ namespace MediaTekDocuments.view
             // 
             // grpDvdInfos
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.grpDvdInfos.Controls.Add(this.txbIdRayonDvd);
             this.grpDvdInfos.Controls.Add(this.txbIdPublicDvd);
             this.grpDvdInfos.Controls.Add(this.txbIdGenreDvd);
@@ -768,6 +862,11 @@ namespace MediaTekDocuments.view
             this.grpDvdInfos.Controls.Add(this.btnReceptionDvdModifier);
             this.grpDvdInfos.Controls.Add(this.btnReceptionDvdAjouter);
             this.grpDvdInfos.Controls.Add(this.btnInfosDvdVider);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.grpDvdInfos.Controls.Add(this.label58);
             this.grpDvdInfos.Controls.Add(this.txbDvdDuree);
             this.grpDvdInfos.Controls.Add(this.txbDvdImage);
@@ -788,9 +887,21 @@ namespace MediaTekDocuments.view
             this.grpDvdInfos.Controls.Add(this.label29);
             this.grpDvdInfos.Controls.Add(this.label30);
             this.grpDvdInfos.Controls.Add(this.label31);
+<<<<<<< HEAD
             this.grpDvdInfos.Location = new System.Drawing.Point(8, 359);
             this.grpDvdInfos.Name = "grpDvdInfos";
             this.grpDvdInfos.Size = new System.Drawing.Size(859, 274);
+=======
+<<<<<<< HEAD
+            this.grpDvdInfos.Location = new System.Drawing.Point(8, 359);
+            this.grpDvdInfos.Name = "grpDvdInfos";
+            this.grpDvdInfos.Size = new System.Drawing.Size(859, 274);
+=======
+            this.grpDvdInfos.Location = new System.Drawing.Point(8, 381);
+            this.grpDvdInfos.Name = "grpDvdInfos";
+            this.grpDvdInfos.Size = new System.Drawing.Size(859, 245);
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.grpDvdInfos.TabIndex = 21;
             this.grpDvdInfos.TabStop = false;
             this.grpDvdInfos.Text = "Informations détaillées";
@@ -809,6 +920,13 @@ namespace MediaTekDocuments.view
             // 
             this.txbDvdDuree.Location = new System.Drawing.Point(441, 20);
             this.txbDvdDuree.Name = "txbDvdDuree";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            this.txbDvdDuree.ReadOnly = true;
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.txbDvdDuree.Size = new System.Drawing.Size(100, 20);
             this.txbDvdDuree.TabIndex = 32;
             // 
@@ -850,6 +968,13 @@ namespace MediaTekDocuments.view
             this.txbDvdSynopsis.Location = new System.Drawing.Point(150, 95);
             this.txbDvdSynopsis.Multiline = true;
             this.txbDvdSynopsis.Name = "txbDvdSynopsis";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            this.txbDvdSynopsis.ReadOnly = true;
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.txbDvdSynopsis.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txbDvdSynopsis.Size = new System.Drawing.Size(391, 39);
             this.txbDvdSynopsis.TabIndex = 27;
@@ -858,6 +983,13 @@ namespace MediaTekDocuments.view
             // 
             this.txbDvdRealisateur.Location = new System.Drawing.Point(150, 70);
             this.txbDvdRealisateur.Name = "txbDvdRealisateur";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            this.txbDvdRealisateur.ReadOnly = true;
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.txbDvdRealisateur.Size = new System.Drawing.Size(207, 20);
             this.txbDvdRealisateur.TabIndex = 26;
             // 
@@ -865,6 +997,13 @@ namespace MediaTekDocuments.view
             // 
             this.txbDvdTitre.Location = new System.Drawing.Point(150, 45);
             this.txbDvdTitre.Name = "txbDvdTitre";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            this.txbDvdTitre.ReadOnly = true;
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.txbDvdTitre.Size = new System.Drawing.Size(391, 20);
             this.txbDvdTitre.TabIndex = 25;
             // 
@@ -872,6 +1011,13 @@ namespace MediaTekDocuments.view
             // 
             this.txbDvdNumero.Location = new System.Drawing.Point(150, 20);
             this.txbDvdNumero.Name = "txbDvdNumero";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            this.txbDvdNumero.ReadOnly = true;
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.txbDvdNumero.Size = new System.Drawing.Size(100, 20);
             this.txbDvdNumero.TabIndex = 24;
             // 
@@ -994,7 +1140,15 @@ namespace MediaTekDocuments.view
             this.grpDvdRecherche.Controls.Add(this.txbDvdTitreRecherche);
             this.grpDvdRecherche.Location = new System.Drawing.Point(8, 13);
             this.grpDvdRecherche.Name = "grpDvdRecherche";
+<<<<<<< HEAD
             this.grpDvdRecherche.Size = new System.Drawing.Size(859, 344);
+=======
+<<<<<<< HEAD
+            this.grpDvdRecherche.Size = new System.Drawing.Size(859, 344);
+=======
+            this.grpDvdRecherche.Size = new System.Drawing.Size(859, 362);
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.grpDvdRecherche.TabIndex = 20;
             this.grpDvdRecherche.TabStop = false;
             this.grpDvdRecherche.Text = "Recherches";
@@ -1121,7 +1275,15 @@ namespace MediaTekDocuments.view
             this.dgvDvdListe.AllowUserToResizeColumns = false;
             this.dgvDvdListe.AllowUserToResizeRows = false;
             this.dgvDvdListe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
             this.dgvDvdListe.Location = new System.Drawing.Point(9, 134);
+=======
+<<<<<<< HEAD
+            this.dgvDvdListe.Location = new System.Drawing.Point(9, 134);
+=======
+            this.dgvDvdListe.Location = new System.Drawing.Point(9, 150);
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.dgvDvdListe.MultiSelect = false;
             this.dgvDvdListe.Name = "dgvDvdListe";
             this.dgvDvdListe.ReadOnly = true;
@@ -1165,6 +1327,7 @@ namespace MediaTekDocuments.view
             // 
             // grpRevuesInfos
             // 
+<<<<<<< HEAD
             this.grpRevuesInfos.Controls.Add(this.txbIdRayonRevue);
             this.grpRevuesInfos.Controls.Add(this.txbIdPublicRevue);
             this.grpRevuesInfos.Controls.Add(this.txbIdGenreRevue);
@@ -1175,6 +1338,8 @@ namespace MediaTekDocuments.view
             this.grpRevuesInfos.Controls.Add(this.btnReceptionRevueModifier);
             this.grpRevuesInfos.Controls.Add(this.btnReceptionRevueAjouter);
             this.grpRevuesInfos.Controls.Add(this.btnInfosRevueVider);
+=======
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.grpRevuesInfos.Controls.Add(this.label57);
             this.grpRevuesInfos.Controls.Add(this.txbRevuesImage);
             this.grpRevuesInfos.Controls.Add(this.txbRevuesRayon);
@@ -1193,9 +1358,15 @@ namespace MediaTekDocuments.view
             this.grpRevuesInfos.Controls.Add(this.label45);
             this.grpRevuesInfos.Controls.Add(this.label46);
             this.grpRevuesInfos.Controls.Add(this.label47);
+<<<<<<< HEAD
             this.grpRevuesInfos.Location = new System.Drawing.Point(8, 359);
             this.grpRevuesInfos.Name = "grpRevuesInfos";
             this.grpRevuesInfos.Size = new System.Drawing.Size(859, 274);
+=======
+            this.grpRevuesInfos.Location = new System.Drawing.Point(8, 381);
+            this.grpRevuesInfos.Name = "grpRevuesInfos";
+            this.grpRevuesInfos.Size = new System.Drawing.Size(859, 245);
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.grpRevuesInfos.TabIndex = 20;
             this.grpRevuesInfos.TabStop = false;
             this.grpRevuesInfos.Text = "Informations détaillées";
@@ -1246,6 +1417,10 @@ namespace MediaTekDocuments.view
             // 
             this.txbRevuesDateMiseADispo.Location = new System.Drawing.Point(150, 95);
             this.txbRevuesDateMiseADispo.Name = "txbRevuesDateMiseADispo";
+<<<<<<< HEAD
+=======
+            this.txbRevuesDateMiseADispo.ReadOnly = true;
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.txbRevuesDateMiseADispo.Size = new System.Drawing.Size(100, 20);
             this.txbRevuesDateMiseADispo.TabIndex = 27;
             // 
@@ -1253,6 +1428,10 @@ namespace MediaTekDocuments.view
             // 
             this.txbRevuesPeriodicite.Location = new System.Drawing.Point(150, 70);
             this.txbRevuesPeriodicite.Name = "txbRevuesPeriodicite";
+<<<<<<< HEAD
+=======
+            this.txbRevuesPeriodicite.ReadOnly = true;
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.txbRevuesPeriodicite.Size = new System.Drawing.Size(100, 20);
             this.txbRevuesPeriodicite.TabIndex = 26;
             // 
@@ -1260,6 +1439,10 @@ namespace MediaTekDocuments.view
             // 
             this.txbRevuesTitre.Location = new System.Drawing.Point(150, 45);
             this.txbRevuesTitre.Name = "txbRevuesTitre";
+<<<<<<< HEAD
+=======
+            this.txbRevuesTitre.ReadOnly = true;
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.txbRevuesTitre.Size = new System.Drawing.Size(391, 20);
             this.txbRevuesTitre.TabIndex = 25;
             // 
@@ -1267,6 +1450,10 @@ namespace MediaTekDocuments.view
             // 
             this.txbRevuesNumero.Location = new System.Drawing.Point(150, 20);
             this.txbRevuesNumero.Name = "txbRevuesNumero";
+<<<<<<< HEAD
+=======
+            this.txbRevuesNumero.ReadOnly = true;
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.txbRevuesNumero.Size = new System.Drawing.Size(100, 20);
             this.txbRevuesNumero.TabIndex = 24;
             // 
@@ -1379,7 +1566,11 @@ namespace MediaTekDocuments.view
             this.grpRevuesRecherche.Controls.Add(this.txbRevuesTitreRecherche);
             this.grpRevuesRecherche.Location = new System.Drawing.Point(8, 13);
             this.grpRevuesRecherche.Name = "grpRevuesRecherche";
+<<<<<<< HEAD
             this.grpRevuesRecherche.Size = new System.Drawing.Size(859, 344);
+=======
+            this.grpRevuesRecherche.Size = new System.Drawing.Size(859, 362);
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.grpRevuesRecherche.TabIndex = 19;
             this.grpRevuesRecherche.TabStop = false;
             this.grpRevuesRecherche.Text = "Recherches";
@@ -1506,7 +1697,11 @@ namespace MediaTekDocuments.view
             this.dgvRevuesListe.AllowUserToResizeColumns = false;
             this.dgvRevuesListe.AllowUserToResizeRows = false;
             this.dgvRevuesListe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
             this.dgvRevuesListe.Location = new System.Drawing.Point(9, 134);
+=======
+            this.dgvRevuesListe.Location = new System.Drawing.Point(9, 150);
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             this.dgvRevuesListe.MultiSelect = false;
             this.dgvRevuesListe.Name = "dgvRevuesListe";
             this.dgvRevuesListe.ReadOnly = true;
@@ -1916,6 +2111,10 @@ namespace MediaTekDocuments.view
             this.btnReceptionRechercher.UseVisualStyleBackColor = true;
             this.btnReceptionRechercher.Click += new System.EventHandler(this.btnReceptionRechercher_Click);
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             // btnInfosDvdVider
             // 
             this.btnInfosDvdVider.Location = new System.Drawing.Point(9, 243);
@@ -2010,6 +2209,7 @@ namespace MediaTekDocuments.view
             this.txbIdRayonDvd.Size = new System.Drawing.Size(100, 20);
             this.txbIdRayonDvd.TabIndex = 57;
             // 
+<<<<<<< HEAD
             // btnInfosRevueVider
             // 
             this.btnInfosRevueVider.Location = new System.Drawing.Point(9, 243);
@@ -2104,6 +2304,10 @@ namespace MediaTekDocuments.view
             this.txbIdRayonRevue.Size = new System.Drawing.Size(100, 20);
             this.txbIdRayonRevue.TabIndex = 58;
             // 
+=======
+=======
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
             // FrmMediatek
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2302,16 +2506,34 @@ namespace MediaTekDocuments.view
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
         private System.Windows.Forms.TextBox txbIdRayonLivre;
         private System.Windows.Forms.Label lblIdRayon;
         private System.Windows.Forms.TextBox txbIdPublicLivre;
         private System.Windows.Forms.Label lblIdPublic;
         private System.Windows.Forms.TextBox txbIdGenreLivre;
+<<<<<<< HEAD
+=======
+=======
+        private System.Windows.Forms.TextBox txtIdRayonLivre;
+        private System.Windows.Forms.Label lblIdRayon;
+        private System.Windows.Forms.TextBox txtIdPublicLivre;
+        private System.Windows.Forms.Label lblIdPublic;
+        private System.Windows.Forms.TextBox txtIdGenreLivre;
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
         private System.Windows.Forms.Label lblIdGenre;
         private System.Windows.Forms.Button btnInfosLivreVider;
         private System.Windows.Forms.Button btnSupprimerLivre;
         private System.Windows.Forms.Button btnReceptionLivreModifier;
         private System.Windows.Forms.Button btnReceptionLivreAjouter;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
         private System.Windows.Forms.TextBox txbIdRayonDvd;
         private System.Windows.Forms.TextBox txbIdPublicDvd;
         private System.Windows.Forms.TextBox txbIdGenreDvd;
@@ -2322,6 +2544,7 @@ namespace MediaTekDocuments.view
         private System.Windows.Forms.Button btnReceptionDvdModifier;
         private System.Windows.Forms.Button btnReceptionDvdAjouter;
         private System.Windows.Forms.Button btnInfosDvdVider;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txbIdRayonRevue;
         private System.Windows.Forms.TextBox txbIdPublicRevue;
         private System.Windows.Forms.TextBox txbIdGenreRevue;
@@ -2332,6 +2555,10 @@ namespace MediaTekDocuments.view
         private System.Windows.Forms.Button btnReceptionRevueModifier;
         private System.Windows.Forms.Button btnReceptionRevueAjouter;
         private System.Windows.Forms.Button btnInfosRevueVider;
+=======
+=======
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
     }
 }
 
