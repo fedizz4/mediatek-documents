@@ -66,10 +66,31 @@
     <Compile Include="manager\ApiRest.cs" />
     <Compile Include="controller\FrmMediatekController.cs" />
     <Compile Include="dal\Access.cs" />
+<<<<<<< HEAD
     <Compile Include="model\Abonnement.cs" />
     <Compile Include="model\Commande.cs" />
     <Compile Include="model\CommandeDocument.cs" />
     <Compile Include="model\Suivi.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="model\Commande.cs" />
+    <Compile Include="model\CommandeDocument.cs" />
+    <Compile Include="model\Suivi.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="model\Commande.cs" />
+    <Compile Include="model\CommandeDocument.cs" />
+    <Compile Include="model\Suivi.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="model\Commande.cs" />
+    <Compile Include="model\CommandeDocument.cs" />
+    <Compile Include="model\Suivi.cs" />
+=======
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
     <Compile Include="view\FrmMediatek.cs">
       <SubType>Form</SubType>
     </Compile>
