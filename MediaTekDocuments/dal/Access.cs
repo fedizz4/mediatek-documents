@@ -147,6 +147,7 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// Retourne les suivis d'un document
         /// </summary>
         /// <returns>Liste d'objets Suivi</returns>
@@ -169,6 +170,8 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+=======
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
         /// ecriture d'un exemplaire en base de données
         /// </summary>
         /// <param name="exemplaire">exemplaire à insérer</param>
@@ -339,6 +342,13 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
         /// Ecriture d'un dvd en base de données
         /// </summary>
         /// <param name="Id"></param>
@@ -411,6 +421,10 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
         /// Ecriture d'une revue en base de données
         /// </summary>
         /// <param name="Id"></param>
@@ -481,6 +495,13 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
         /// Traitement de la récupération du retour de l'api, avec conversion du json en liste pour les select (GET)
         /// </summary>
         /// <typeparam name="T"></typeparam>
