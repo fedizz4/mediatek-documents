@@ -1,0 +1,450 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/fedi/Downloads/MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc/MediaTekDocuments",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ZcRFJgNhvhM6kAH28Vkb5TxxGPe7FlftmernEpHWKBw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "yF4cM99miGSsrT64oV0kgkl56YkQylthgw5Gl1aJqzo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "GGOovSab6ZFxRkwbTiKX/AxcXz9WU1qSZOSIhjRqq74="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.controller.FrmAuthentificationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.controller.FrmAuthentificationController.html",
+          "hash": "ZZz+Dwkc9+NOpOwDiE4o6iT9d2ARsGUtJEE+JwJ84CM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.controller.FrmMediatekController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.controller.FrmMediatekController.html",
+          "hash": "ctzK10uag8zszBwZNkEINKH1t7hdzqACsJu2wFiQUiE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.controller.html",
+          "hash": "AvAkGCfhGy8UbtiNvJJG/cY8k+/g5C7xeyQELYit2Fg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.dal.Access.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.dal.Access.html",
+          "hash": "CSYIhQW0Et3iKXEGBAuIk07NsmaSFOXh2pX2olDHfr0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.dal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.dal.html",
+          "hash": "gwSA7O3H+gIW2C9jWc/VHsVEfLDvFzYongKzeQ4xEqA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Abonnement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Abonnement.html",
+          "hash": "XVo8tgfyyTtaWlSpY6Dy2CYhk394O2rz2U2eTx4hdFc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Categorie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Categorie.html",
+          "hash": "bv0Jb6XxFznVrE+L+3Ppuv3BUxngSCtfhpRTo3etzJU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Commande.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Commande.html",
+          "hash": "5edWjgXS7OLKioSPB4SvXK5qMxf9aum8kptrFTYNS1g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.CommandeDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.CommandeDocument.html",
+          "hash": "i2mNwO/VxqZmLsu0GqQJC4sClBBHOVzRlAWDFhaNIBA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Document.html",
+          "hash": "inIsfNkisaQWKOPXTIEGrkYhQVJzsQm46qjVtdNrIRQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Dvd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Dvd.html",
+          "hash": "ZDaxSpEvpWSsHPGXyh3+B6HKuUWM4/9Qb5X5KhYD920="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Etat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Etat.html",
+          "hash": "veGK8vVk7mV5l5EbdaG7fYAnmelwRsMY/2kNGXpIj7Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Exemplaire.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Exemplaire.html",
+          "hash": "Lpv4vaWR7SZ7id9XIM0aoKzipqH7QLvlMc8EK7ksGCw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Genre.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Genre.html",
+          "hash": "GMdrscaqnOaW3A46kw4K2Fn8jbMaeroKfE7qnff2FRg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Livre.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Livre.html",
+          "hash": "ttU1/vq7C69K7wiSdpCfcQy2IGMDfsyPwDKIaF5KtvY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.LivreDvd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.LivreDvd.html",
+          "hash": "TuEw/BZIV6JVq8WVC7ex7s8BDfeLCmKtq1qNVmtltBE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Public.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Public.html",
+          "hash": "eWh6KdEUl+eE9f4yVvfP1LBq3Oa9nknHQsfx6wRgD88="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Rayon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Rayon.html",
+          "hash": "xikZKORE/QlOtVbTKew680NAcBNudS+FlX2hBwyr5k4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Revue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Revue.html",
+          "hash": "vqKPGo+1LGIFTGbn4KX7oTXlZFlk+Lac0ONr83BVvgM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Service.html",
+          "hash": "J0Xt5jvrVwvndKSlrj44OnxW8qOItV0pEfFLflDtBjo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Suivi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Suivi.html",
+          "hash": "7v4fu+CM8fldQdNr67Z1v7u5BVrOdDksRT3H8np2Hng="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.Utilisateur.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Utilisateur.html",
+          "hash": "V2U5Ts3d+NYDLE3N9lpkYCGX04nJiUNedzt9WPW/1KE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.html",
+          "hash": "ECCPQRld47Qzlr1SJj737cCck90lVaIzjHnsDmtum3w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.view.FrmAlerteFinAbonnement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.view.FrmAlerteFinAbonnement.html",
+          "hash": "hx8rNSgGe436xiKY8URy79SNZQiSHgDwS0mnQ43D+2Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.view.FrmAuthentification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.view.FrmAuthentification.html",
+          "hash": "+QWbvu0Pa4TRyzCZ3KQ6i1tQY9HxI7n5YnMZflebVOk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.view.FrmMediatek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.view.FrmMediatek.html",
+          "hash": "9X8aE3D36aehw34GKVesU318bzrVTEjMYPMoxHXwmuQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MediaTekDocuments.view.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.view.html",
+          "hash": "bpFefF+Ba/AmWHWUzyYaL/+BlTDijDjHdxML7g4Iwy8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "wysqu4KkiDVFhLiriw0rQgz+ahgFnC0MYF36zO5lHcI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 27,
+          "skipped_file_count": 27
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
