@@ -5,8 +5,26 @@ VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTekDocuments", "MediaTekDocuments\MediaTekDocuments.csproj", "{75DE903D-6147-4E14-BBE0-FA20CD1F9840}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupprimerAbonnementRevueTest", "SupprimerAbonnementRevueTest\SupprimerAbonnementRevueTest.csproj", "{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}"
 EndProject
+=======
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupprimerAbonnementRevueTest", "SupprimerAbonnementRevueTest\SupprimerAbonnementRevueTest.csproj", "{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}"
+EndProject
+=======
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupprimerAbonnementRevueTest", "SupprimerAbonnementRevueTest\SupprimerAbonnementRevueTest.csproj", "{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}"
+EndProject
+=======
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupprimerAbonnementRevueTest", "SupprimerAbonnementRevueTest\SupprimerAbonnementRevueTest.csproj", "{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}"
+EndProject
+=======
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
+>>>>>>> 57669e51f2da208af589e215345a9afb8c3e8666
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +35,31 @@ Global
 		{75DE903D-6147-4E14-BBE0-FA20CD1F9840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75DE903D-6147-4E14-BBE0-FA20CD1F9840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75DE903D-6147-4E14-BBE0-FA20CD1F9840}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
+>>>>>>> 57669e51f2da208af589e215345a9afb8c3e8666
 		{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
+>>>>>>> 57669e51f2da208af589e215345a9afb8c3e8666
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

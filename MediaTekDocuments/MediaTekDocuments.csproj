@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+<<<<<<< HEAD
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <PublishUrl>publish\</PublishUrl>
@@ -29,6 +30,8 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+=======
+>>>>>>> 57669e51f2da208af589e215345a9afb8c3e8666
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,11 +55,15 @@
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942" />
     <Reference Include="Google.Protobuf, Version=3.19.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604" />
+<<<<<<< HEAD
     <Reference Include="Guna.UI">
       <HintPath>..\..\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d" />
     <Reference Include="Microsoft.VisualBasic" />
+=======
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d" />
+>>>>>>> 57669e51f2da208af589e215345a9afb8c3e8666
     <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -84,6 +91,7 @@
     <Reference Include="ZstdNet, Version=1.4.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="controller\FrmAuthentificationController.cs" />
     <Compile Include="manager\ApiRest.cs" />
     <Compile Include="controller\FrmMediatekController.cs" />
@@ -94,18 +102,66 @@
     <Compile Include="model\Service.cs" />
     <Compile Include="model\Suivi.cs" />
     <Compile Include="model\Utilisateur.cs" />
+=======
+    <Compile Include="manager\ApiRest.cs" />
+    <Compile Include="controller\FrmMediatekController.cs" />
+    <Compile Include="dal\Access.cs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
+    <Compile Include="model\Abonnement.cs" />
+    <Compile Include="model\Commande.cs" />
+    <Compile Include="model\CommandeDocument.cs" />
+    <Compile Include="model\Suivi.cs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
+>>>>>>> 57669e51f2da208af589e215345a9afb8c3e8666
     <Compile Include="view\FrmAlerteFinAbonnement.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\FrmAlerteFinAbonnement.Designer.cs">
       <DependentUpon>FrmAlerteFinAbonnement.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="view\FrmAuthentification.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\FrmAuthentification.Designer.cs">
       <DependentUpon>FrmAuthentification.cs</DependentUpon>
     </Compile>
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+    <Compile Include="model\Commande.cs" />
+    <Compile Include="model\CommandeDocument.cs" />
+    <Compile Include="model\Suivi.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="model\Commande.cs" />
+    <Compile Include="model\CommandeDocument.cs" />
+    <Compile Include="model\Suivi.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="model\Commande.cs" />
+    <Compile Include="model\CommandeDocument.cs" />
+    <Compile Include="model\Suivi.cs" />
+=======
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
+>>>>>>> 57669e51f2da208af589e215345a9afb8c3e8666
     <Compile Include="view\FrmMediatek.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +190,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="view\FrmAlerteFinAbonnement.resx">
       <DependentUpon>FrmAlerteFinAbonnement.cs</DependentUpon>
     </EmbeddedResource>
@@ -148,6 +205,23 @@
     <None Include="articles\toc.md" />
     <None Include="docfx.json" />
     <None Include="index.md" />
+=======
+<<<<<<< HEAD
+    <EmbeddedResource Include="view\FrmAlerteFinAbonnement.resx">
+      <DependentUpon>FrmAlerteFinAbonnement.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+<<<<<<< HEAD
+    <EmbeddedResource Include="view\FrmAlerteFinAbonnement.resx">
+      <DependentUpon>FrmAlerteFinAbonnement.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
+    <EmbeddedResource Include="view\FrmMediatek.resx">
+      <DependentUpon>FrmMediatek.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 57669e51f2da208af589e215345a9afb8c3e8666
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -158,11 +232,15 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+<<<<<<< HEAD
     <None Include="toc.yml" />
+=======
+>>>>>>> 57669e51f2da208af589e215345a9afb8c3e8666
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
@@ -183,4 +261,8 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\docfx.console.2.59.4\build\docfx.console.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\docfx.console.2.59.4\build\docfx.console.targets'))" />
   </Target>
+=======
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+>>>>>>> 57669e51f2da208af589e215345a9afb8c3e8666
 </Project>
