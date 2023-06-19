@@ -28,8 +28,16 @@ namespace MediaTekDocuments.view
         {
             InitializeComponent();
             this.controller = new FrmMediatekController();
+<<<<<<< HEAD
             FrmAlerteFinAbonnement frmAlerteFinAbonnement = new FrmAlerteFinAbonnement(controller);
             frmAlerteFinAbonnement.ShowDialog();
+=======
+<<<<<<< HEAD
+            FrmAlerteFinAbonnement frmAlerteFinAbonnement = new FrmAlerteFinAbonnement(controller);
+            frmAlerteFinAbonnement.ShowDialog();
+=======
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         }
 
         /// <summary>
@@ -66,8 +74,11 @@ namespace MediaTekDocuments.view
             RemplirComboCategorie(controller.GetAllPublics(), bdgPublics, cbxLivresPublics);
             RemplirComboCategorie(controller.GetAllRayons(), bdgRayons, cbxLivresRayons);
             RemplirLivresListeComplete();
+<<<<<<< HEAD
             gbxExemplairesLivre.Enabled = false;
             gbxEtatExemplaireLivre.Enabled = false;
+=======
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         }
 
         /// <summary>
@@ -107,8 +118,11 @@ namespace MediaTekDocuments.view
                 {
                     List<Livre> livres = new List<Livre>() { livre };
                     RemplirLivresListe(livres);
+<<<<<<< HEAD
                     gbxExemplairesLivre.Enabled = true;
                     AfficheExemplairesLivres();
+=======
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                 }
                 else
                 {
@@ -167,9 +181,57 @@ namespace MediaTekDocuments.view
             txbLivresGenre.Text = livre.Genre;
             txbLivresPublic.Text = livre.Public;
             txbLivresRayon.Text = livre.Rayon;
+<<<<<<< HEAD
             txbIdGenreLivre.Text = livre.IdGenre;
             txbIdPublicLivre.Text = livre.IdPublic;
             txbIdRayonLivre.Text = livre.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = livre.IdGenre;
+            txbIdPublicLivre.Text = livre.IdPublic;
+            txbIdRayonLivre.Text = livre.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = livre.IdGenre;
+            txbIdPublicLivre.Text = livre.IdPublic;
+            txbIdRayonLivre.Text = livre.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = livre.IdGenre;
+            txbIdPublicLivre.Text = livre.IdPublic;
+            txbIdRayonLivre.Text = livre.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = livre.IdGenre;
+            txbIdPublicLivre.Text = livre.IdPublic;
+            txbIdRayonLivre.Text = livre.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = livre.IdGenre;
+            txbIdPublicLivre.Text = livre.IdPublic;
+            txbIdRayonLivre.Text = livre.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = livre.IdGenre;
+            txbIdPublicLivre.Text = livre.IdPublic;
+            txbIdRayonLivre.Text = livre.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = livre.IdGenre;
+            txbIdPublicLivre.Text = livre.IdPublic;
+            txbIdRayonLivre.Text = livre.IdRayon;
+=======
+            txtIdGenreLivre.Text = livre.IdGenre;
+            txtIdPublicLivre.Text = livre.IdPublic;
+            txtIdRayonLivre.Text = livre.IdRayon;
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             string image = livre.Image;
             try
             {
@@ -195,9 +257,57 @@ namespace MediaTekDocuments.view
             txbLivresPublic.Text = "";
             txbLivresRayon.Text = "";
             txbLivresTitre.Text = "";
+<<<<<<< HEAD
             txbIdGenreLivre.Text = "";
             txbIdPublicLivre.Text = "";
             txbIdRayonLivre.Text = "";
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = "";
+            txbIdPublicLivre.Text = "";
+            txbIdRayonLivre.Text = "";
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = "";
+            txbIdPublicLivre.Text = "";
+            txbIdRayonLivre.Text = "";
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = "";
+            txbIdPublicLivre.Text = "";
+            txbIdRayonLivre.Text = "";
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = "";
+            txbIdPublicLivre.Text = "";
+            txbIdRayonLivre.Text = "";
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = "";
+            txbIdPublicLivre.Text = "";
+            txbIdRayonLivre.Text = "";
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = "";
+            txbIdPublicLivre.Text = "";
+            txbIdRayonLivre.Text = "";
+=======
+<<<<<<< HEAD
+            txbIdGenreLivre.Text = "";
+            txbIdPublicLivre.Text = "";
+            txbIdRayonLivre.Text = "";
+=======
+            txtIdGenreLivre.Text = "";
+            txtIdPublicLivre.Text = "";
+            txtIdRayonLivre.Text = "";
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             pcbLivresImage.Image = null;
         }
 
@@ -381,7 +491,19 @@ namespace MediaTekDocuments.view
 
       
         /// <summary>
+<<<<<<< HEAD
         /// Enregistrement d'un document de type "livre" dans la base de données
+=======
+<<<<<<< HEAD
+        /// Enregistrement d'un document de type "livre" dans la base de données
+=======
+<<<<<<< HEAD
+        /// Enregistrement d'un document de type "livre" dans la base de données
+=======
+        /// Ajout d'un document de type "livre" dans la base de données
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -397,6 +519,28 @@ namespace MediaTekDocuments.view
                     string isbn = txbLivresIsbn.Text;
                     string auteur = txbLivresAuteur.Text;
                     string collection = txbLivresCollection.Text;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                     string idGenre = txbIdGenreLivre.Text;
                     string genre = txbLivresGenre.Text;
                     string idPublic = txbIdPublicLivre.Text;
@@ -404,6 +548,37 @@ namespace MediaTekDocuments.view
                     string idRayon = txbIdRayonLivre.Text;
                     string rayon = txbLivresRayon.Text;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+                    string idGenre = txtIdGenreLivre.Text;
+                    string genre = txbLivresGenre.Text;
+                    string idPublic = txtIdPublicLivre.Text;
+                    string Public = txbLivresPublic.Text;
+                    string idRayon = txtIdRayonLivre.Text;
+                    string rayon = txbLivresRayon.Text;
+
+
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                     Document document = new Document(id, titre, image, idGenre, genre, idPublic, Public, idRayon, rayon);
                     Livre livre = new Livre(id, titre, image, isbn, auteur, collection, idGenre, genre, idPublic, Public, idRayon, rayon);
                     if (controller.CreerDocument(document.Id, document.Titre, document.Image, document.IdRayon, document.IdPublic, document.IdGenre) && controller.CreerLivre(livre.Id, livre.Isbn, livre.Auteur, livre.Collection))
@@ -427,7 +602,39 @@ namespace MediaTekDocuments.view
             }
             else
             {
+<<<<<<< HEAD
                 MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+                MessageBox.Show("Le champ : numéro de document est obligatoire.", "Information");
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             }
         }
         /// <summary>
@@ -439,14 +646,77 @@ namespace MediaTekDocuments.view
         {
             if (dgvLivresListe.SelectedRows.Count > 0)
             {
+<<<<<<< HEAD
                 Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
 
+=======
+<<<<<<< HEAD
+                Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
+
+=======
+<<<<<<< HEAD
+                Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
+
+=======
+<<<<<<< HEAD
+                Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
+
+=======
+<<<<<<< HEAD
+                Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
+
+=======
+<<<<<<< HEAD
+                Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
+
+=======
+<<<<<<< HEAD
+                Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
+
+=======
+<<<<<<< HEAD
+                Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
+
+=======
+                // Récupération de l'objet Livre sélectionné dans la DataGridView
+                Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
+                // Récupération des nouvelles informations saisies
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                 string id = selectedLivre.Id;
                 string titre = txbLivresTitre.Text;
                 string image = txbLivresImage.Text;
                 string isbn = txbLivresIsbn.Text;
                 string auteur = txbLivresAuteur.Text;
                 string collection = txbLivresCollection.Text;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                 string idGenre = txbIdGenreLivre.Text;
                 string idPublic = txbIdPublicLivre.Text;
                 string idRayon = txbIdRayonLivre.Text;
@@ -454,6 +724,38 @@ namespace MediaTekDocuments.view
                 {
                     if (controller.ModifierLivre(id, isbn, auteur, collection) && controller.ModifierDocument(id, titre, image, idGenre, idPublic, idRayon))
                     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+                string idGenre = txtIdGenreLivre.Text;
+                string idPublic = txtIdPublicLivre.Text;
+                string idRayon = txtIdRayonLivre.Text;
+                if (!txbLivresNumero.Equals("") && !txbLivresTitre.Equals("") && !txtIdGenreLivre.Equals("") && !txtIdPublicLivre.Equals("") && !txtIdRayonLivre.Equals(""))
+                {
+                    // Récupération des fonctions de modification du livre et du document associé
+                    if (controller.ModifierLivre(id, isbn, auteur, collection) && controller.ModifierDocument(id, titre, image, idGenre, idPublic, idRayon))
+                    {
+                        // Mise à jour de la DataGridView avec les nouvelles informations
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                         lesLivres = controller.GetAllLivres();
                         RemplirComboCategorie(controller.GetAllGenres(), bdgGenres, cbxLivresGenres);
                         RemplirComboCategorie(controller.GetAllPublics(), bdgPublics, cbxLivresPublics);
@@ -468,12 +770,76 @@ namespace MediaTekDocuments.view
                 }
                 else
                 {
+<<<<<<< HEAD
                     MessageBox.Show("Veuillez sélectionner un livre à modifier", "Information");
+=======
+<<<<<<< HEAD
+                    MessageBox.Show("Veuillez sélectionner un livre à modifier", "Information");
+=======
+<<<<<<< HEAD
+                    MessageBox.Show("Veuillez sélectionner un livre à modifier", "Information");
+=======
+<<<<<<< HEAD
+                    MessageBox.Show("Veuillez sélectionner un livre à modifier", "Information");
+=======
+<<<<<<< HEAD
+                    MessageBox.Show("Veuillez sélectionner un livre à modifier", "Information");
+=======
+<<<<<<< HEAD
+                    MessageBox.Show("Veuillez sélectionner un livre à modifier", "Information");
+=======
+<<<<<<< HEAD
+                    MessageBox.Show("Veuillez sélectionner un livre à modifier", "Information");
+=======
+<<<<<<< HEAD
+                    MessageBox.Show("Veuillez sélectionner un livre à modifier", "Information");
+=======
+                    MessageBox.Show("Veuillez sélectionner un LIVRE à modifier", "Information");
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                 }
             }
             else
             {
+<<<<<<< HEAD
                 MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+<<<<<<< HEAD
+                MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+                MessageBox.Show("Le champ : numéro de document est obligatoire.", "Information");
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             }
         }
 
@@ -504,6 +870,7 @@ namespace MediaTekDocuments.view
             }
         }
 
+<<<<<<< HEAD
         private readonly BindingSource bdgExemplairesLivre = new BindingSource();
         private List<Exemplaire> lesExemplairesDocument = new List<Exemplaire>();
 
@@ -703,6 +1070,9 @@ namespace MediaTekDocuments.view
                 MessageBox.Show("Une ligne doit être sélectionnée.", "Information");
             }
         }
+=======
+
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         #endregion
 
         #region Onglet Dvd
@@ -718,7 +1088,10 @@ namespace MediaTekDocuments.view
         private void tabDvd_Enter(object sender, EventArgs e)
         {
             lesDvd = controller.GetAllDvd();
+<<<<<<< HEAD
             gbxEtatExemplaireDvd.Enabled = false;
+=======
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             RemplirComboCategorie(controller.GetAllGenres(), bdgGenres, cbxDvdGenres);
             RemplirComboCategorie(controller.GetAllPublics(), bdgPublics, cbxDvdPublics);
             RemplirComboCategorie(controller.GetAllRayons(), bdgRayons, cbxDvdRayons);
@@ -762,8 +1135,11 @@ namespace MediaTekDocuments.view
                 {
                     List<Dvd> Dvd = new List<Dvd>() { dvd };
                     RemplirDvdListe(Dvd);
+<<<<<<< HEAD
                     AfficheExemplairesDvd();
                     gbxEtatExemplaireDvd.Enabled = true;
+=======
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                 }
                 else
                 {
@@ -822,9 +1198,54 @@ namespace MediaTekDocuments.view
             txbDvdPublic.Text = dvd.Public;
             txbDvdRayon.Text = dvd.Rayon;
             txbDvdTitre.Text = dvd.Titre;
+<<<<<<< HEAD
             txbIdGenreDvd.Text = dvd.IdGenre;
             txbIdPublicDvd.Text = dvd.IdPublic;
             txbIdRayonDvd.Text = dvd.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreDvd.Text = dvd.IdGenre;
+            txbIdPublicDvd.Text = dvd.IdPublic;
+            txbIdRayonDvd.Text = dvd.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreDvd.Text = dvd.IdGenre;
+            txbIdPublicDvd.Text = dvd.IdPublic;
+            txbIdRayonDvd.Text = dvd.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreDvd.Text = dvd.IdGenre;
+            txbIdPublicDvd.Text = dvd.IdPublic;
+            txbIdRayonDvd.Text = dvd.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreDvd.Text = dvd.IdGenre;
+            txbIdPublicDvd.Text = dvd.IdPublic;
+            txbIdRayonDvd.Text = dvd.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreDvd.Text = dvd.IdGenre;
+            txbIdPublicDvd.Text = dvd.IdPublic;
+            txbIdRayonDvd.Text = dvd.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreDvd.Text = dvd.IdGenre;
+            txbIdPublicDvd.Text = dvd.IdPublic;
+            txbIdRayonDvd.Text = dvd.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreDvd.Text = dvd.IdGenre;
+            txbIdPublicDvd.Text = dvd.IdPublic;
+            txbIdRayonDvd.Text = dvd.IdRayon;
+=======
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             string image = dvd.Image;
             try
             {
@@ -850,6 +1271,28 @@ namespace MediaTekDocuments.view
             txbDvdPublic.Text = "";
             txbDvdRayon.Text = "";
             txbDvdTitre.Text = "";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             txbIdGenreDvd.Text = "";
             txbIdPublicDvd.Text = "";
             txbIdRayonDvd.Text = "";
@@ -861,6 +1304,32 @@ namespace MediaTekDocuments.view
             VideDvdInfos();
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+            pcbDvdImage.Image = null;
+        }
+
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// <summary>
         /// Filtre sur le genre
         /// </summary>
@@ -1032,9 +1501,40 @@ namespace MediaTekDocuments.view
             }
             RemplirDvdListe(sortedList);
         }
+<<<<<<< HEAD
 
         /// <summary>
         /// Enregistrement d'un document de type "dvd" dans la base de données
+=======
+<<<<<<< HEAD
+
+        /// <summary>
+        /// Enregistrement d'un document de type "dvd" dans la base de données
+=======
+<<<<<<< HEAD
+
+        /// <summary>
+        /// Enregistrement d'un document de type "dvd" dans la base de données
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+
+        /// <summary>
+        /// Ajout d'un document de type "dvd" dans la base de données
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -1141,6 +1641,28 @@ namespace MediaTekDocuments.view
             {
                 if (controller.SupprimerDvd(dvd.Id))
                 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                    controller.SupprimerDocument(dvd.Id);
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                     lesDvd = controller.GetAllDvd();
                     RemplirComboCategorie(controller.GetAllGenres(), bdgGenres, cbxDvdGenres);
                     RemplirComboCategorie(controller.GetAllPublics(), bdgPublics, cbxDvdPublics);
@@ -1154,6 +1676,7 @@ namespace MediaTekDocuments.view
                 }
             }
         }
+<<<<<<< HEAD
 
         private readonly BindingSource bdgExemplairesDvd = new BindingSource();
 
@@ -1335,6 +1858,28 @@ namespace MediaTekDocuments.view
                 MessageBox.Show("Une ligne doit être sélectionnée.", "Information");
             }
         }
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         #endregion
 
         #region Onglet Revues
@@ -1449,9 +1994,48 @@ namespace MediaTekDocuments.view
             txbRevuesPublic.Text = revue.Public;
             txbRevuesRayon.Text = revue.Rayon;
             txbRevuesTitre.Text = revue.Titre;
+<<<<<<< HEAD
             txbIdGenreRevue.Text = revue.IdGenre;
             txbIdPublicRevue.Text = revue.IdPublic;
             txbIdRayonRevue.Text = revue.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreRevue.Text = revue.IdGenre;
+            txbIdPublicRevue.Text = revue.IdPublic;
+            txbIdRayonRevue.Text = revue.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreRevue.Text = revue.IdGenre;
+            txbIdPublicRevue.Text = revue.IdPublic;
+            txbIdRayonRevue.Text = revue.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreRevue.Text = revue.IdGenre;
+            txbIdPublicRevue.Text = revue.IdPublic;
+            txbIdRayonRevue.Text = revue.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreRevue.Text = revue.IdGenre;
+            txbIdPublicRevue.Text = revue.IdPublic;
+            txbIdRayonRevue.Text = revue.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreRevue.Text = revue.IdGenre;
+            txbIdPublicRevue.Text = revue.IdPublic;
+            txbIdRayonRevue.Text = revue.IdRayon;
+=======
+<<<<<<< HEAD
+            txbIdGenreRevue.Text = revue.IdGenre;
+            txbIdPublicRevue.Text = revue.IdPublic;
+            txbIdRayonRevue.Text = revue.IdRayon;
+=======
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             string image = revue.Image;
             try
             {
@@ -1476,6 +2060,25 @@ namespace MediaTekDocuments.view
             txbRevuesPublic.Text = "";
             txbRevuesRayon.Text = "";
             txbRevuesTitre.Text = "";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             txbIdGenreRevue.Text = "";
             txbIdPublicRevue.Text = "";
             txbIdRayonRevue.Text = "";
@@ -1487,6 +2090,29 @@ namespace MediaTekDocuments.view
             VideRevuesInfos();
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+            pcbRevuesImage.Image = null;
+        }
+
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// <summary>
         /// Filtre sur le genre
         /// </summary>
@@ -1658,6 +2284,25 @@ namespace MediaTekDocuments.view
             }
             RemplirRevuesListe(sortedList);
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
 
         /// <summary>
         /// Enregistrement d'un document de type "revue" en bdd
@@ -1789,6 +2434,26 @@ namespace MediaTekDocuments.view
             }
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         #endregion
 
         #region Onglet Paarutions
@@ -1805,7 +2470,10 @@ namespace MediaTekDocuments.view
         {
             lesRevues = controller.GetAllRevues();
             txbReceptionRevueNumero.Text = "";
+<<<<<<< HEAD
             gbxEtatExemplaireRevue.Enabled = false;
+=======
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         }
 
         /// <summary>
@@ -1820,11 +2488,17 @@ namespace MediaTekDocuments.view
                 dgvReceptionExemplairesListe.DataSource = bdgExemplairesListe;
                 dgvReceptionExemplairesListe.Columns["idEtat"].Visible = false;
                 dgvReceptionExemplairesListe.Columns["id"].Visible = false;
+<<<<<<< HEAD
                 dgvReceptionExemplairesListe.Columns["photo"].Visible = false;
                 dgvReceptionExemplairesListe.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
                 dgvReceptionExemplairesListe.Columns[1].HeaderCell.Value = "Numéro";
                 dgvReceptionExemplairesListe.Columns[3].HeaderCell.Value = "Date d'achat";
                 dgvReceptionExemplairesListe.Columns[5].HeaderCell.Value = "Etat";
+=======
+                dgvReceptionExemplairesListe.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+                dgvReceptionExemplairesListe.Columns["numero"].DisplayIndex = 0;
+                dgvReceptionExemplairesListe.Columns["dateAchat"].DisplayIndex = 1;
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             }
             else
             {
@@ -1906,8 +2580,13 @@ namespace MediaTekDocuments.view
         /// </summary>
         private void AfficheReceptionExemplairesRevue()
         {
+<<<<<<< HEAD
             string idDocument = txbReceptionRevueNumero.Text;
             lesExemplaires = controller.GetExemplairesDocument(idDocument);
+=======
+            string idDocuement = txbReceptionRevueNumero.Text;
+            lesExemplaires = controller.GetExemplairesRevue(idDocuement);
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             RemplirReceptionExemplairesListe(lesExemplaires);
             AccesReceptionExemplaireGroupBox(true);
         }
@@ -1971,9 +2650,14 @@ namespace MediaTekDocuments.view
                     string photo = txbReceptionExemplaireImage.Text;
                     string idEtat = ETATNEUF;
                     string idDocument = txbReceptionRevueNumero.Text;
+<<<<<<< HEAD
                     string libelle = "";
                     Exemplaire exemplaire = new Exemplaire(numero, dateAchat, photo, idEtat, idDocument, libelle);
                     if (controller.CreerExemplaireRevue(idDocument, numero, dateAchat, photo, idEtat))
+=======
+                    Exemplaire exemplaire = new Exemplaire(numero, dateAchat, photo, idEtat, idDocument);
+                    if (controller.CreerExemplaire(exemplaire))
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                     {
                         AfficheReceptionExemplairesRevue();
                     }
@@ -2012,8 +2696,13 @@ namespace MediaTekDocuments.view
                 case "DateAchat":
                     sortedList = lesExemplaires.OrderBy(o => o.DateAchat).Reverse().ToList();
                     break;
+<<<<<<< HEAD
                 case "Etat":
                     sortedList = lesExemplaires.OrderBy(o => o.Libelle).ToList();
+=======
+                case "Photo":
+                    sortedList = lesExemplaires.OrderBy(o => o.Photo).ToList();
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
                     break;
             }
             RemplirReceptionExemplairesListe(sortedList);
@@ -2044,6 +2733,7 @@ namespace MediaTekDocuments.view
                 pcbReceptionExemplaireRevueImage.Image = null;
             }
         }
+<<<<<<< HEAD
 
         /// <summary>
         /// Remplissage de la comboBox selon les états de l'exemplaire et le libelle correspondant
@@ -2167,6 +2857,22 @@ namespace MediaTekDocuments.view
         }
 
         #endregion
+=======
+        #endregion
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
 
         #region Onglet CommandesLivres
         private readonly BindingSource bdgCommandesLivre = new BindingSource();
@@ -2184,6 +2890,19 @@ namespace MediaTekDocuments.view
             lesLivres = controller.GetAllLivres();
             lesSuivis = controller.GetAllSuivis();
             gbxInfosCommandeLivre.Enabled = false;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             gbxEtapeSuivi.Enabled = false;
         }
 
@@ -2231,10 +2950,36 @@ namespace MediaTekDocuments.view
             txbCommandesLivresNumRecherche.Enabled = true;
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// <summary>
         /// Remplit la datagrid avec la liste reçue en paramètre
         /// </summary>
         /// <param name="lesCommandesDocument"></param>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+
+=======
+        }
+
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         private void RemplirCommandesLivresListe(List<CommandeDocument> lesCommandesDocument)
         {
             if (lesCommandesDocument != null)
@@ -2296,7 +3041,23 @@ namespace MediaTekDocuments.view
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// Affichage des informations du livre
+=======
+<<<<<<< HEAD
+        /// Affichage des informations du livre
+=======
+<<<<<<< HEAD
+        /// Affichage des informations du livre
+=======
+<<<<<<< HEAD
+        /// Affichage des informations du livre
+=======
+        /// Affichage des informations du livre sélectionné
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// </summary>
         /// <param name="livre">Le livre</param>
         private void AfficheReceptionCommandesLivreInfos(Livre livre)
@@ -2408,7 +3169,26 @@ namespace MediaTekDocuments.view
                 cbxCommandeLivresLibelleSuivi.Enabled = true;
                 btnReceptionCommandeLivresModifierSuivi.Enabled = true;
             }
+<<<<<<< HEAD
           
+=======
+<<<<<<< HEAD
+          
+=======
+<<<<<<< HEAD
+          
+=======
+<<<<<<< HEAD
+          
+=======
+<<<<<<< HEAD
+          
+=======
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         }
 
         /// <summary>
@@ -2434,10 +3214,39 @@ namespace MediaTekDocuments.view
                 case "Suivi":
                     sortedList = lesCommandesDocument.OrderBy(o => o.Libelle).ToList();
                     break;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             }
             RemplirCommandesLivresListe(sortedList);
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// <summary>
         /// Enregistrement d'une commande de livre dans la base de données
         /// </summary>
@@ -2487,6 +3296,7 @@ namespace MediaTekDocuments.view
             DateTime dateCommande = dtpCommandeLivre.Value;
             string idLivreDvd = txbCommandesLivresNumRecherche.Text;
             string idSuivi = GetIdSuivi(cbxCommandeLivresLibelleSuivi.Text);
+<<<<<<< HEAD
 
             try
             {
@@ -2507,6 +3317,20 @@ namespace MediaTekDocuments.view
             }
         }
         
+=======
+            string libelle = cbxCommandeLivresLibelleSuivi.SelectedItem.ToString();
+            
+            CommandeDocument commandedocument = new CommandeDocument(id, dateCommande, montant, nbExemplaire, idLivreDvd, idSuivi, libelle);
+            if (MessageBox.Show("Voulez-vous modifier le suivi de la commande " + commandedocument.Id + " en " + libelle + " ?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                controller.ModifierSuiviCommandeDocument(commandedocument.Id, commandedocument.NbExemplaire, commandedocument.IdLivreDvd, commandedocument.IdSuivi);
+                MessageBox.Show("L'étape de suivi de la commande " + id + " a bien été modifiée.", "Information");
+                AfficheReceptionCommandesLivre();
+                cbxCommandeLivresLibelleSuivi.Items.Clear();
+            }
+        }
+
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// <summary>
         /// Suppression d'une commande dans la base de données
         /// Si elle n'a pas encore été livrée 
@@ -2538,6 +3362,16 @@ namespace MediaTekDocuments.view
         }
 
         #endregion
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
 
         #region Onglet CommandesDvd
         private readonly BindingSource bdgCommandesDvd = new BindingSource();
@@ -2831,6 +3665,7 @@ namespace MediaTekDocuments.view
         /// <param name="e"></param>
         private void btnReceptionCommandeDvdModifierSuivi_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             try
             {
                 string idLivreDvd = txbCommandesDvdNumRecherche.Text;
@@ -2853,6 +3688,23 @@ namespace MediaTekDocuments.view
             catch (NullReferenceException)
             {
                 MessageBox.Show("La nouvelle étape de suivi de la commande doit être sélectionnée.", "Information");
+=======
+            string idLivreDvd = txbCommandesDvdNumRecherche.Text;
+            string idSuivi = GetIdSuivi(cbxCommandeDvdLibelleSuivi.Text);
+            string libelle = cbxCommandeDvdLibelleSuivi.SelectedItem.ToString();
+            string id = txbCommandeDvdNumero.Text;
+            int nbExemplaire = int.Parse(txbCommandeDvdNbExemplaires.Text);
+            double montant = double.Parse(txbCommandeDvdMontant.Text);
+            DateTime dateCommande = dtpCommandeDvd.Value;
+
+            Commande commande = new Commande(id, dateCommande, montant);
+            CommandeDocument commandedocument = new CommandeDocument(id, dateCommande, montant, nbExemplaire, idLivreDvd, idSuivi, libelle);
+            if (MessageBox.Show("Voulez-vous modifier le suivi de la commande " + commandedocument.Id + " en " + libelle + " ?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                controller.ModifierSuiviCommandeDocument(commandedocument.Id, commandedocument.NbExemplaire, commandedocument.IdLivreDvd, commandedocument.IdSuivi);
+                AfficheReceptionCommandesDvd();
+                cbxCommandeDvdLibelleSuivi.Items.Clear();
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
             }
         }
 
@@ -2887,6 +3739,13 @@ namespace MediaTekDocuments.view
 
 
         #endregion
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
 
         #region Onglet CommandesRevues
 
@@ -3139,5 +3998,22 @@ namespace MediaTekDocuments.view
 
 
         #endregion
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+
+
+        #endregion
+=======
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
     }
 }

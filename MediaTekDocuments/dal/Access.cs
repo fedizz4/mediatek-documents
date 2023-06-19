@@ -147,6 +147,22 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// Retourne les suivis d'un document
         /// </summary>
         /// <returns>Liste d'objets Suivi</returns>
@@ -157,6 +173,19 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// Retourne les documents
         /// </summary>
         /// <param name="idDocument">id du document concerné</param>
@@ -168,10 +197,31 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// Retourne les commandes des documents
         /// </summary>
         /// <param name="idDocument">id du document concerné</param>
         /// <returns>Liste d'objets CommandeDocument</returns>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         public List<CommandeDocument> GetCommandesDocument(string idDocument)
         {
             List<CommandeDocument> lesCommandesDocument = TraitementRecup<CommandeDocument>(GET, "commandedocument/" + idDocument);
@@ -188,6 +238,10 @@ namespace MediaTekDocuments.dal
             List<Abonnement> lesAbonnementsRevue = TraitementRecup<Abonnement>(GET, "abonnement/" + idDocument);
             return lesAbonnementsRevue;
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// <summary>
         /// Retourne les abonnements arrivants à échéance dans 30 jours
         /// </summary>
@@ -199,6 +253,7 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// Retourne les exemplaires d'un document
         /// </summary>
         /// <param name="idDocument"></param>
@@ -220,6 +275,30 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+=======
+=======
+
+        /// <summary>
+=======
+
+        public List<CommandeDocument> GetCommandesDocument(string idDocument)
+        {
+            List<CommandeDocument> lescommandesdocument = TraitementRecup<CommandeDocument>(GET, "commandedocument/" + idDocument);
+            return lescommandesdocument;
+        }
+
+        /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// ecriture d'un exemplaire en base de données
         /// </summary>
         /// <param name="exemplaire">exemplaire à insérer</param>
@@ -240,6 +319,7 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// modification de l'état d'un exemplaire en base de données
         /// </summary>
         /// <param name="exemplaire"></param>
@@ -284,6 +364,8 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+=======
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// Ecriture d'un document en base de données
         /// </summary>
         /// <param name="Id"></param>
@@ -434,6 +516,28 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// Ecriture d'un dvd en base de données
         /// </summary>
         /// <param name="Id"></param>
@@ -506,6 +610,25 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// Ecriture d'une revue en base de données
         /// </summary>
         /// <param name="Id"></param>
@@ -557,7 +680,27 @@ namespace MediaTekDocuments.dal
         /// Suppression d'une revue en base de données
         /// </summary>
         /// <param name="Id"></param>
+<<<<<<< HEAD
         /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         public bool SupprimerRevue(string Id)
         {
             String jsonIdRevue = "{ \"id\" : \"" + Id + "\"}";
@@ -576,6 +719,19 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// Ecriture d'une commande en base de données
         /// </summary>
         /// <param name="commande"></param>
@@ -670,6 +826,13 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// Ecriture d'un abonnement à une revue en base de données
         /// </summary>
         /// <param name="id"></param>
@@ -717,6 +880,7 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// Ecriture d'un exemplaire de revue en base de données
         /// </summary>
         /// <param name="id"></param>
@@ -744,6 +908,25 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> eeb80674616daa3efcacc9a227a3ebb9a6d80851
+>>>>>>> 1ee813cacc8c25908f393b6cdd67297fa722d644
+>>>>>>> b3f0f02960a7e8706371a49f0b9db53b58f7202c
+>>>>>>> 919e8a5233d0cdd3744693ffe2540055c3cdbfbe
+>>>>>>> f16e063c975dcb1ae6c01ea169eb422f534e527e
+>>>>>>> f37c5fcd58707e8568a3f20ed691055d28c03125
+>>>>>>> eb8fae79a684c51588f7bf9df5359bc32f9a1b6a
+>>>>>>> 157ddf1d131a0a9eec010647b6ea06f318480a72
         /// Traitement de la récupération du retour de l'api, avec conversion du json en liste pour les select (GET)
         /// </summary>
         /// <typeparam name="T"></typeparam>
