@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTekDocuments.view
+  commentId: N:MediaTekDocuments.view
+  id: MediaTekDocuments.view
+  children:
+  - MediaTekDocuments.view.FrmAlerteFinAbonnement
+  - MediaTekDocuments.view.FrmAuthentification
+  - MediaTekDocuments.view.FrmMediatek
+  langs:
+  - csharp
+  - vb
+  name: MediaTekDocuments.view
+  nameWithType: MediaTekDocuments.view
+  fullName: MediaTekDocuments.view
+  type: Namespace
+  assemblies:
+  - MediaTekDocuments
+references:
+- uid: MediaTekDocuments.view.FrmAlerteFinAbonnement
+  commentId: T:MediaTekDocuments.view.FrmAlerteFinAbonnement
+  name: FrmAlerteFinAbonnement
+  nameWithType: FrmAlerteFinAbonnement
+  fullName: MediaTekDocuments.view.FrmAlerteFinAbonnement
+- uid: MediaTekDocuments.view.FrmAuthentification
+  commentId: T:MediaTekDocuments.view.FrmAuthentification
+  name: FrmAuthentification
+  nameWithType: FrmAuthentification
+  fullName: MediaTekDocuments.view.FrmAuthentification
+- uid: MediaTekDocuments.view.FrmMediatek
+  commentId: T:MediaTekDocuments.view.FrmMediatek
+  name: FrmMediatek
+  nameWithType: FrmMediatek
+  fullName: MediaTekDocuments.view.FrmMediatek

@@ -1,0 +1,565 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTekDocuments.model.Abonnement
+  commentId: T:MediaTekDocuments.model.Abonnement
+  id: Abonnement
+  parent: MediaTekDocuments.model
+  children:
+  - MediaTekDocuments.model.Abonnement.#ctor(System.String,System.DateTime,System.Double,System.DateTime,System.String,System.String)
+  - MediaTekDocuments.model.Abonnement.DateFinAbonnement
+  - MediaTekDocuments.model.Abonnement.IdRevue
+  - MediaTekDocuments.model.Abonnement.Titre
+  langs:
+  - csharp
+  - vb
+  name: Abonnement
+  nameWithType: Abonnement
+  fullName: MediaTekDocuments.model.Abonnement
+  type: Class
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Abonnement.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Abonnement
+    path: model/Abonnement.cs
+    startLine: 4
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: 'public class Abonnement : Commande'
+    content.vb: >-
+      Public Class Abonnement
+          Inherits Commande
+  inheritance:
+  - System.Object
+  - MediaTekDocuments.model.Commande
+  inheritedMembers:
+  - MediaTekDocuments.model.Commande.Id
+  - MediaTekDocuments.model.Commande.DateCommande
+  - MediaTekDocuments.model.Commande.Montant
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: MediaTekDocuments.model.Abonnement.DateFinAbonnement
+  commentId: P:MediaTekDocuments.model.Abonnement.DateFinAbonnement
+  id: DateFinAbonnement
+  parent: MediaTekDocuments.model.Abonnement
+  langs:
+  - csharp
+  - vb
+  name: DateFinAbonnement
+  nameWithType: Abonnement.DateFinAbonnement
+  fullName: MediaTekDocuments.model.Abonnement.DateFinAbonnement
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Abonnement.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: DateFinAbonnement
+    path: model/Abonnement.cs
+    startLine: 6
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public DateTime DateFinAbonnement { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateFinAbonnement As Date
+  overload: MediaTekDocuments.model.Abonnement.DateFinAbonnement*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Abonnement.IdRevue
+  commentId: P:MediaTekDocuments.model.Abonnement.IdRevue
+  id: IdRevue
+  parent: MediaTekDocuments.model.Abonnement
+  langs:
+  - csharp
+  - vb
+  name: IdRevue
+  nameWithType: Abonnement.IdRevue
+  fullName: MediaTekDocuments.model.Abonnement.IdRevue
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Abonnement.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: IdRevue
+    path: model/Abonnement.cs
+    startLine: 7
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string IdRevue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IdRevue As String
+  overload: MediaTekDocuments.model.Abonnement.IdRevue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Abonnement.Titre
+  commentId: P:MediaTekDocuments.model.Abonnement.Titre
+  id: Titre
+  parent: MediaTekDocuments.model.Abonnement
+  langs:
+  - csharp
+  - vb
+  name: Titre
+  nameWithType: Abonnement.Titre
+  fullName: MediaTekDocuments.model.Abonnement.Titre
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Abonnement.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Titre
+    path: model/Abonnement.cs
+    startLine: 8
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string Titre { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Titre As String
+  overload: MediaTekDocuments.model.Abonnement.Titre*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Abonnement.#ctor(System.String,System.DateTime,System.Double,System.DateTime,System.String,System.String)
+  commentId: M:MediaTekDocuments.model.Abonnement.#ctor(System.String,System.DateTime,System.Double,System.DateTime,System.String,System.String)
+  id: '#ctor(System.String,System.DateTime,System.Double,System.DateTime,System.String,System.String)'
+  parent: MediaTekDocuments.model.Abonnement
+  langs:
+  - csharp
+  - vb
+  name: Abonnement(String, DateTime, Double, DateTime, String, String)
+  nameWithType: Abonnement.Abonnement(String, DateTime, Double, DateTime, String, String)
+  fullName: MediaTekDocuments.model.Abonnement.Abonnement(System.String, System.DateTime, System.Double, System.DateTime, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Abonnement.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: .ctor
+    path: model/Abonnement.cs
+    startLine: 9
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public Abonnement(string id, DateTime dateCommande, double montant, DateTime dateFinAbonnement, string idRevue, string titre)
+    parameters:
+    - id: id
+      type: System.String
+    - id: dateCommande
+      type: System.DateTime
+    - id: montant
+      type: System.Double
+    - id: dateFinAbonnement
+      type: System.DateTime
+    - id: idRevue
+      type: System.String
+    - id: titre
+      type: System.String
+    content.vb: Public Sub New(id As String, dateCommande As Date, montant As Double, dateFinAbonnement As Date, idRevue As String, titre As String)
+  overload: MediaTekDocuments.model.Abonnement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: MediaTekDocuments.model
+  commentId: N:MediaTekDocuments.model
+  name: MediaTekDocuments.model
+  nameWithType: MediaTekDocuments.model
+  fullName: MediaTekDocuments.model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: MediaTekDocuments.model.Commande
+  commentId: T:MediaTekDocuments.model.Commande
+  parent: MediaTekDocuments.model
+  name: Commande
+  nameWithType: Commande
+  fullName: MediaTekDocuments.model.Commande
+- uid: MediaTekDocuments.model.Commande.Id
+  commentId: P:MediaTekDocuments.model.Commande.Id
+  parent: MediaTekDocuments.model.Commande
+  name: Id
+  nameWithType: Commande.Id
+  fullName: MediaTekDocuments.model.Commande.Id
+- uid: MediaTekDocuments.model.Commande.DateCommande
+  commentId: P:MediaTekDocuments.model.Commande.DateCommande
+  parent: MediaTekDocuments.model.Commande
+  name: DateCommande
+  nameWithType: Commande.DateCommande
+  fullName: MediaTekDocuments.model.Commande.DateCommande
+- uid: MediaTekDocuments.model.Commande.Montant
+  commentId: P:MediaTekDocuments.model.Commande.Montant
+  parent: MediaTekDocuments.model.Commande
+  name: Montant
+  nameWithType: Commande.Montant
+  fullName: MediaTekDocuments.model.Commande.Montant
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MediaTekDocuments.model.Abonnement.DateFinAbonnement*
+  commentId: Overload:MediaTekDocuments.model.Abonnement.DateFinAbonnement
+  name: DateFinAbonnement
+  nameWithType: Abonnement.DateFinAbonnement
+  fullName: MediaTekDocuments.model.Abonnement.DateFinAbonnement
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: MediaTekDocuments.model.Abonnement.IdRevue*
+  commentId: Overload:MediaTekDocuments.model.Abonnement.IdRevue
+  name: IdRevue
+  nameWithType: Abonnement.IdRevue
+  fullName: MediaTekDocuments.model.Abonnement.IdRevue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: MediaTekDocuments.model.Abonnement.Titre*
+  commentId: Overload:MediaTekDocuments.model.Abonnement.Titre
+  name: Titre
+  nameWithType: Abonnement.Titre
+  fullName: MediaTekDocuments.model.Abonnement.Titre
+- uid: MediaTekDocuments.model.Abonnement.#ctor*
+  commentId: Overload:MediaTekDocuments.model.Abonnement.#ctor
+  name: Abonnement
+  nameWithType: Abonnement.Abonnement
+  fullName: MediaTekDocuments.model.Abonnement.Abonnement
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

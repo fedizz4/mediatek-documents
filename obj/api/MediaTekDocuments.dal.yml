@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTekDocuments.dal
+  commentId: N:MediaTekDocuments.dal
+  id: MediaTekDocuments.dal
+  children:
+  - MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: MediaTekDocuments.dal
+  nameWithType: MediaTekDocuments.dal
+  fullName: MediaTekDocuments.dal
+  type: Namespace
+  assemblies:
+  - MediaTekDocuments
+references:
+- uid: MediaTekDocuments.dal.Access
+  commentId: T:MediaTekDocuments.dal.Access
+  parent: MediaTekDocuments.dal
+  name: Access
+  nameWithType: Access
+  fullName: MediaTekDocuments.dal.Access
+- uid: MediaTekDocuments.dal
+  commentId: N:MediaTekDocuments.dal
+  name: MediaTekDocuments.dal
+  nameWithType: MediaTekDocuments.dal
+  fullName: MediaTekDocuments.dal

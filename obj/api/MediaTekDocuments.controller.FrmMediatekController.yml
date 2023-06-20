@@ -1,0 +1,2411 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTekDocuments.controller.FrmMediatekController
+  commentId: T:MediaTekDocuments.controller.FrmMediatekController
+  id: FrmMediatekController
+  parent: MediaTekDocuments.controller
+  children:
+  - MediaTekDocuments.controller.FrmMediatekController.#ctor
+  - MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue(System.String,System.DateTime,System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.CreerCommande(MediaTekDocuments.model.Commande)
+  - MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument(System.String,System.Int32,System.String,System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.CreerDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.CreerDvd(System.String,System.String,System.String,System.Int32)
+  - MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue(System.String,System.Int32,System.DateTime,System.String,System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.CreerLivre(System.String,System.String,System.String,System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.CreerRevue(System.String,System.String,System.Int32)
+  - MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue(System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance
+  - MediaTekDocuments.controller.FrmMediatekController.GetAllDvd
+  - MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument
+  - MediaTekDocuments.controller.FrmMediatekController.GetAllGenres
+  - MediaTekDocuments.controller.FrmMediatekController.GetAllLivres
+  - MediaTekDocuments.controller.FrmMediatekController.GetAllPublics
+  - MediaTekDocuments.controller.FrmMediatekController.GetAllRayons
+  - MediaTekDocuments.controller.FrmMediatekController.GetAllRevues
+  - MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis
+  - MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument(System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument(System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue(System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.ModifierDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.ModifierDvd(System.String,System.String,System.String,System.Int32)
+  - MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  - MediaTekDocuments.controller.FrmMediatekController.ModifierLivre(System.String,System.String,System.String,System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.ModifierRevue(System.String,System.String,System.Int32)
+  - MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)
+  - MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)
+  - MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument(System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd(System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  - MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre(System.String)
+  - MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FrmMediatekController
+  nameWithType: FrmMediatekController
+  fullName: MediaTekDocuments.controller.FrmMediatekController
+  type: Class
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: FrmMediatekController
+    path: controller/FrmMediatekController.cs
+    startLine: 10
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nContrôleur lié à FrmMediatek\n"
+  example: []
+  syntax:
+    content: public class FrmMediatekController
+    content.vb: Public Class FrmMediatekController
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: MediaTekDocuments.controller.FrmMediatekController.#ctor
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.#ctor
+  id: '#ctor'
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: FrmMediatekController()
+  nameWithType: FrmMediatekController.FrmMediatekController()
+  fullName: MediaTekDocuments.controller.FrmMediatekController.FrmMediatekController()
+  type: Constructor
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: .ctor
+    path: controller/FrmMediatekController.cs
+    startLine: 20
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nRécupération de l&apos;instance unique d&apos;accès aux données\n"
+  example: []
+  syntax:
+    content: public FrmMediatekController()
+    content.vb: Public Sub New
+  overload: MediaTekDocuments.controller.FrmMediatekController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllGenres
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetAllGenres
+  id: GetAllGenres
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetAllGenres()
+  nameWithType: FrmMediatekController.GetAllGenres()
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllGenres()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllGenres
+    path: controller/FrmMediatekController.cs
+    startLine: 29
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\ngetter sur la liste des genres\n"
+  example: []
+  syntax:
+    content: public List<Categorie> GetAllGenres()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Categorie}
+      description: Liste d&apos;objets Genre
+    content.vb: Public Function GetAllGenres As List(Of Categorie)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetAllGenres*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllLivres
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetAllLivres
+  id: GetAllLivres
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetAllLivres()
+  nameWithType: FrmMediatekController.GetAllLivres()
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllLivres()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllLivres
+    path: controller/FrmMediatekController.cs
+    startLine: 38
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\ngetter sur la liste des livres\n"
+  example: []
+  syntax:
+    content: public List<Livre> GetAllLivres()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Livre}
+      description: Liste d&apos;objets Livre
+    content.vb: Public Function GetAllLivres As List(Of Livre)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetAllLivres*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllDvd
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetAllDvd
+  id: GetAllDvd
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetAllDvd()
+  nameWithType: FrmMediatekController.GetAllDvd()
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllDvd()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllDvd
+    path: controller/FrmMediatekController.cs
+    startLine: 47
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\ngetter sur la liste des Dvd\n"
+  example: []
+  syntax:
+    content: public List<Dvd> GetAllDvd()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Dvd}
+      description: Liste d&apos;objets dvd
+    content.vb: Public Function GetAllDvd As List(Of Dvd)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetAllDvd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllRevues
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetAllRevues
+  id: GetAllRevues
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetAllRevues()
+  nameWithType: FrmMediatekController.GetAllRevues()
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllRevues()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllRevues
+    path: controller/FrmMediatekController.cs
+    startLine: 56
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\ngetter sur la liste des revues\n"
+  example: []
+  syntax:
+    content: public List<Revue> GetAllRevues()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Revue}
+      description: Liste d&apos;objets Revue
+    content.vb: Public Function GetAllRevues As List(Of Revue)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetAllRevues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllRayons
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetAllRayons
+  id: GetAllRayons
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetAllRayons()
+  nameWithType: FrmMediatekController.GetAllRayons()
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllRayons()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllRayons
+    path: controller/FrmMediatekController.cs
+    startLine: 65
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\ngetter sur les rayons\n"
+  example: []
+  syntax:
+    content: public List<Categorie> GetAllRayons()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Categorie}
+      description: Liste d&apos;objets Rayon
+    content.vb: Public Function GetAllRayons As List(Of Categorie)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetAllRayons*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllPublics
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetAllPublics
+  id: GetAllPublics
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetAllPublics()
+  nameWithType: FrmMediatekController.GetAllPublics()
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllPublics()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllPublics
+    path: controller/FrmMediatekController.cs
+    startLine: 74
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\ngetter sur les publics\n"
+  example: []
+  syntax:
+    content: public List<Categorie> GetAllPublics()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Categorie}
+      description: Liste d&apos;objets Public
+    content.vb: Public Function GetAllPublics As List(Of Categorie)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetAllPublics*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue(System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue(System.String)
+  id: GetExemplairesRevue(System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetExemplairesRevue(String)
+  nameWithType: FrmMediatekController.GetExemplairesRevue(String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetExemplairesRevue
+    path: controller/FrmMediatekController.cs
+    startLine: 84
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nrécupère les exemplaires d&apos;une revue\n"
+  example: []
+  syntax:
+    content: public List<Exemplaire> GetExemplairesRevue(string idDocument)
+    parameters:
+    - id: idDocument
+      type: System.String
+      description: id de la revue concernée
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Exemplaire}
+      description: Liste d&apos;objets Exemplaire
+    content.vb: Public Function GetExemplairesRevue(idDocument As String) As List(Of Exemplaire)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis
+  id: GetAllSuivis
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetAllSuivis()
+  nameWithType: FrmMediatekController.GetAllSuivis()
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllSuivis
+    path: controller/FrmMediatekController.cs
+    startLine: 93
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\ngetter sur les suivis\n"
+  example: []
+  syntax:
+    content: public List<Suivi> GetAllSuivis()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Suivi}
+      description: Liste d&apos;objets Suivi
+    content.vb: Public Function GetAllSuivis As List(Of Suivi)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument(System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument(System.String)
+  id: GetCommandesDocument(System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetCommandesDocument(String)
+  nameWithType: FrmMediatekController.GetCommandesDocument(String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetCommandesDocument
+    path: controller/FrmMediatekController.cs
+    startLine: 103
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nrécupère les commandes d&apos;un document\n"
+  example: []
+  syntax:
+    content: public List<CommandeDocument> GetCommandesDocument(string idDocument)
+    parameters:
+    - id: idDocument
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.CommandeDocument}
+      description: Liste d&apos;objets CommandeDocument
+    content.vb: Public Function GetCommandesDocument(idDocument As String) As List(Of CommandeDocument)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue(System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue(System.String)
+  id: GetAbonnementRevue(System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetAbonnementRevue(String)
+  nameWithType: FrmMediatekController.GetAbonnementRevue(String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAbonnementRevue
+    path: controller/FrmMediatekController.cs
+    startLine: 113
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nrécupère les abonnements d&apos;une revue\n"
+  example: []
+  syntax:
+    content: public List<Abonnement> GetAbonnementRevue(string idDocument)
+    parameters:
+    - id: idDocument
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Abonnement}
+      description: Liste d&apos;objets Abonnement
+    content.vb: Public Function GetAbonnementRevue(idDocument As String) As List(Of Abonnement)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance
+  id: GetAbonnementsEcheance
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetAbonnementsEcheance()
+  nameWithType: FrmMediatekController.GetAbonnementsEcheance()
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAbonnementsEcheance
+    path: controller/FrmMediatekController.cs
+    startLine: 121
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nrécupère les abonnements qui prennent fin dans 30 jours\n"
+  example: []
+  syntax:
+    content: public List<Abonnement> GetAbonnementsEcheance()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Abonnement}
+      description: ''
+    content.vb: Public Function GetAbonnementsEcheance As List(Of Abonnement)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument(System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument(System.String)
+  id: GetExemplairesDocument(System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetExemplairesDocument(String)
+  nameWithType: FrmMediatekController.GetExemplairesDocument(String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetExemplairesDocument
+    path: controller/FrmMediatekController.cs
+    startLine: 131
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nrécupère les exemplaires d&apos;un document\n"
+  example: []
+  syntax:
+    content: public List<Exemplaire> GetExemplairesDocument(string idDocument)
+    parameters:
+    - id: idDocument
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Exemplaire}
+      description: Liste d&apos;objets Exemplaire
+    content.vb: Public Function GetExemplairesDocument(idDocument As String) As List(Of Exemplaire)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument
+  id: GetAllEtatsDocument
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: GetAllEtatsDocument()
+  nameWithType: FrmMediatekController.GetAllEtatsDocument()
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllEtatsDocument
+    path: controller/FrmMediatekController.cs
+    startLine: 140
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nrécupère les états\n"
+  example: []
+  syntax:
+    content: public List<Etat> GetAllEtatsDocument()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Etat}
+      description: Liste d&apos;objets Etat
+    content.vb: Public Function GetAllEtatsDocument As List(Of Etat)
+  overload: MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue(System.String,System.Int32,System.DateTime,System.String,System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue(System.String,System.Int32,System.DateTime,System.String,System.String)
+  id: CreerExemplaireRevue(System.String,System.Int32,System.DateTime,System.String,System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: CreerExemplaireRevue(String, Int32, DateTime, String, String)
+  nameWithType: FrmMediatekController.CreerExemplaireRevue(String, Int32, DateTime, String, String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue(System.String, System.Int32, System.DateTime, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerExemplaireRevue
+    path: controller/FrmMediatekController.cs
+    startLine: 150
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nCrée un exemplaire d&apos;une revue dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool CreerExemplaireRevue(string id, int numero, DateTime dateAchat, string photo, string idEtat)
+    parameters:
+    - id: id
+      type: System.String
+    - id: numero
+      type: System.Int32
+    - id: dateAchat
+      type: System.DateTime
+    - id: photo
+      type: System.String
+    - id: idEtat
+      type: System.String
+    return:
+      type: System.Boolean
+      description: True si la création a pu se faire
+    content.vb: Public Function CreerExemplaireRevue(id As String, numero As Integer, dateAchat As Date, photo As String, idEtat As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.CreerDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: CreerDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: CreerDocument(String, String, String, String, String, String)
+  nameWithType: FrmMediatekController.CreerDocument(String, String, String, String, String, String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerDocument(System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerDocument
+    path: controller/FrmMediatekController.cs
+    startLine: 165
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nCrée un document dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool CreerDocument(string Id, string Titre, string Image, string IdRayon, string IdPublic, string IdGenre)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Titre
+      type: System.String
+      description: ''
+    - id: Image
+      type: System.String
+      description: ''
+    - id: IdRayon
+      type: System.String
+      description: ''
+    - id: IdPublic
+      type: System.String
+      description: ''
+    - id: IdGenre
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la création a pu se faire
+    content.vb: Public Function CreerDocument(Id As String, Titre As String, Image As String, IdRayon As String, IdPublic As String, IdGenre As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.CreerDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.ModifierDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.ModifierDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: ModifierDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: ModifierDocument(String, String, String, String, String, String)
+  nameWithType: FrmMediatekController.ModifierDocument(String, String, String, String, String, String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.ModifierDocument(System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierDocument
+    path: controller/FrmMediatekController.cs
+    startLine: 180
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nModifie un document dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool ModifierDocument(string Id, string Titre, string Image, string IdGenre, string IdPublic, string IdRayon)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Titre
+      type: System.String
+      description: ''
+    - id: Image
+      type: System.String
+      description: ''
+    - id: IdGenre
+      type: System.String
+      description: ''
+    - id: IdPublic
+      type: System.String
+      description: ''
+    - id: IdRayon
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la modification a pu se faire
+    content.vb: Public Function ModifierDocument(Id As String, Titre As String, Image As String, IdGenre As String, IdPublic As String, IdRayon As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.ModifierDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument(System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument(System.String)
+  id: SupprimerDocument(System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: SupprimerDocument(String)
+  nameWithType: FrmMediatekController.SupprimerDocument(String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerDocument
+    path: controller/FrmMediatekController.cs
+    startLine: 190
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nSupprime un document dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool SupprimerDocument(string Id)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerDocument(Id As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerLivre(System.String,System.String,System.String,System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.CreerLivre(System.String,System.String,System.String,System.String)
+  id: CreerLivre(System.String,System.String,System.String,System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: CreerLivre(String, String, String, String)
+  nameWithType: FrmMediatekController.CreerLivre(String, String, String, String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerLivre(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerLivre
+    path: controller/FrmMediatekController.cs
+    startLine: 203
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nCrée un livre dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool CreerLivre(string Id, string Isbn, string Auteur, string Collection)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Isbn
+      type: System.String
+      description: ''
+    - id: Auteur
+      type: System.String
+      description: ''
+    - id: Collection
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la création a pu se faire
+    content.vb: Public Function CreerLivre(Id As String, Isbn As String, Auteur As String, Collection As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.CreerLivre*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.ModifierLivre(System.String,System.String,System.String,System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.ModifierLivre(System.String,System.String,System.String,System.String)
+  id: ModifierLivre(System.String,System.String,System.String,System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: ModifierLivre(String, String, String, String)
+  nameWithType: FrmMediatekController.ModifierLivre(String, String, String, String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.ModifierLivre(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierLivre
+    path: controller/FrmMediatekController.cs
+    startLine: 216
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nModifie un livre dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool ModifierLivre(string Id, string Isbn, string Auteur, string Collection)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Isbn
+      type: System.String
+      description: ''
+    - id: Auteur
+      type: System.String
+      description: ''
+    - id: Collection
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la modification a pu se faire
+    content.vb: Public Function ModifierLivre(Id As String, Isbn As String, Auteur As String, Collection As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.ModifierLivre*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre(System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre(System.String)
+  id: SupprimerLivre(System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: SupprimerLivre(String)
+  nameWithType: FrmMediatekController.SupprimerLivre(String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerLivre
+    path: controller/FrmMediatekController.cs
+    startLine: 226
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nSuppression d&apos;un livre en bdd\n"
+  example: []
+  syntax:
+    content: public bool SupprimerLivre(string Id)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerLivre(Id As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerDvd(System.String,System.String,System.String,System.Int32)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.CreerDvd(System.String,System.String,System.String,System.Int32)
+  id: CreerDvd(System.String,System.String,System.String,System.Int32)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: CreerDvd(String, String, String, Int32)
+  nameWithType: FrmMediatekController.CreerDvd(String, String, String, Int32)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerDvd(System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerDvd
+    path: controller/FrmMediatekController.cs
+    startLine: 239
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nCréé un Dvd dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool CreerDvd(string Id, string Synopsis, string Realisateur, int Duree)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Synopsis
+      type: System.String
+      description: ''
+    - id: Realisateur
+      type: System.String
+      description: ''
+    - id: Duree
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la création a pu se faire
+    content.vb: Public Function CreerDvd(Id As String, Synopsis As String, Realisateur As String, Duree As Integer) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.CreerDvd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.ModifierDvd(System.String,System.String,System.String,System.Int32)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.ModifierDvd(System.String,System.String,System.String,System.Int32)
+  id: ModifierDvd(System.String,System.String,System.String,System.Int32)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: ModifierDvd(String, String, String, Int32)
+  nameWithType: FrmMediatekController.ModifierDvd(String, String, String, Int32)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.ModifierDvd(System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierDvd
+    path: controller/FrmMediatekController.cs
+    startLine: 252
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nModifie un dvd dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool ModifierDvd(string Id, string Synopsis, string Realisateur, int Duree)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Synopsis
+      type: System.String
+      description: ''
+    - id: Realisateur
+      type: System.String
+      description: ''
+    - id: Duree
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la modification a pu se faire
+    content.vb: Public Function ModifierDvd(Id As String, Synopsis As String, Realisateur As String, Duree As Integer) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.ModifierDvd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd(System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd(System.String)
+  id: SupprimerDvd(System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: SupprimerDvd(String)
+  nameWithType: FrmMediatekController.SupprimerDvd(String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerDvd
+    path: controller/FrmMediatekController.cs
+    startLine: 262
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nSupprimme un dvd dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool SupprimerDvd(string Id)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerDvd(Id As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerRevue(System.String,System.String,System.Int32)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.CreerRevue(System.String,System.String,System.Int32)
+  id: CreerRevue(System.String,System.String,System.Int32)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: CreerRevue(String, String, Int32)
+  nameWithType: FrmMediatekController.CreerRevue(String, String, Int32)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerRevue(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerRevue
+    path: controller/FrmMediatekController.cs
+    startLine: 274
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nCrée une revue dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool CreerRevue(string Id, string Periodicite, int DelaiMiseADispo)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Periodicite
+      type: System.String
+      description: ''
+    - id: DelaiMiseADispo
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la création a pu se faire
+    content.vb: Public Function CreerRevue(Id As String, Periodicite As String, DelaiMiseADispo As Integer) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.CreerRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.ModifierRevue(System.String,System.String,System.Int32)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.ModifierRevue(System.String,System.String,System.Int32)
+  id: ModifierRevue(System.String,System.String,System.Int32)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: ModifierRevue(String, String, Int32)
+  nameWithType: FrmMediatekController.ModifierRevue(String, String, Int32)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.ModifierRevue(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierRevue
+    path: controller/FrmMediatekController.cs
+    startLine: 286
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nModifie une revue dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool ModifierRevue(string Id, string Periodicite, int DelaiMiseADispo)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Periodicite
+      type: System.String
+      description: ''
+    - id: DelaiMiseADispo
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la modification a pu se faire
+    content.vb: Public Function ModifierRevue(Id As String, Periodicite As String, DelaiMiseADispo As Integer) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.ModifierRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue(System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue(System.String)
+  id: SupprimerRevue(System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: SupprimerRevue(String)
+  nameWithType: FrmMediatekController.SupprimerRevue(String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerRevue
+    path: controller/FrmMediatekController.cs
+    startLine: 296
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nSupprime une revue dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool SupprimerRevue(string Id)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerRevue(Id As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerCommande(MediaTekDocuments.model.Commande)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.CreerCommande(MediaTekDocuments.model.Commande)
+  id: CreerCommande(MediaTekDocuments.model.Commande)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: CreerCommande(Commande)
+  nameWithType: FrmMediatekController.CreerCommande(Commande)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerCommande(MediaTekDocuments.model.Commande)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerCommande
+    path: controller/FrmMediatekController.cs
+    startLine: 306
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nCréé une commande dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool CreerCommande(Commande commande)
+    parameters:
+    - id: commande
+      type: MediaTekDocuments.model.Commande
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la création a pu se faire
+    content.vb: Public Function CreerCommande(commande As Commande) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.CreerCommande*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument(System.String,System.Int32,System.String,System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument(System.String,System.Int32,System.String,System.String)
+  id: CreerCommandeDocument(System.String,System.Int32,System.String,System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: CreerCommandeDocument(String, Int32, String, String)
+  nameWithType: FrmMediatekController.CreerCommandeDocument(String, Int32, String, String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument(System.String, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerCommandeDocument
+    path: controller/FrmMediatekController.cs
+    startLine: 319
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nCréé une commande de document dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool CreerCommandeDocument(string id, int nbExemplaire, string idLivreDvd, string idSuivi)
+    parameters:
+    - id: id
+      type: System.String
+      description: ''
+    - id: nbExemplaire
+      type: System.Int32
+      description: ''
+    - id: idLivreDvd
+      type: System.String
+      description: ''
+    - id: idSuivi
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la création a pu se faire
+    content.vb: Public Function CreerCommandeDocument(id As String, nbExemplaire As Integer, idLivreDvd As String, idSuivi As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)
+  id: SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: SupprimerCommandeDocument(CommandeDocument)
+  nameWithType: FrmMediatekController.SupprimerCommandeDocument(CommandeDocument)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerCommandeDocument
+    path: controller/FrmMediatekController.cs
+    startLine: 342
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nSupprimme une commande de livre dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool SupprimerCommandeDocument(CommandeDocument commandesDocument)
+    parameters:
+    - id: commandesDocument
+      type: MediaTekDocuments.model.CommandeDocument
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerCommandeDocument(commandesDocument As CommandeDocument) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue(System.String,System.DateTime,System.String)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue(System.String,System.DateTime,System.String)
+  id: CreerAbonnementRevue(System.String,System.DateTime,System.String)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: CreerAbonnementRevue(String, DateTime, String)
+  nameWithType: FrmMediatekController.CreerAbonnementRevue(String, DateTime, String)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue(System.String, System.DateTime, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerAbonnementRevue
+    path: controller/FrmMediatekController.cs
+    startLine: 354
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nCrée un abonnement de revue dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool CreerAbonnementRevue(string id, DateTime dateFinAbonnement, string idRevue)
+    parameters:
+    - id: id
+      type: System.String
+      description: ''
+    - id: dateFinAbonnement
+      type: System.DateTime
+      description: ''
+    - id: idRevue
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion pu se faire
+    content.vb: Public Function CreerAbonnementRevue(id As String, dateFinAbonnement As Date, idRevue As String) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)
+  id: SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: SupprimerAbonnementRevue(Abonnement)
+  nameWithType: FrmMediatekController.SupprimerAbonnementRevue(Abonnement)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerAbonnementRevue
+    path: controller/FrmMediatekController.cs
+    startLine: 364
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nSupprimme un abonnement de revue dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool SupprimerAbonnementRevue(Abonnement abonnement)
+    parameters:
+    - id: abonnement
+      type: MediaTekDocuments.model.Abonnement
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerAbonnementRevue(abonnement As Abonnement) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  id: ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: ModifierEtatExemplaireDocument(Exemplaire)
+  nameWithType: FrmMediatekController.ModifierEtatExemplaireDocument(Exemplaire)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierEtatExemplaireDocument
+    path: controller/FrmMediatekController.cs
+    startLine: 374
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nModifie l&apos;état d&apos;un exemplaire d&apos;un document dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool ModifierEtatExemplaireDocument(Exemplaire exemplaire)
+    parameters:
+    - id: exemplaire
+      type: MediaTekDocuments.model.Exemplaire
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la modification a pu se faire
+    content.vb: Public Function ModifierEtatExemplaireDocument(exemplaire As Exemplaire) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  commentId: M:MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  id: SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  parent: MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: SupprimerExemplaireDocument(Exemplaire)
+  nameWithType: FrmMediatekController.SupprimerExemplaireDocument(Exemplaire)
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerExemplaireDocument
+    path: controller/FrmMediatekController.cs
+    startLine: 384
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.controller
+  summary: "\nSupprime un exemplaire d&apos;un document dans la bdd\n"
+  example: []
+  syntax:
+    content: public bool SupprimerExemplaireDocument(Exemplaire exemplaire)
+    parameters:
+    - id: exemplaire
+      type: MediaTekDocuments.model.Exemplaire
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerExemplaireDocument(exemplaire As Exemplaire) As Boolean
+  overload: MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: MediaTekDocuments.controller
+  commentId: N:MediaTekDocuments.controller
+  name: MediaTekDocuments.controller
+  nameWithType: MediaTekDocuments.controller
+  fullName: MediaTekDocuments.controller
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MediaTekDocuments.controller.FrmMediatekController.#ctor*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.#ctor
+  name: FrmMediatekController
+  nameWithType: FrmMediatekController.FrmMediatekController
+  fullName: MediaTekDocuments.controller.FrmMediatekController.FrmMediatekController
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllGenres*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetAllGenres
+  name: GetAllGenres
+  nameWithType: FrmMediatekController.GetAllGenres
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllGenres
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Categorie}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Categorie}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Categorie>
+  nameWithType: List<Categorie>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Categorie>
+  nameWithType.vb: List(Of Categorie)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Categorie)
+  name.vb: List(Of Categorie)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Categorie
+    name: Categorie
+    nameWithType: Categorie
+    fullName: MediaTekDocuments.model.Categorie
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Categorie
+    name: Categorie
+    nameWithType: Categorie
+    fullName: MediaTekDocuments.model.Categorie
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllLivres*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetAllLivres
+  name: GetAllLivres
+  nameWithType: FrmMediatekController.GetAllLivres
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllLivres
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Livre}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Livre}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Livre>
+  nameWithType: List<Livre>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Livre>
+  nameWithType.vb: List(Of Livre)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Livre)
+  name.vb: List(Of Livre)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Livre
+    name: Livre
+    nameWithType: Livre
+    fullName: MediaTekDocuments.model.Livre
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Livre
+    name: Livre
+    nameWithType: Livre
+    fullName: MediaTekDocuments.model.Livre
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllDvd*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetAllDvd
+  name: GetAllDvd
+  nameWithType: FrmMediatekController.GetAllDvd
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllDvd
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Dvd}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Dvd}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Dvd>
+  nameWithType: List<Dvd>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Dvd>
+  nameWithType.vb: List(Of Dvd)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Dvd)
+  name.vb: List(Of Dvd)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Dvd
+    name: Dvd
+    nameWithType: Dvd
+    fullName: MediaTekDocuments.model.Dvd
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Dvd
+    name: Dvd
+    nameWithType: Dvd
+    fullName: MediaTekDocuments.model.Dvd
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllRevues*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetAllRevues
+  name: GetAllRevues
+  nameWithType: FrmMediatekController.GetAllRevues
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllRevues
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Revue}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Revue}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Revue>
+  nameWithType: List<Revue>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Revue>
+  nameWithType.vb: List(Of Revue)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Revue)
+  name.vb: List(Of Revue)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Revue
+    name: Revue
+    nameWithType: Revue
+    fullName: MediaTekDocuments.model.Revue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Revue
+    name: Revue
+    nameWithType: Revue
+    fullName: MediaTekDocuments.model.Revue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllRayons*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetAllRayons
+  name: GetAllRayons
+  nameWithType: FrmMediatekController.GetAllRayons
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllRayons
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllPublics*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetAllPublics
+  name: GetAllPublics
+  nameWithType: FrmMediatekController.GetAllPublics
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllPublics
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue
+  name: GetExemplairesRevue
+  nameWithType: FrmMediatekController.GetExemplairesRevue
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Exemplaire}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Exemplaire}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Exemplaire>
+  nameWithType: List<Exemplaire>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Exemplaire>
+  nameWithType.vb: List(Of Exemplaire)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Exemplaire)
+  name.vb: List(Of Exemplaire)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Exemplaire
+    name: Exemplaire
+    nameWithType: Exemplaire
+    fullName: MediaTekDocuments.model.Exemplaire
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Exemplaire
+    name: Exemplaire
+    nameWithType: Exemplaire
+    fullName: MediaTekDocuments.model.Exemplaire
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis
+  name: GetAllSuivis
+  nameWithType: FrmMediatekController.GetAllSuivis
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Suivi}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Suivi}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Suivi>
+  nameWithType: List<Suivi>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Suivi>
+  nameWithType.vb: List(Of Suivi)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Suivi)
+  name.vb: List(Of Suivi)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Suivi
+    name: Suivi
+    nameWithType: Suivi
+    fullName: MediaTekDocuments.model.Suivi
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Suivi
+    name: Suivi
+    nameWithType: Suivi
+    fullName: MediaTekDocuments.model.Suivi
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument
+  name: GetCommandesDocument
+  nameWithType: FrmMediatekController.GetCommandesDocument
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.CommandeDocument}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.CommandeDocument}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<CommandeDocument>
+  nameWithType: List<CommandeDocument>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.CommandeDocument>
+  nameWithType.vb: List(Of CommandeDocument)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.CommandeDocument)
+  name.vb: List(Of CommandeDocument)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.CommandeDocument
+    name: CommandeDocument
+    nameWithType: CommandeDocument
+    fullName: MediaTekDocuments.model.CommandeDocument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.CommandeDocument
+    name: CommandeDocument
+    nameWithType: CommandeDocument
+    fullName: MediaTekDocuments.model.CommandeDocument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue
+  name: GetAbonnementRevue
+  nameWithType: FrmMediatekController.GetAbonnementRevue
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Abonnement}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Abonnement}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Abonnement>
+  nameWithType: List<Abonnement>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Abonnement>
+  nameWithType.vb: List(Of Abonnement)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Abonnement)
+  name.vb: List(Of Abonnement)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Abonnement
+    name: Abonnement
+    nameWithType: Abonnement
+    fullName: MediaTekDocuments.model.Abonnement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Abonnement
+    name: Abonnement
+    nameWithType: Abonnement
+    fullName: MediaTekDocuments.model.Abonnement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance
+  name: GetAbonnementsEcheance
+  nameWithType: FrmMediatekController.GetAbonnementsEcheance
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument
+  name: GetExemplairesDocument
+  nameWithType: FrmMediatekController.GetExemplairesDocument
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument
+- uid: MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument
+  name: GetAllEtatsDocument
+  nameWithType: FrmMediatekController.GetAllEtatsDocument
+  fullName: MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Etat}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Etat}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Etat>
+  nameWithType: List<Etat>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Etat>
+  nameWithType.vb: List(Of Etat)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Etat)
+  name.vb: List(Of Etat)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Etat
+    name: Etat
+    nameWithType: Etat
+    fullName: MediaTekDocuments.model.Etat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Etat
+    name: Etat
+    nameWithType: Etat
+    fullName: MediaTekDocuments.model.Etat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue
+  name: CreerExemplaireRevue
+  nameWithType: FrmMediatekController.CreerExemplaireRevue
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerDocument*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.CreerDocument
+  name: CreerDocument
+  nameWithType: FrmMediatekController.CreerDocument
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerDocument
+- uid: MediaTekDocuments.controller.FrmMediatekController.ModifierDocument*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.ModifierDocument
+  name: ModifierDocument
+  nameWithType: FrmMediatekController.ModifierDocument
+  fullName: MediaTekDocuments.controller.FrmMediatekController.ModifierDocument
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument
+  name: SupprimerDocument
+  nameWithType: FrmMediatekController.SupprimerDocument
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerLivre*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.CreerLivre
+  name: CreerLivre
+  nameWithType: FrmMediatekController.CreerLivre
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerLivre
+- uid: MediaTekDocuments.controller.FrmMediatekController.ModifierLivre*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.ModifierLivre
+  name: ModifierLivre
+  nameWithType: FrmMediatekController.ModifierLivre
+  fullName: MediaTekDocuments.controller.FrmMediatekController.ModifierLivre
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre
+  name: SupprimerLivre
+  nameWithType: FrmMediatekController.SupprimerLivre
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerDvd*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.CreerDvd
+  name: CreerDvd
+  nameWithType: FrmMediatekController.CreerDvd
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerDvd
+- uid: MediaTekDocuments.controller.FrmMediatekController.ModifierDvd*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.ModifierDvd
+  name: ModifierDvd
+  nameWithType: FrmMediatekController.ModifierDvd
+  fullName: MediaTekDocuments.controller.FrmMediatekController.ModifierDvd
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd
+  name: SupprimerDvd
+  nameWithType: FrmMediatekController.SupprimerDvd
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerRevue*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.CreerRevue
+  name: CreerRevue
+  nameWithType: FrmMediatekController.CreerRevue
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerRevue
+- uid: MediaTekDocuments.controller.FrmMediatekController.ModifierRevue*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.ModifierRevue
+  name: ModifierRevue
+  nameWithType: FrmMediatekController.ModifierRevue
+  fullName: MediaTekDocuments.controller.FrmMediatekController.ModifierRevue
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue
+  name: SupprimerRevue
+  nameWithType: FrmMediatekController.SupprimerRevue
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerCommande*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.CreerCommande
+  name: CreerCommande
+  nameWithType: FrmMediatekController.CreerCommande
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerCommande
+- uid: MediaTekDocuments.model.Commande
+  commentId: T:MediaTekDocuments.model.Commande
+  parent: MediaTekDocuments.model
+  name: Commande
+  nameWithType: Commande
+  fullName: MediaTekDocuments.model.Commande
+- uid: MediaTekDocuments.model
+  commentId: N:MediaTekDocuments.model
+  name: MediaTekDocuments.model
+  nameWithType: MediaTekDocuments.model
+  fullName: MediaTekDocuments.model
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument
+  name: CreerCommandeDocument
+  nameWithType: FrmMediatekController.CreerCommandeDocument
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument
+  name: SupprimerCommandeDocument
+  nameWithType: FrmMediatekController.SupprimerCommandeDocument
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument
+- uid: MediaTekDocuments.model.CommandeDocument
+  commentId: T:MediaTekDocuments.model.CommandeDocument
+  parent: MediaTekDocuments.model
+  name: CommandeDocument
+  nameWithType: CommandeDocument
+  fullName: MediaTekDocuments.model.CommandeDocument
+- uid: MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue
+  name: CreerAbonnementRevue
+  nameWithType: FrmMediatekController.CreerAbonnementRevue
+  fullName: MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue
+  name: SupprimerAbonnementRevue
+  nameWithType: FrmMediatekController.SupprimerAbonnementRevue
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue
+- uid: MediaTekDocuments.model.Abonnement
+  commentId: T:MediaTekDocuments.model.Abonnement
+  parent: MediaTekDocuments.model
+  name: Abonnement
+  nameWithType: Abonnement
+  fullName: MediaTekDocuments.model.Abonnement
+- uid: MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument
+  name: ModifierEtatExemplaireDocument
+  nameWithType: FrmMediatekController.ModifierEtatExemplaireDocument
+  fullName: MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument
+- uid: MediaTekDocuments.model.Exemplaire
+  commentId: T:MediaTekDocuments.model.Exemplaire
+  parent: MediaTekDocuments.model
+  name: Exemplaire
+  nameWithType: Exemplaire
+  fullName: MediaTekDocuments.model.Exemplaire
+- uid: MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument*
+  commentId: Overload:MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument
+  name: SupprimerExemplaireDocument
+  nameWithType: FrmMediatekController.SupprimerExemplaireDocument
+  fullName: MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument

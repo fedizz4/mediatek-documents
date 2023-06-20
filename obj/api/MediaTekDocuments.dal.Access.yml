@@ -1,0 +1,2664 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTekDocuments.dal.Access
+  commentId: T:MediaTekDocuments.dal.Access
+  id: Access
+  parent: MediaTekDocuments.dal
+  children:
+  - MediaTekDocuments.dal.Access.CreerAbonnementRevue(System.String,System.DateTime,System.String)
+  - MediaTekDocuments.dal.Access.CreerCommande(MediaTekDocuments.model.Commande)
+  - MediaTekDocuments.dal.Access.CreerCommandeDocument(System.String,System.Int32,System.String,System.String)
+  - MediaTekDocuments.dal.Access.CreerDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  - MediaTekDocuments.dal.Access.CreerDvd(System.String,System.String,System.String,System.Int32)
+  - MediaTekDocuments.dal.Access.CreerExemplaire(MediaTekDocuments.model.Exemplaire)
+  - MediaTekDocuments.dal.Access.CreerExemplaireRevue(System.String,System.Int32,System.DateTime,System.String,System.String)
+  - MediaTekDocuments.dal.Access.CreerLivre(System.String,System.String,System.String,System.String)
+  - MediaTekDocuments.dal.Access.CreerRevue(System.String,System.String,System.Int32)
+  - MediaTekDocuments.dal.Access.GetAbonnementRevue(System.String)
+  - MediaTekDocuments.dal.Access.GetAbonnementsEcheance
+  - MediaTekDocuments.dal.Access.GetAllDocuments(System.String)
+  - MediaTekDocuments.dal.Access.GetAllDvd
+  - MediaTekDocuments.dal.Access.GetAllEtatsDocument
+  - MediaTekDocuments.dal.Access.GetAllGenres
+  - MediaTekDocuments.dal.Access.GetAllLivres
+  - MediaTekDocuments.dal.Access.GetAllPublics
+  - MediaTekDocuments.dal.Access.GetAllRayons
+  - MediaTekDocuments.dal.Access.GetAllRevues
+  - MediaTekDocuments.dal.Access.GetAllSuivis
+  - MediaTekDocuments.dal.Access.GetCommandesDocument(System.String)
+  - MediaTekDocuments.dal.Access.GetExemplairesDocument(System.String)
+  - MediaTekDocuments.dal.Access.GetExemplairesRevue(System.String)
+  - MediaTekDocuments.dal.Access.GetInstance
+  - MediaTekDocuments.dal.Access.GetUtilisateur(System.String)
+  - MediaTekDocuments.dal.Access.ModifierDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  - MediaTekDocuments.dal.Access.ModifierDvd(System.String,System.String,System.String,System.Int32)
+  - MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  - MediaTekDocuments.dal.Access.ModifierLivre(System.String,System.String,System.String,System.String)
+  - MediaTekDocuments.dal.Access.ModifierRevue(System.String,System.String,System.Int32)
+  - MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument(System.String,System.Int32,System.String,System.String)
+  - MediaTekDocuments.dal.Access.SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)
+  - MediaTekDocuments.dal.Access.SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)
+  - MediaTekDocuments.dal.Access.SupprimerDocument(System.String)
+  - MediaTekDocuments.dal.Access.SupprimerDvd(System.String)
+  - MediaTekDocuments.dal.Access.SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  - MediaTekDocuments.dal.Access.SupprimerLivre(System.String)
+  - MediaTekDocuments.dal.Access.SupprimerRevue(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Access
+  nameWithType: Access
+  fullName: MediaTekDocuments.dal.Access
+  type: Class
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Access
+    path: dal/Access.cs
+    startLine: 14
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nClasse d&apos;accès aux données\n"
+  example: []
+  syntax:
+    content: public class Access
+    content.vb: Public Class Access
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: MediaTekDocuments.dal.Access.GetInstance
+  commentId: M:MediaTekDocuments.dal.Access.GetInstance
+  id: GetInstance
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetInstance()
+  nameWithType: Access.GetInstance()
+  fullName: MediaTekDocuments.dal.Access.GetInstance()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetInstance
+    path: dal/Access.cs
+    startLine: 68
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nCréation et retour de l&apos;instance unique de la classe\n"
+  example: []
+  syntax:
+    content: public static Access GetInstance()
+    return:
+      type: MediaTekDocuments.dal.Access
+      description: instance unique de la classe
+    content.vb: Public Shared Function GetInstance As Access
+  overload: MediaTekDocuments.dal.Access.GetInstance*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: MediaTekDocuments.dal.Access.GetAllGenres
+  commentId: M:MediaTekDocuments.dal.Access.GetAllGenres
+  id: GetAllGenres
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAllGenres()
+  nameWithType: Access.GetAllGenres()
+  fullName: MediaTekDocuments.dal.Access.GetAllGenres()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllGenres
+    path: dal/Access.cs
+    startLine: 81
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne tous les genres à partir de la BDD\n"
+  example: []
+  syntax:
+    content: public List<Categorie> GetAllGenres()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Categorie}
+      description: Liste d&apos;objets Genre
+    content.vb: Public Function GetAllGenres As List(Of Categorie)
+  overload: MediaTekDocuments.dal.Access.GetAllGenres*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetAllRayons
+  commentId: M:MediaTekDocuments.dal.Access.GetAllRayons
+  id: GetAllRayons
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAllRayons()
+  nameWithType: Access.GetAllRayons()
+  fullName: MediaTekDocuments.dal.Access.GetAllRayons()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllRayons
+    path: dal/Access.cs
+    startLine: 91
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne tous les rayons à partir de la BDD\n"
+  example: []
+  syntax:
+    content: public List<Categorie> GetAllRayons()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Categorie}
+      description: Liste d&apos;objets Rayon
+    content.vb: Public Function GetAllRayons As List(Of Categorie)
+  overload: MediaTekDocuments.dal.Access.GetAllRayons*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetAllPublics
+  commentId: M:MediaTekDocuments.dal.Access.GetAllPublics
+  id: GetAllPublics
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAllPublics()
+  nameWithType: Access.GetAllPublics()
+  fullName: MediaTekDocuments.dal.Access.GetAllPublics()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllPublics
+    path: dal/Access.cs
+    startLine: 101
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne toutes les catégories de public à partir de la BDD\n"
+  example: []
+  syntax:
+    content: public List<Categorie> GetAllPublics()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Categorie}
+      description: Liste d&apos;objets Public
+    content.vb: Public Function GetAllPublics As List(Of Categorie)
+  overload: MediaTekDocuments.dal.Access.GetAllPublics*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetAllLivres
+  commentId: M:MediaTekDocuments.dal.Access.GetAllLivres
+  id: GetAllLivres
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAllLivres()
+  nameWithType: Access.GetAllLivres()
+  fullName: MediaTekDocuments.dal.Access.GetAllLivres()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllLivres
+    path: dal/Access.cs
+    startLine: 111
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne toutes les livres à partir de la BDD\n"
+  example: []
+  syntax:
+    content: public List<Livre> GetAllLivres()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Livre}
+      description: Liste d&apos;objets Livre
+    content.vb: Public Function GetAllLivres As List(Of Livre)
+  overload: MediaTekDocuments.dal.Access.GetAllLivres*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetAllDvd
+  commentId: M:MediaTekDocuments.dal.Access.GetAllDvd
+  id: GetAllDvd
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAllDvd()
+  nameWithType: Access.GetAllDvd()
+  fullName: MediaTekDocuments.dal.Access.GetAllDvd()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllDvd
+    path: dal/Access.cs
+    startLine: 121
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne toutes les dvd à partir de la BDD\n"
+  example: []
+  syntax:
+    content: public List<Dvd> GetAllDvd()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Dvd}
+      description: Liste d&apos;objets Dvd
+    content.vb: Public Function GetAllDvd As List(Of Dvd)
+  overload: MediaTekDocuments.dal.Access.GetAllDvd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetAllRevues
+  commentId: M:MediaTekDocuments.dal.Access.GetAllRevues
+  id: GetAllRevues
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAllRevues()
+  nameWithType: Access.GetAllRevues()
+  fullName: MediaTekDocuments.dal.Access.GetAllRevues()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllRevues
+    path: dal/Access.cs
+    startLine: 131
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne toutes les revues à partir de la BDD\n"
+  example: []
+  syntax:
+    content: public List<Revue> GetAllRevues()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Revue}
+      description: Liste d&apos;objets Revue
+    content.vb: Public Function GetAllRevues As List(Of Revue)
+  overload: MediaTekDocuments.dal.Access.GetAllRevues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetExemplairesRevue(System.String)
+  commentId: M:MediaTekDocuments.dal.Access.GetExemplairesRevue(System.String)
+  id: GetExemplairesRevue(System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetExemplairesRevue(String)
+  nameWithType: Access.GetExemplairesRevue(String)
+  fullName: MediaTekDocuments.dal.Access.GetExemplairesRevue(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetExemplairesRevue
+    path: dal/Access.cs
+    startLine: 143
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne les exemplaires d&apos;une revue\n"
+  example: []
+  syntax:
+    content: public List<Exemplaire> GetExemplairesRevue(string idDocument)
+    parameters:
+    - id: idDocument
+      type: System.String
+      description: id de la revue concernée
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Exemplaire}
+      description: Liste d&apos;objets Exemplaire
+    content.vb: Public Function GetExemplairesRevue(idDocument As String) As List(Of Exemplaire)
+  overload: MediaTekDocuments.dal.Access.GetExemplairesRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetAllSuivis
+  commentId: M:MediaTekDocuments.dal.Access.GetAllSuivis
+  id: GetAllSuivis
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAllSuivis()
+  nameWithType: Access.GetAllSuivis()
+  fullName: MediaTekDocuments.dal.Access.GetAllSuivis()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllSuivis
+    path: dal/Access.cs
+    startLine: 153
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne les suivis d&apos;un document\n"
+  example: []
+  syntax:
+    content: public List<Suivi> GetAllSuivis()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Suivi}
+      description: Liste d&apos;objets Suivi
+    content.vb: Public Function GetAllSuivis As List(Of Suivi)
+  overload: MediaTekDocuments.dal.Access.GetAllSuivis*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetAllDocuments(System.String)
+  commentId: M:MediaTekDocuments.dal.Access.GetAllDocuments(System.String)
+  id: GetAllDocuments(System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAllDocuments(String)
+  nameWithType: Access.GetAllDocuments(String)
+  fullName: MediaTekDocuments.dal.Access.GetAllDocuments(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllDocuments
+    path: dal/Access.cs
+    startLine: 164
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne les documents\n"
+  example: []
+  syntax:
+    content: public List<Document> GetAllDocuments(string idDocument)
+    parameters:
+    - id: idDocument
+      type: System.String
+      description: id du document concerné
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Document}
+      description: Liste d&apos;objets Document
+    content.vb: Public Function GetAllDocuments(idDocument As String) As List(Of Document)
+  overload: MediaTekDocuments.dal.Access.GetAllDocuments*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetCommandesDocument(System.String)
+  commentId: M:MediaTekDocuments.dal.Access.GetCommandesDocument(System.String)
+  id: GetCommandesDocument(System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetCommandesDocument(String)
+  nameWithType: Access.GetCommandesDocument(String)
+  fullName: MediaTekDocuments.dal.Access.GetCommandesDocument(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetCommandesDocument
+    path: dal/Access.cs
+    startLine: 175
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne les commandes des documents\n"
+  example: []
+  syntax:
+    content: public List<CommandeDocument> GetCommandesDocument(string idDocument)
+    parameters:
+    - id: idDocument
+      type: System.String
+      description: id du document concerné
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.CommandeDocument}
+      description: Liste d&apos;objets CommandeDocument
+    content.vb: Public Function GetCommandesDocument(idDocument As String) As List(Of CommandeDocument)
+  overload: MediaTekDocuments.dal.Access.GetCommandesDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetAbonnementRevue(System.String)
+  commentId: M:MediaTekDocuments.dal.Access.GetAbonnementRevue(System.String)
+  id: GetAbonnementRevue(System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAbonnementRevue(String)
+  nameWithType: Access.GetAbonnementRevue(String)
+  fullName: MediaTekDocuments.dal.Access.GetAbonnementRevue(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAbonnementRevue
+    path: dal/Access.cs
+    startLine: 186
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne les abonnements d&apos;une revue\n"
+  example: []
+  syntax:
+    content: public List<Abonnement> GetAbonnementRevue(string idDocument)
+    parameters:
+    - id: idDocument
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Abonnement}
+      description: Liste d&apos;objets Abonnement
+    content.vb: Public Function GetAbonnementRevue(idDocument As String) As List(Of Abonnement)
+  overload: MediaTekDocuments.dal.Access.GetAbonnementRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetAbonnementsEcheance
+  commentId: M:MediaTekDocuments.dal.Access.GetAbonnementsEcheance
+  id: GetAbonnementsEcheance
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAbonnementsEcheance()
+  nameWithType: Access.GetAbonnementsEcheance()
+  fullName: MediaTekDocuments.dal.Access.GetAbonnementsEcheance()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAbonnementsEcheance
+    path: dal/Access.cs
+    startLine: 195
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne les abonnements arrivants à échéance dans 30 jours\n"
+  example: []
+  syntax:
+    content: public List<Abonnement> GetAbonnementsEcheance()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Abonnement}
+      description: ''
+    content.vb: Public Function GetAbonnementsEcheance As List(Of Abonnement)
+  overload: MediaTekDocuments.dal.Access.GetAbonnementsEcheance*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetExemplairesDocument(System.String)
+  commentId: M:MediaTekDocuments.dal.Access.GetExemplairesDocument(System.String)
+  id: GetExemplairesDocument(System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetExemplairesDocument(String)
+  nameWithType: Access.GetExemplairesDocument(String)
+  fullName: MediaTekDocuments.dal.Access.GetExemplairesDocument(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetExemplairesDocument
+    path: dal/Access.cs
+    startLine: 206
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne les exemplaires d&apos;un document\n"
+  example: []
+  syntax:
+    content: public List<Exemplaire> GetExemplairesDocument(string idDocument)
+    parameters:
+    - id: idDocument
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Exemplaire}
+      description: Liste d&apos;objets Exemplaire
+    content.vb: Public Function GetExemplairesDocument(idDocument As String) As List(Of Exemplaire)
+  overload: MediaTekDocuments.dal.Access.GetExemplairesDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetAllEtatsDocument
+  commentId: M:MediaTekDocuments.dal.Access.GetAllEtatsDocument
+  id: GetAllEtatsDocument
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetAllEtatsDocument()
+  nameWithType: Access.GetAllEtatsDocument()
+  fullName: MediaTekDocuments.dal.Access.GetAllEtatsDocument()
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetAllEtatsDocument
+    path: dal/Access.cs
+    startLine: 216
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRetourne les états d&apos;un document\n"
+  example: []
+  syntax:
+    content: public List<Etat> GetAllEtatsDocument()
+    return:
+      type: System.Collections.Generic.List{MediaTekDocuments.model.Etat}
+      description: Liste d&apos;objets Etat
+    content.vb: Public Function GetAllEtatsDocument As List(Of Etat)
+  overload: MediaTekDocuments.dal.Access.GetAllEtatsDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.CreerExemplaire(MediaTekDocuments.model.Exemplaire)
+  commentId: M:MediaTekDocuments.dal.Access.CreerExemplaire(MediaTekDocuments.model.Exemplaire)
+  id: CreerExemplaire(MediaTekDocuments.model.Exemplaire)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: CreerExemplaire(Exemplaire)
+  nameWithType: Access.CreerExemplaire(Exemplaire)
+  fullName: MediaTekDocuments.dal.Access.CreerExemplaire(MediaTekDocuments.model.Exemplaire)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerExemplaire
+    path: dal/Access.cs
+    startLine: 227
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\necriture d&apos;un exemplaire en base de données\n"
+  example: []
+  syntax:
+    content: public bool CreerExemplaire(Exemplaire exemplaire)
+    parameters:
+    - id: exemplaire
+      type: MediaTekDocuments.model.Exemplaire
+      description: exemplaire à insérer
+    return:
+      type: System.Boolean
+      description: true si l&apos;insertion a pu se faire (retour != null)
+    content.vb: Public Function CreerExemplaire(exemplaire As Exemplaire) As Boolean
+  overload: MediaTekDocuments.dal.Access.CreerExemplaire*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  commentId: M:MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  id: ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: ModifierEtatExemplaireDocument(Exemplaire)
+  nameWithType: Access.ModifierEtatExemplaireDocument(Exemplaire)
+  fullName: MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierEtatExemplaireDocument
+    path: dal/Access.cs
+    startLine: 247
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nmodification de l&apos;état d&apos;un exemplaire en base de données\n"
+  example: []
+  syntax:
+    content: public bool ModifierEtatExemplaireDocument(Exemplaire exemplaire)
+    parameters:
+    - id: exemplaire
+      type: MediaTekDocuments.model.Exemplaire
+      description: ''
+    return:
+      type: System.Boolean
+      description: 'true si la modification a pu se faire '
+    content.vb: Public Function ModifierEtatExemplaireDocument(exemplaire As Exemplaire) As Boolean
+  overload: MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  commentId: M:MediaTekDocuments.dal.Access.SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  id: SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: SupprimerExemplaireDocument(Exemplaire)
+  nameWithType: Access.SupprimerExemplaireDocument(Exemplaire)
+  fullName: MediaTekDocuments.dal.Access.SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerExemplaireDocument
+    path: dal/Access.cs
+    startLine: 269
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nsuppression d&apos;un exemplaire de document en base de données\n"
+  example: []
+  syntax:
+    content: public bool SupprimerExemplaireDocument(Exemplaire exemplaire)
+    parameters:
+    - id: exemplaire
+      type: MediaTekDocuments.model.Exemplaire
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerExemplaireDocument(exemplaire As Exemplaire) As Boolean
+  overload: MediaTekDocuments.dal.Access.SupprimerExemplaireDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.CreerDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:MediaTekDocuments.dal.Access.CreerDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: CreerDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: CreerDocument(String, String, String, String, String, String)
+  nameWithType: Access.CreerDocument(String, String, String, String, String, String)
+  fullName: MediaTekDocuments.dal.Access.CreerDocument(System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerDocument
+    path: dal/Access.cs
+    startLine: 296
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nEcriture d&apos;un document en base de données\n"
+  example: []
+  syntax:
+    content: public bool CreerDocument(string Id, string Titre, string Image, string IdRayon, string IdPublic, string IdGenre)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Titre
+      type: System.String
+      description: ''
+    - id: Image
+      type: System.String
+      description: ''
+    - id: IdRayon
+      type: System.String
+      description: ''
+    - id: IdPublic
+      type: System.String
+      description: ''
+    - id: IdGenre
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: true si l&apos;insertion a pu se faire (retour != null)
+    content.vb: Public Function CreerDocument(Id As String, Titre As String, Image As String, IdRayon As String, IdPublic As String, IdGenre As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.CreerDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.ModifierDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:MediaTekDocuments.dal.Access.ModifierDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: ModifierDocument(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: ModifierDocument(String, String, String, String, String, String)
+  nameWithType: Access.ModifierDocument(String, String, String, String, String, String)
+  fullName: MediaTekDocuments.dal.Access.ModifierDocument(System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierDocument
+    path: dal/Access.cs
+    startLine: 323
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nModification d&apos;un document en base de données\n"
+  example: []
+  syntax:
+    content: public bool ModifierDocument(string Id, string Titre, string Image, string IdGenre, string IdPublic, string IdRayon)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Titre
+      type: System.String
+      description: ''
+    - id: Image
+      type: System.String
+      description: ''
+    - id: IdGenre
+      type: System.String
+      description: ''
+    - id: IdPublic
+      type: System.String
+      description: ''
+    - id: IdRayon
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function ModifierDocument(Id As String, Titre As String, Image As String, IdGenre As String, IdPublic As String, IdRayon As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.ModifierDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.SupprimerDocument(System.String)
+  commentId: M:MediaTekDocuments.dal.Access.SupprimerDocument(System.String)
+  id: SupprimerDocument(System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: SupprimerDocument(String)
+  nameWithType: Access.SupprimerDocument(String)
+  fullName: MediaTekDocuments.dal.Access.SupprimerDocument(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerDocument
+    path: dal/Access.cs
+    startLine: 345
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nSuppression d&apos;un document en base de données\n"
+  example: []
+  syntax:
+    content: public bool SupprimerDocument(string Id)
+    parameters:
+    - id: Id
+      type: System.String
+      description: Id du document à supprimer
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function SupprimerDocument(Id As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.SupprimerDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.CreerLivre(System.String,System.String,System.String,System.String)
+  commentId: M:MediaTekDocuments.dal.Access.CreerLivre(System.String,System.String,System.String,System.String)
+  id: CreerLivre(System.String,System.String,System.String,System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: CreerLivre(String, String, String, String)
+  nameWithType: Access.CreerLivre(String, String, String, String)
+  fullName: MediaTekDocuments.dal.Access.CreerLivre(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerLivre
+    path: dal/Access.cs
+    startLine: 370
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nEcriture d&apos;un livre en base de données\n"
+  example: []
+  syntax:
+    content: public bool CreerLivre(string Id, string Isbn, string Auteur, string Collection)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Isbn
+      type: System.String
+      description: ''
+    - id: Auteur
+      type: System.String
+      description: ''
+    - id: Collection
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function CreerLivre(Id As String, Isbn As String, Auteur As String, Collection As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.CreerLivre*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.ModifierLivre(System.String,System.String,System.String,System.String)
+  commentId: M:MediaTekDocuments.dal.Access.ModifierLivre(System.String,System.String,System.String,System.String)
+  id: ModifierLivre(System.String,System.String,System.String,System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: ModifierLivre(String, String, String, String)
+  nameWithType: Access.ModifierLivre(String, String, String, String)
+  fullName: MediaTekDocuments.dal.Access.ModifierLivre(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierLivre
+    path: dal/Access.cs
+    startLine: 396
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nModification d&apos;un livre en  base de données\n"
+  example: []
+  syntax:
+    content: public bool ModifierLivre(string Id, string Isbn, string Auteur, string Collection)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Isbn
+      type: System.String
+      description: ''
+    - id: Auteur
+      type: System.String
+      description: ''
+    - id: Collection
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function ModifierLivre(Id As String, Isbn As String, Auteur As String, Collection As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.ModifierLivre*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.SupprimerLivre(System.String)
+  commentId: M:MediaTekDocuments.dal.Access.SupprimerLivre(System.String)
+  id: SupprimerLivre(System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: SupprimerLivre(String)
+  nameWithType: Access.SupprimerLivre(String)
+  fullName: MediaTekDocuments.dal.Access.SupprimerLivre(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerLivre
+    path: dal/Access.cs
+    startLine: 419
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nSuppression d&apos;un livre dans la base de données\n"
+  example: []
+  syntax:
+    content: public bool SupprimerLivre(string Id)
+    parameters:
+    - id: Id
+      type: System.String
+      description: Id du livre à supprimer
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function SupprimerLivre(Id As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.SupprimerLivre*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.CreerDvd(System.String,System.String,System.String,System.Int32)
+  commentId: M:MediaTekDocuments.dal.Access.CreerDvd(System.String,System.String,System.String,System.Int32)
+  id: CreerDvd(System.String,System.String,System.String,System.Int32)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: CreerDvd(String, String, String, Int32)
+  nameWithType: Access.CreerDvd(String, String, String, Int32)
+  fullName: MediaTekDocuments.dal.Access.CreerDvd(System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerDvd
+    path: dal/Access.cs
+    startLine: 444
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nEcriture d&apos;un dvd en base de données\n"
+  example: []
+  syntax:
+    content: public bool CreerDvd(string Id, string Synopsis, string Realisateur, int Duree)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Synopsis
+      type: System.String
+      description: ''
+    - id: Realisateur
+      type: System.String
+      description: ''
+    - id: Duree
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function CreerDvd(Id As String, Synopsis As String, Realisateur As String, Duree As Integer) As Boolean
+  overload: MediaTekDocuments.dal.Access.CreerDvd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.ModifierDvd(System.String,System.String,System.String,System.Int32)
+  commentId: M:MediaTekDocuments.dal.Access.ModifierDvd(System.String,System.String,System.String,System.Int32)
+  id: ModifierDvd(System.String,System.String,System.String,System.Int32)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: ModifierDvd(String, String, String, Int32)
+  nameWithType: Access.ModifierDvd(String, String, String, Int32)
+  fullName: MediaTekDocuments.dal.Access.ModifierDvd(System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierDvd
+    path: dal/Access.cs
+    startLine: 469
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nModification d&apos;un dvd en base de données\n"
+  example: []
+  syntax:
+    content: public bool ModifierDvd(string Id, string Synopsis, string Realisateur, int Duree)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Synopsis
+      type: System.String
+      description: ''
+    - id: Realisateur
+      type: System.String
+      description: ''
+    - id: Duree
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function ModifierDvd(Id As String, Synopsis As String, Realisateur As String, Duree As Integer) As Boolean
+  overload: MediaTekDocuments.dal.Access.ModifierDvd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.SupprimerDvd(System.String)
+  commentId: M:MediaTekDocuments.dal.Access.SupprimerDvd(System.String)
+  id: SupprimerDvd(System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: SupprimerDvd(String)
+  nameWithType: Access.SupprimerDvd(String)
+  fullName: MediaTekDocuments.dal.Access.SupprimerDvd(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerDvd
+    path: dal/Access.cs
+    startLine: 491
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nSuppression d&apos;un dvd en base de données\n"
+  example: []
+  syntax:
+    content: public bool SupprimerDvd(string Id)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function SupprimerDvd(Id As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.SupprimerDvd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.CreerRevue(System.String,System.String,System.Int32)
+  commentId: M:MediaTekDocuments.dal.Access.CreerRevue(System.String,System.String,System.Int32)
+  id: CreerRevue(System.String,System.String,System.Int32)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: CreerRevue(String, String, Int32)
+  nameWithType: Access.CreerRevue(String, String, Int32)
+  fullName: MediaTekDocuments.dal.Access.CreerRevue(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerRevue
+    path: dal/Access.cs
+    startLine: 515
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nEcriture d&apos;une revue en base de données\n"
+  example: []
+  syntax:
+    content: public bool CreerRevue(string Id, string Periodicite, int DelaiMiseADispo)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Periodicite
+      type: System.String
+      description: ''
+    - id: DelaiMiseADispo
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function CreerRevue(Id As String, Periodicite As String, DelaiMiseADispo As Integer) As Boolean
+  overload: MediaTekDocuments.dal.Access.CreerRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.ModifierRevue(System.String,System.String,System.Int32)
+  commentId: M:MediaTekDocuments.dal.Access.ModifierRevue(System.String,System.String,System.Int32)
+  id: ModifierRevue(System.String,System.String,System.Int32)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: ModifierRevue(String, String, Int32)
+  nameWithType: Access.ModifierRevue(String, String, Int32)
+  fullName: MediaTekDocuments.dal.Access.ModifierRevue(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierRevue
+    path: dal/Access.cs
+    startLine: 539
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nModification d&apos;une revue en base de données\n"
+  example: []
+  syntax:
+    content: public bool ModifierRevue(string Id, string Periodicite, int DelaiMiseADispo)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    - id: Periodicite
+      type: System.String
+      description: ''
+    - id: DelaiMiseADispo
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function ModifierRevue(Id As String, Periodicite As String, DelaiMiseADispo As Integer) As Boolean
+  overload: MediaTekDocuments.dal.Access.ModifierRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.SupprimerRevue(System.String)
+  commentId: M:MediaTekDocuments.dal.Access.SupprimerRevue(System.String)
+  id: SupprimerRevue(System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: SupprimerRevue(String)
+  nameWithType: Access.SupprimerRevue(String)
+  fullName: MediaTekDocuments.dal.Access.SupprimerRevue(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerRevue
+    path: dal/Access.cs
+    startLine: 561
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nSuppression d&apos;une revue en base de données\n"
+  example: []
+  syntax:
+    content: public bool SupprimerRevue(string Id)
+    parameters:
+    - id: Id
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerRevue(Id As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.SupprimerRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.CreerCommande(MediaTekDocuments.model.Commande)
+  commentId: M:MediaTekDocuments.dal.Access.CreerCommande(MediaTekDocuments.model.Commande)
+  id: CreerCommande(MediaTekDocuments.model.Commande)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: CreerCommande(Commande)
+  nameWithType: Access.CreerCommande(Commande)
+  fullName: MediaTekDocuments.dal.Access.CreerCommande(MediaTekDocuments.model.Commande)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerCommande
+    path: dal/Access.cs
+    startLine: 583
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nEcriture d&apos;une commande en base de données\n"
+  example: []
+  syntax:
+    content: public bool CreerCommande(Commande commande)
+    parameters:
+    - id: commande
+      type: MediaTekDocuments.model.Commande
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function CreerCommande(commande As Commande) As Boolean
+  overload: MediaTekDocuments.dal.Access.CreerCommande*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.CreerCommandeDocument(System.String,System.Int32,System.String,System.String)
+  commentId: M:MediaTekDocuments.dal.Access.CreerCommandeDocument(System.String,System.Int32,System.String,System.String)
+  id: CreerCommandeDocument(System.String,System.Int32,System.String,System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: CreerCommandeDocument(String, Int32, String, String)
+  nameWithType: Access.CreerCommandeDocument(String, Int32, String, String)
+  fullName: MediaTekDocuments.dal.Access.CreerCommandeDocument(System.String, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerCommandeDocument
+    path: dal/Access.cs
+    startLine: 608
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nEcriture d&apos;une commande de document en base de données\n"
+  example: []
+  syntax:
+    content: public bool CreerCommandeDocument(string id, int nbExemplaire, string idLivreDvd, string idSuivi)
+    parameters:
+    - id: id
+      type: System.String
+      description: ''
+    - id: nbExemplaire
+      type: System.Int32
+      description: ''
+    - id: idLivreDvd
+      type: System.String
+      description: ''
+    - id: idSuivi
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function CreerCommandeDocument(id As String, nbExemplaire As Integer, idLivreDvd As String, idSuivi As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.CreerCommandeDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument(System.String,System.Int32,System.String,System.String)
+  commentId: M:MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument(System.String,System.Int32,System.String,System.String)
+  id: ModifierSuiviCommandeDocument(System.String,System.Int32,System.String,System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: ModifierSuiviCommandeDocument(String, Int32, String, String)
+  nameWithType: Access.ModifierSuiviCommandeDocument(String, Int32, String, String)
+  fullName: MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument(System.String, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: ModifierSuiviCommandeDocument
+    path: dal/Access.cs
+    startLine: 633
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nModification de l&apos;étape de suivi d&apos;une commande de document en base de données\n"
+  example: []
+  syntax:
+    content: public bool ModifierSuiviCommandeDocument(string id, int nbExemplaire, string idLivreDvd, string idSuivi)
+    parameters:
+    - id: id
+      type: System.String
+      description: ''
+    - id: nbExemplaire
+      type: System.Int32
+      description: ''
+    - id: idLivreDvd
+      type: System.String
+      description: ''
+    - id: idSuivi
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la modification a pu se faire
+    content.vb: Public Function ModifierSuiviCommandeDocument(id As String, nbExemplaire As Integer, idLivreDvd As String, idSuivi As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)
+  commentId: M:MediaTekDocuments.dal.Access.SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)
+  id: SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: SupprimerCommandeDocument(CommandeDocument)
+  nameWithType: Access.SupprimerCommandeDocument(CommandeDocument)
+  fullName: MediaTekDocuments.dal.Access.SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerCommandeDocument
+    path: dal/Access.cs
+    startLine: 655
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nSuppression d&apos;une commande de document en base de données\n"
+  example: []
+  syntax:
+    content: public bool SupprimerCommandeDocument(CommandeDocument commandesDocument)
+    parameters:
+    - id: commandesDocument
+      type: MediaTekDocuments.model.CommandeDocument
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerCommandeDocument(commandesDocument As CommandeDocument) As Boolean
+  overload: MediaTekDocuments.dal.Access.SupprimerCommandeDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.CreerAbonnementRevue(System.String,System.DateTime,System.String)
+  commentId: M:MediaTekDocuments.dal.Access.CreerAbonnementRevue(System.String,System.DateTime,System.String)
+  id: CreerAbonnementRevue(System.String,System.DateTime,System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: CreerAbonnementRevue(String, DateTime, String)
+  nameWithType: Access.CreerAbonnementRevue(String, DateTime, String)
+  fullName: MediaTekDocuments.dal.Access.CreerAbonnementRevue(System.String, System.DateTime, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerAbonnementRevue
+    path: dal/Access.cs
+    startLine: 679
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nEcriture d&apos;un abonnement à une revue en base de données\n"
+  example: []
+  syntax:
+    content: public bool CreerAbonnementRevue(string id, DateTime dateFinAbonnement, string idRevue)
+    parameters:
+    - id: id
+      type: System.String
+      description: ''
+    - id: dateFinAbonnement
+      type: System.DateTime
+      description: ''
+    - id: idRevue
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function CreerAbonnementRevue(id As String, dateFinAbonnement As Date, idRevue As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.CreerAbonnementRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)
+  commentId: M:MediaTekDocuments.dal.Access.SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)
+  id: SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: SupprimerAbonnementRevue(Abonnement)
+  nameWithType: Access.SupprimerAbonnementRevue(Abonnement)
+  fullName: MediaTekDocuments.dal.Access.SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: SupprimerAbonnementRevue
+    path: dal/Access.cs
+    startLine: 702
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nSuppression d&apos;un abonnement de revue en base de données\n"
+  example: []
+  syntax:
+    content: public bool SupprimerAbonnementRevue(Abonnement abonnement)
+    parameters:
+    - id: abonnement
+      type: MediaTekDocuments.model.Abonnement
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si la suppression a pu se faire
+    content.vb: Public Function SupprimerAbonnementRevue(abonnement As Abonnement) As Boolean
+  overload: MediaTekDocuments.dal.Access.SupprimerAbonnementRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.CreerExemplaireRevue(System.String,System.Int32,System.DateTime,System.String,System.String)
+  commentId: M:MediaTekDocuments.dal.Access.CreerExemplaireRevue(System.String,System.Int32,System.DateTime,System.String,System.String)
+  id: CreerExemplaireRevue(System.String,System.Int32,System.DateTime,System.String,System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: CreerExemplaireRevue(String, Int32, DateTime, String, String)
+  nameWithType: Access.CreerExemplaireRevue(String, Int32, DateTime, String, String)
+  fullName: MediaTekDocuments.dal.Access.CreerExemplaireRevue(System.String, System.Int32, System.DateTime, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CreerExemplaireRevue
+    path: dal/Access.cs
+    startLine: 728
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nEcriture d&apos;un exemplaire de revue en base de données\n"
+  example: []
+  syntax:
+    content: public bool CreerExemplaireRevue(string id, int numero, DateTime dateAchat, string photo, string idEtat)
+    parameters:
+    - id: id
+      type: System.String
+      description: ''
+    - id: numero
+      type: System.Int32
+      description: ''
+    - id: dateAchat
+      type: System.DateTime
+      description: ''
+    - id: photo
+      type: System.String
+      description: ''
+    - id: idEtat
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: True si l&apos;insertion a pu se faire
+    content.vb: Public Function CreerExemplaireRevue(id As String, numero As Integer, dateAchat As Date, photo As String, idEtat As String) As Boolean
+  overload: MediaTekDocuments.dal.Access.CreerExemplaireRevue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.dal.Access.GetUtilisateur(System.String)
+  commentId: M:MediaTekDocuments.dal.Access.GetUtilisateur(System.String)
+  id: GetUtilisateur(System.String)
+  parent: MediaTekDocuments.dal.Access
+  langs:
+  - csharp
+  - vb
+  name: GetUtilisateur(String)
+  nameWithType: Access.GetUtilisateur(String)
+  fullName: MediaTekDocuments.dal.Access.GetUtilisateur(System.String)
+  type: Method
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/dal/Access.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: GetUtilisateur
+    path: dal/Access.cs
+    startLine: 751
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.dal
+  summary: "\nRécupère l&apos;utilisateur selon son login\n"
+  example: []
+  syntax:
+    content: public Utilisateur GetUtilisateur(string login)
+    parameters:
+    - id: login
+      type: System.String
+      description: ''
+    return:
+      type: MediaTekDocuments.model.Utilisateur
+      description: True si l&apos;utilisateur est trouvé
+    content.vb: Public Function GetUtilisateur(login As String) As Utilisateur
+  overload: MediaTekDocuments.dal.Access.GetUtilisateur*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: MediaTekDocuments.dal
+  commentId: N:MediaTekDocuments.dal
+  name: MediaTekDocuments.dal
+  nameWithType: MediaTekDocuments.dal
+  fullName: MediaTekDocuments.dal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MediaTekDocuments.dal.Access.GetInstance*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetInstance
+  name: GetInstance
+  nameWithType: Access.GetInstance
+  fullName: MediaTekDocuments.dal.Access.GetInstance
+- uid: MediaTekDocuments.dal.Access
+  commentId: T:MediaTekDocuments.dal.Access
+  parent: MediaTekDocuments.dal
+  name: Access
+  nameWithType: Access
+  fullName: MediaTekDocuments.dal.Access
+- uid: MediaTekDocuments.dal.Access.GetAllGenres*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAllGenres
+  name: GetAllGenres
+  nameWithType: Access.GetAllGenres
+  fullName: MediaTekDocuments.dal.Access.GetAllGenres
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Categorie}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Categorie}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Categorie>
+  nameWithType: List<Categorie>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Categorie>
+  nameWithType.vb: List(Of Categorie)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Categorie)
+  name.vb: List(Of Categorie)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Categorie
+    name: Categorie
+    nameWithType: Categorie
+    fullName: MediaTekDocuments.model.Categorie
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Categorie
+    name: Categorie
+    nameWithType: Categorie
+    fullName: MediaTekDocuments.model.Categorie
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: MediaTekDocuments.dal.Access.GetAllRayons*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAllRayons
+  name: GetAllRayons
+  nameWithType: Access.GetAllRayons
+  fullName: MediaTekDocuments.dal.Access.GetAllRayons
+- uid: MediaTekDocuments.dal.Access.GetAllPublics*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAllPublics
+  name: GetAllPublics
+  nameWithType: Access.GetAllPublics
+  fullName: MediaTekDocuments.dal.Access.GetAllPublics
+- uid: MediaTekDocuments.dal.Access.GetAllLivres*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAllLivres
+  name: GetAllLivres
+  nameWithType: Access.GetAllLivres
+  fullName: MediaTekDocuments.dal.Access.GetAllLivres
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Livre}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Livre}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Livre>
+  nameWithType: List<Livre>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Livre>
+  nameWithType.vb: List(Of Livre)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Livre)
+  name.vb: List(Of Livre)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Livre
+    name: Livre
+    nameWithType: Livre
+    fullName: MediaTekDocuments.model.Livre
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Livre
+    name: Livre
+    nameWithType: Livre
+    fullName: MediaTekDocuments.model.Livre
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.dal.Access.GetAllDvd*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAllDvd
+  name: GetAllDvd
+  nameWithType: Access.GetAllDvd
+  fullName: MediaTekDocuments.dal.Access.GetAllDvd
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Dvd}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Dvd}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Dvd>
+  nameWithType: List<Dvd>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Dvd>
+  nameWithType.vb: List(Of Dvd)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Dvd)
+  name.vb: List(Of Dvd)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Dvd
+    name: Dvd
+    nameWithType: Dvd
+    fullName: MediaTekDocuments.model.Dvd
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Dvd
+    name: Dvd
+    nameWithType: Dvd
+    fullName: MediaTekDocuments.model.Dvd
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.dal.Access.GetAllRevues*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAllRevues
+  name: GetAllRevues
+  nameWithType: Access.GetAllRevues
+  fullName: MediaTekDocuments.dal.Access.GetAllRevues
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Revue}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Revue}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Revue>
+  nameWithType: List<Revue>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Revue>
+  nameWithType.vb: List(Of Revue)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Revue)
+  name.vb: List(Of Revue)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Revue
+    name: Revue
+    nameWithType: Revue
+    fullName: MediaTekDocuments.model.Revue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Revue
+    name: Revue
+    nameWithType: Revue
+    fullName: MediaTekDocuments.model.Revue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.dal.Access.GetExemplairesRevue*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetExemplairesRevue
+  name: GetExemplairesRevue
+  nameWithType: Access.GetExemplairesRevue
+  fullName: MediaTekDocuments.dal.Access.GetExemplairesRevue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Exemplaire}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Exemplaire}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Exemplaire>
+  nameWithType: List<Exemplaire>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Exemplaire>
+  nameWithType.vb: List(Of Exemplaire)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Exemplaire)
+  name.vb: List(Of Exemplaire)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Exemplaire
+    name: Exemplaire
+    nameWithType: Exemplaire
+    fullName: MediaTekDocuments.model.Exemplaire
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Exemplaire
+    name: Exemplaire
+    nameWithType: Exemplaire
+    fullName: MediaTekDocuments.model.Exemplaire
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.dal.Access.GetAllSuivis*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAllSuivis
+  name: GetAllSuivis
+  nameWithType: Access.GetAllSuivis
+  fullName: MediaTekDocuments.dal.Access.GetAllSuivis
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Suivi}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Suivi}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Suivi>
+  nameWithType: List<Suivi>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Suivi>
+  nameWithType.vb: List(Of Suivi)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Suivi)
+  name.vb: List(Of Suivi)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Suivi
+    name: Suivi
+    nameWithType: Suivi
+    fullName: MediaTekDocuments.model.Suivi
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Suivi
+    name: Suivi
+    nameWithType: Suivi
+    fullName: MediaTekDocuments.model.Suivi
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.dal.Access.GetAllDocuments*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAllDocuments
+  name: GetAllDocuments
+  nameWithType: Access.GetAllDocuments
+  fullName: MediaTekDocuments.dal.Access.GetAllDocuments
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Document}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Document}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Document>
+  nameWithType: List<Document>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Document>
+  nameWithType.vb: List(Of Document)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Document)
+  name.vb: List(Of Document)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Document
+    name: Document
+    nameWithType: Document
+    fullName: MediaTekDocuments.model.Document
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Document
+    name: Document
+    nameWithType: Document
+    fullName: MediaTekDocuments.model.Document
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.dal.Access.GetCommandesDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetCommandesDocument
+  name: GetCommandesDocument
+  nameWithType: Access.GetCommandesDocument
+  fullName: MediaTekDocuments.dal.Access.GetCommandesDocument
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.CommandeDocument}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.CommandeDocument}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<CommandeDocument>
+  nameWithType: List<CommandeDocument>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.CommandeDocument>
+  nameWithType.vb: List(Of CommandeDocument)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.CommandeDocument)
+  name.vb: List(Of CommandeDocument)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.CommandeDocument
+    name: CommandeDocument
+    nameWithType: CommandeDocument
+    fullName: MediaTekDocuments.model.CommandeDocument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.CommandeDocument
+    name: CommandeDocument
+    nameWithType: CommandeDocument
+    fullName: MediaTekDocuments.model.CommandeDocument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.dal.Access.GetAbonnementRevue*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAbonnementRevue
+  name: GetAbonnementRevue
+  nameWithType: Access.GetAbonnementRevue
+  fullName: MediaTekDocuments.dal.Access.GetAbonnementRevue
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Abonnement}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Abonnement}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Abonnement>
+  nameWithType: List<Abonnement>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Abonnement>
+  nameWithType.vb: List(Of Abonnement)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Abonnement)
+  name.vb: List(Of Abonnement)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Abonnement
+    name: Abonnement
+    nameWithType: Abonnement
+    fullName: MediaTekDocuments.model.Abonnement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Abonnement
+    name: Abonnement
+    nameWithType: Abonnement
+    fullName: MediaTekDocuments.model.Abonnement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.dal.Access.GetAbonnementsEcheance*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAbonnementsEcheance
+  name: GetAbonnementsEcheance
+  nameWithType: Access.GetAbonnementsEcheance
+  fullName: MediaTekDocuments.dal.Access.GetAbonnementsEcheance
+- uid: MediaTekDocuments.dal.Access.GetExemplairesDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetExemplairesDocument
+  name: GetExemplairesDocument
+  nameWithType: Access.GetExemplairesDocument
+  fullName: MediaTekDocuments.dal.Access.GetExemplairesDocument
+- uid: MediaTekDocuments.dal.Access.GetAllEtatsDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetAllEtatsDocument
+  name: GetAllEtatsDocument
+  nameWithType: Access.GetAllEtatsDocument
+  fullName: MediaTekDocuments.dal.Access.GetAllEtatsDocument
+- uid: System.Collections.Generic.List{MediaTekDocuments.model.Etat}
+  commentId: T:System.Collections.Generic.List{MediaTekDocuments.model.Etat}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Etat>
+  nameWithType: List<Etat>
+  fullName: System.Collections.Generic.List<MediaTekDocuments.model.Etat>
+  nameWithType.vb: List(Of Etat)
+  fullName.vb: System.Collections.Generic.List(Of MediaTekDocuments.model.Etat)
+  name.vb: List(Of Etat)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MediaTekDocuments.model.Etat
+    name: Etat
+    nameWithType: Etat
+    fullName: MediaTekDocuments.model.Etat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MediaTekDocuments.model.Etat
+    name: Etat
+    nameWithType: Etat
+    fullName: MediaTekDocuments.model.Etat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MediaTekDocuments.dal.Access.CreerExemplaire*
+  commentId: Overload:MediaTekDocuments.dal.Access.CreerExemplaire
+  name: CreerExemplaire
+  nameWithType: Access.CreerExemplaire
+  fullName: MediaTekDocuments.dal.Access.CreerExemplaire
+- uid: MediaTekDocuments.model.Exemplaire
+  commentId: T:MediaTekDocuments.model.Exemplaire
+  parent: MediaTekDocuments.model
+  name: Exemplaire
+  nameWithType: Exemplaire
+  fullName: MediaTekDocuments.model.Exemplaire
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: MediaTekDocuments.model
+  commentId: N:MediaTekDocuments.model
+  name: MediaTekDocuments.model
+  nameWithType: MediaTekDocuments.model
+  fullName: MediaTekDocuments.model
+- uid: MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument
+  name: ModifierEtatExemplaireDocument
+  nameWithType: Access.ModifierEtatExemplaireDocument
+  fullName: MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument
+- uid: MediaTekDocuments.dal.Access.SupprimerExemplaireDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.SupprimerExemplaireDocument
+  name: SupprimerExemplaireDocument
+  nameWithType: Access.SupprimerExemplaireDocument
+  fullName: MediaTekDocuments.dal.Access.SupprimerExemplaireDocument
+- uid: MediaTekDocuments.dal.Access.CreerDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.CreerDocument
+  name: CreerDocument
+  nameWithType: Access.CreerDocument
+  fullName: MediaTekDocuments.dal.Access.CreerDocument
+- uid: MediaTekDocuments.dal.Access.ModifierDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.ModifierDocument
+  name: ModifierDocument
+  nameWithType: Access.ModifierDocument
+  fullName: MediaTekDocuments.dal.Access.ModifierDocument
+- uid: MediaTekDocuments.dal.Access.SupprimerDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.SupprimerDocument
+  name: SupprimerDocument
+  nameWithType: Access.SupprimerDocument
+  fullName: MediaTekDocuments.dal.Access.SupprimerDocument
+- uid: MediaTekDocuments.dal.Access.CreerLivre*
+  commentId: Overload:MediaTekDocuments.dal.Access.CreerLivre
+  name: CreerLivre
+  nameWithType: Access.CreerLivre
+  fullName: MediaTekDocuments.dal.Access.CreerLivre
+- uid: MediaTekDocuments.dal.Access.ModifierLivre*
+  commentId: Overload:MediaTekDocuments.dal.Access.ModifierLivre
+  name: ModifierLivre
+  nameWithType: Access.ModifierLivre
+  fullName: MediaTekDocuments.dal.Access.ModifierLivre
+- uid: MediaTekDocuments.dal.Access.SupprimerLivre*
+  commentId: Overload:MediaTekDocuments.dal.Access.SupprimerLivre
+  name: SupprimerLivre
+  nameWithType: Access.SupprimerLivre
+  fullName: MediaTekDocuments.dal.Access.SupprimerLivre
+- uid: MediaTekDocuments.dal.Access.CreerDvd*
+  commentId: Overload:MediaTekDocuments.dal.Access.CreerDvd
+  name: CreerDvd
+  nameWithType: Access.CreerDvd
+  fullName: MediaTekDocuments.dal.Access.CreerDvd
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: MediaTekDocuments.dal.Access.ModifierDvd*
+  commentId: Overload:MediaTekDocuments.dal.Access.ModifierDvd
+  name: ModifierDvd
+  nameWithType: Access.ModifierDvd
+  fullName: MediaTekDocuments.dal.Access.ModifierDvd
+- uid: MediaTekDocuments.dal.Access.SupprimerDvd*
+  commentId: Overload:MediaTekDocuments.dal.Access.SupprimerDvd
+  name: SupprimerDvd
+  nameWithType: Access.SupprimerDvd
+  fullName: MediaTekDocuments.dal.Access.SupprimerDvd
+- uid: MediaTekDocuments.dal.Access.CreerRevue*
+  commentId: Overload:MediaTekDocuments.dal.Access.CreerRevue
+  name: CreerRevue
+  nameWithType: Access.CreerRevue
+  fullName: MediaTekDocuments.dal.Access.CreerRevue
+- uid: MediaTekDocuments.dal.Access.ModifierRevue*
+  commentId: Overload:MediaTekDocuments.dal.Access.ModifierRevue
+  name: ModifierRevue
+  nameWithType: Access.ModifierRevue
+  fullName: MediaTekDocuments.dal.Access.ModifierRevue
+- uid: MediaTekDocuments.dal.Access.SupprimerRevue*
+  commentId: Overload:MediaTekDocuments.dal.Access.SupprimerRevue
+  name: SupprimerRevue
+  nameWithType: Access.SupprimerRevue
+  fullName: MediaTekDocuments.dal.Access.SupprimerRevue
+- uid: MediaTekDocuments.dal.Access.CreerCommande*
+  commentId: Overload:MediaTekDocuments.dal.Access.CreerCommande
+  name: CreerCommande
+  nameWithType: Access.CreerCommande
+  fullName: MediaTekDocuments.dal.Access.CreerCommande
+- uid: MediaTekDocuments.model.Commande
+  commentId: T:MediaTekDocuments.model.Commande
+  parent: MediaTekDocuments.model
+  name: Commande
+  nameWithType: Commande
+  fullName: MediaTekDocuments.model.Commande
+- uid: MediaTekDocuments.dal.Access.CreerCommandeDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.CreerCommandeDocument
+  name: CreerCommandeDocument
+  nameWithType: Access.CreerCommandeDocument
+  fullName: MediaTekDocuments.dal.Access.CreerCommandeDocument
+- uid: MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument
+  name: ModifierSuiviCommandeDocument
+  nameWithType: Access.ModifierSuiviCommandeDocument
+  fullName: MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument
+- uid: MediaTekDocuments.dal.Access.SupprimerCommandeDocument*
+  commentId: Overload:MediaTekDocuments.dal.Access.SupprimerCommandeDocument
+  name: SupprimerCommandeDocument
+  nameWithType: Access.SupprimerCommandeDocument
+  fullName: MediaTekDocuments.dal.Access.SupprimerCommandeDocument
+- uid: MediaTekDocuments.model.CommandeDocument
+  commentId: T:MediaTekDocuments.model.CommandeDocument
+  parent: MediaTekDocuments.model
+  name: CommandeDocument
+  nameWithType: CommandeDocument
+  fullName: MediaTekDocuments.model.CommandeDocument
+- uid: MediaTekDocuments.dal.Access.CreerAbonnementRevue*
+  commentId: Overload:MediaTekDocuments.dal.Access.CreerAbonnementRevue
+  name: CreerAbonnementRevue
+  nameWithType: Access.CreerAbonnementRevue
+  fullName: MediaTekDocuments.dal.Access.CreerAbonnementRevue
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: MediaTekDocuments.dal.Access.SupprimerAbonnementRevue*
+  commentId: Overload:MediaTekDocuments.dal.Access.SupprimerAbonnementRevue
+  name: SupprimerAbonnementRevue
+  nameWithType: Access.SupprimerAbonnementRevue
+  fullName: MediaTekDocuments.dal.Access.SupprimerAbonnementRevue
+- uid: MediaTekDocuments.model.Abonnement
+  commentId: T:MediaTekDocuments.model.Abonnement
+  parent: MediaTekDocuments.model
+  name: Abonnement
+  nameWithType: Abonnement
+  fullName: MediaTekDocuments.model.Abonnement
+- uid: MediaTekDocuments.dal.Access.CreerExemplaireRevue*
+  commentId: Overload:MediaTekDocuments.dal.Access.CreerExemplaireRevue
+  name: CreerExemplaireRevue
+  nameWithType: Access.CreerExemplaireRevue
+  fullName: MediaTekDocuments.dal.Access.CreerExemplaireRevue
+- uid: MediaTekDocuments.dal.Access.GetUtilisateur*
+  commentId: Overload:MediaTekDocuments.dal.Access.GetUtilisateur
+  name: GetUtilisateur
+  nameWithType: Access.GetUtilisateur
+  fullName: MediaTekDocuments.dal.Access.GetUtilisateur
+- uid: MediaTekDocuments.model.Utilisateur
+  commentId: T:MediaTekDocuments.model.Utilisateur
+  parent: MediaTekDocuments.model
+  name: Utilisateur
+  nameWithType: Utilisateur
+  fullName: MediaTekDocuments.model.Utilisateur

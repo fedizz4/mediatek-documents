@@ -1,0 +1,615 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTekDocuments.model.CommandeDocument
+  commentId: T:MediaTekDocuments.model.CommandeDocument
+  id: CommandeDocument
+  parent: MediaTekDocuments.model
+  children:
+  - MediaTekDocuments.model.CommandeDocument.#ctor(System.String,System.DateTime,System.Double,System.Int32,System.String,System.String,System.String)
+  - MediaTekDocuments.model.CommandeDocument.IdLivreDvd
+  - MediaTekDocuments.model.CommandeDocument.IdSuivi
+  - MediaTekDocuments.model.CommandeDocument.Libelle
+  - MediaTekDocuments.model.CommandeDocument.NbExemplaire
+  langs:
+  - csharp
+  - vb
+  name: CommandeDocument
+  nameWithType: CommandeDocument
+  fullName: MediaTekDocuments.model.CommandeDocument
+  type: Class
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/CommandeDocument.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: CommandeDocument
+    path: model/CommandeDocument.cs
+    startLine: 4
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: 'public class CommandeDocument : Commande'
+    content.vb: >-
+      Public Class CommandeDocument
+          Inherits Commande
+  inheritance:
+  - System.Object
+  - MediaTekDocuments.model.Commande
+  inheritedMembers:
+  - MediaTekDocuments.model.Commande.Id
+  - MediaTekDocuments.model.Commande.DateCommande
+  - MediaTekDocuments.model.Commande.Montant
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: MediaTekDocuments.model.CommandeDocument.NbExemplaire
+  commentId: P:MediaTekDocuments.model.CommandeDocument.NbExemplaire
+  id: NbExemplaire
+  parent: MediaTekDocuments.model.CommandeDocument
+  langs:
+  - csharp
+  - vb
+  name: NbExemplaire
+  nameWithType: CommandeDocument.NbExemplaire
+  fullName: MediaTekDocuments.model.CommandeDocument.NbExemplaire
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/CommandeDocument.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: NbExemplaire
+    path: model/CommandeDocument.cs
+    startLine: 6
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public int NbExemplaire { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NbExemplaire As Integer
+  overload: MediaTekDocuments.model.CommandeDocument.NbExemplaire*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.CommandeDocument.IdLivreDvd
+  commentId: P:MediaTekDocuments.model.CommandeDocument.IdLivreDvd
+  id: IdLivreDvd
+  parent: MediaTekDocuments.model.CommandeDocument
+  langs:
+  - csharp
+  - vb
+  name: IdLivreDvd
+  nameWithType: CommandeDocument.IdLivreDvd
+  fullName: MediaTekDocuments.model.CommandeDocument.IdLivreDvd
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/CommandeDocument.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: IdLivreDvd
+    path: model/CommandeDocument.cs
+    startLine: 7
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string IdLivreDvd { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IdLivreDvd As String
+  overload: MediaTekDocuments.model.CommandeDocument.IdLivreDvd*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.CommandeDocument.IdSuivi
+  commentId: P:MediaTekDocuments.model.CommandeDocument.IdSuivi
+  id: IdSuivi
+  parent: MediaTekDocuments.model.CommandeDocument
+  langs:
+  - csharp
+  - vb
+  name: IdSuivi
+  nameWithType: CommandeDocument.IdSuivi
+  fullName: MediaTekDocuments.model.CommandeDocument.IdSuivi
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/CommandeDocument.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: IdSuivi
+    path: model/CommandeDocument.cs
+    startLine: 8
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string IdSuivi { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IdSuivi As String
+  overload: MediaTekDocuments.model.CommandeDocument.IdSuivi*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.CommandeDocument.Libelle
+  commentId: P:MediaTekDocuments.model.CommandeDocument.Libelle
+  id: Libelle
+  parent: MediaTekDocuments.model.CommandeDocument
+  langs:
+  - csharp
+  - vb
+  name: Libelle
+  nameWithType: CommandeDocument.Libelle
+  fullName: MediaTekDocuments.model.CommandeDocument.Libelle
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/CommandeDocument.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Libelle
+    path: model/CommandeDocument.cs
+    startLine: 9
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string Libelle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Libelle As String
+  overload: MediaTekDocuments.model.CommandeDocument.Libelle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.CommandeDocument.#ctor(System.String,System.DateTime,System.Double,System.Int32,System.String,System.String,System.String)
+  commentId: M:MediaTekDocuments.model.CommandeDocument.#ctor(System.String,System.DateTime,System.Double,System.Int32,System.String,System.String,System.String)
+  id: '#ctor(System.String,System.DateTime,System.Double,System.Int32,System.String,System.String,System.String)'
+  parent: MediaTekDocuments.model.CommandeDocument
+  langs:
+  - csharp
+  - vb
+  name: CommandeDocument(String, DateTime, Double, Int32, String, String, String)
+  nameWithType: CommandeDocument.CommandeDocument(String, DateTime, Double, Int32, String, String, String)
+  fullName: MediaTekDocuments.model.CommandeDocument.CommandeDocument(System.String, System.DateTime, System.Double, System.Int32, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/CommandeDocument.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: .ctor
+    path: model/CommandeDocument.cs
+    startLine: 11
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public CommandeDocument(string id, DateTime dateCommande, double montant, int nbExemplaire, string idLivreDvd, string idSuivi, string libelle)
+    parameters:
+    - id: id
+      type: System.String
+    - id: dateCommande
+      type: System.DateTime
+    - id: montant
+      type: System.Double
+    - id: nbExemplaire
+      type: System.Int32
+    - id: idLivreDvd
+      type: System.String
+    - id: idSuivi
+      type: System.String
+    - id: libelle
+      type: System.String
+    content.vb: Public Sub New(id As String, dateCommande As Date, montant As Double, nbExemplaire As Integer, idLivreDvd As String, idSuivi As String, libelle As String)
+  overload: MediaTekDocuments.model.CommandeDocument.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: MediaTekDocuments.model
+  commentId: N:MediaTekDocuments.model
+  name: MediaTekDocuments.model
+  nameWithType: MediaTekDocuments.model
+  fullName: MediaTekDocuments.model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: MediaTekDocuments.model.Commande
+  commentId: T:MediaTekDocuments.model.Commande
+  parent: MediaTekDocuments.model
+  name: Commande
+  nameWithType: Commande
+  fullName: MediaTekDocuments.model.Commande
+- uid: MediaTekDocuments.model.Commande.Id
+  commentId: P:MediaTekDocuments.model.Commande.Id
+  parent: MediaTekDocuments.model.Commande
+  name: Id
+  nameWithType: Commande.Id
+  fullName: MediaTekDocuments.model.Commande.Id
+- uid: MediaTekDocuments.model.Commande.DateCommande
+  commentId: P:MediaTekDocuments.model.Commande.DateCommande
+  parent: MediaTekDocuments.model.Commande
+  name: DateCommande
+  nameWithType: Commande.DateCommande
+  fullName: MediaTekDocuments.model.Commande.DateCommande
+- uid: MediaTekDocuments.model.Commande.Montant
+  commentId: P:MediaTekDocuments.model.Commande.Montant
+  parent: MediaTekDocuments.model.Commande
+  name: Montant
+  nameWithType: Commande.Montant
+  fullName: MediaTekDocuments.model.Commande.Montant
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MediaTekDocuments.model.CommandeDocument.NbExemplaire*
+  commentId: Overload:MediaTekDocuments.model.CommandeDocument.NbExemplaire
+  name: NbExemplaire
+  nameWithType: CommandeDocument.NbExemplaire
+  fullName: MediaTekDocuments.model.CommandeDocument.NbExemplaire
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: MediaTekDocuments.model.CommandeDocument.IdLivreDvd*
+  commentId: Overload:MediaTekDocuments.model.CommandeDocument.IdLivreDvd
+  name: IdLivreDvd
+  nameWithType: CommandeDocument.IdLivreDvd
+  fullName: MediaTekDocuments.model.CommandeDocument.IdLivreDvd
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: MediaTekDocuments.model.CommandeDocument.IdSuivi*
+  commentId: Overload:MediaTekDocuments.model.CommandeDocument.IdSuivi
+  name: IdSuivi
+  nameWithType: CommandeDocument.IdSuivi
+  fullName: MediaTekDocuments.model.CommandeDocument.IdSuivi
+- uid: MediaTekDocuments.model.CommandeDocument.Libelle*
+  commentId: Overload:MediaTekDocuments.model.CommandeDocument.Libelle
+  name: Libelle
+  nameWithType: CommandeDocument.Libelle
+  fullName: MediaTekDocuments.model.CommandeDocument.Libelle
+- uid: MediaTekDocuments.model.CommandeDocument.#ctor*
+  commentId: Overload:MediaTekDocuments.model.CommandeDocument.#ctor
+  name: CommandeDocument
+  nameWithType: CommandeDocument.CommandeDocument
+  fullName: MediaTekDocuments.model.CommandeDocument.CommandeDocument
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

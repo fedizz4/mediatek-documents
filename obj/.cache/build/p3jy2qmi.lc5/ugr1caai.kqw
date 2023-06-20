@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FrmMediatekController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FrmMediatekController
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MediaTekDocuments.controller.FrmMediatekController">
+  
+  
+  <h1 id="MediaTekDocuments_controller_FrmMediatekController" data-uid="MediaTekDocuments.controller.FrmMediatekController" class="text-break">Class FrmMediatekController
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Contrôleur lié à FrmMediatek</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">FrmMediatekController</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MediaTekDocuments.controller.html">MediaTekDocuments.controller</a></h6>
+  <h6><strong>Assembly</strong>: MediaTekDocuments.dll</h6>
+  <h5 id="MediaTekDocuments_controller_FrmMediatekController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FrmMediatekController</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController__ctor.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L21">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController__ctor_" data-uid="MediaTekDocuments.controller.FrmMediatekController.#ctor*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController__ctor" data-uid="MediaTekDocuments.controller.FrmMediatekController.#ctor">FrmMediatekController()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Récupération de l&apos;instance unique d&apos;accès aux données</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrmMediatekController()</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_CreerAbonnementRevue_System_String_System_DateTime_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue(System.String%2CSystem.DateTime%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L355">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_CreerAbonnementRevue_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_CreerAbonnementRevue_System_String_System_DateTime_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue(System.String,System.DateTime,System.String)">CreerAbonnementRevue(String, DateTime, String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Crée un abonnement de revue dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreerAbonnementRevue(string id, DateTime dateFinAbonnement, string idRevue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateFinAbonnement</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idRevue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si l&apos;insertion pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_CreerCommande_MediaTekDocuments_model_Commande_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.CreerCommande(MediaTekDocuments.model.Commande)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L307">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_CreerCommande_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerCommande*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_CreerCommande_MediaTekDocuments_model_Commande_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerCommande(MediaTekDocuments.model.Commande)">CreerCommande(Commande)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Créé une commande dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreerCommande(Commande commande)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MediaTekDocuments.model.Commande.html">Commande</a></td>
+        <td><span class="parametername">commande</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la création a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_CreerCommandeDocument_System_String_System_Int32_System_String_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument(System.String%2CSystem.Int32%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L320">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_CreerCommandeDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_CreerCommandeDocument_System_String_System_Int32_System_String_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument(System.String,System.Int32,System.String,System.String)">CreerCommandeDocument(String, Int32, String, String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Créé une commande de document dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreerCommandeDocument(string id, int nbExemplaire, string idLivreDvd, string idSuivi)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nbExemplaire</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idLivreDvd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idSuivi</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la création a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_CreerDocument_System_String_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.CreerDocument(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L166">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_CreerDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerDocument*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_CreerDocument_System_String_System_String_System_String_System_String_System_String_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerDocument(System.String,System.String,System.String,System.String,System.String,System.String)">CreerDocument(String, String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Crée un document dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreerDocument(string Id, string Titre, string Image, string IdRayon, string IdPublic, string IdGenre)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Titre</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Image</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">IdRayon</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">IdPublic</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">IdGenre</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la création a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_CreerDvd_System_String_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.CreerDvd(System.String%2CSystem.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L240">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_CreerDvd_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerDvd*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_CreerDvd_System_String_System_String_System_String_System_Int32_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerDvd(System.String,System.String,System.String,System.Int32)">CreerDvd(String, String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Créé un Dvd dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreerDvd(string Id, string Synopsis, string Realisateur, int Duree)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Synopsis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Realisateur</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">Duree</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la création a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_CreerExemplaireRevue_System_String_System_Int32_System_DateTime_System_String_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue(System.String%2CSystem.Int32%2CSystem.DateTime%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L151">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_CreerExemplaireRevue_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_CreerExemplaireRevue_System_String_System_Int32_System_DateTime_System_String_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerExemplaireRevue(System.String,System.Int32,System.DateTime,System.String,System.String)">CreerExemplaireRevue(String, Int32, DateTime, String, String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Crée un exemplaire d&apos;une revue dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreerExemplaireRevue(string id, int numero, DateTime dateAchat, string photo, string idEtat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numero</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateAchat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">photo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idEtat</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la création a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_CreerLivre_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.CreerLivre(System.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L204">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_CreerLivre_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerLivre*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_CreerLivre_System_String_System_String_System_String_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerLivre(System.String,System.String,System.String,System.String)">CreerLivre(String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Crée un livre dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreerLivre(string Id, string Isbn, string Auteur, string Collection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Isbn</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Auteur</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Collection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la création a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_CreerRevue_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.CreerRevue(System.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L275">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_CreerRevue_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerRevue*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_CreerRevue_System_String_System_String_System_Int32_" data-uid="MediaTekDocuments.controller.FrmMediatekController.CreerRevue(System.String,System.String,System.Int32)">CreerRevue(String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Crée une revue dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreerRevue(string Id, string Periodicite, int DelaiMiseADispo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Periodicite</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">DelaiMiseADispo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la création a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetAbonnementRevue_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L114">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetAbonnementRevue_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetAbonnementRevue_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAbonnementRevue(System.String)">GetAbonnementRevue(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">récupère les abonnements d&apos;une revue</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Abonnement&gt; GetAbonnementRevue(string idDocument)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idDocument</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Abonnement.html">Abonnement</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets Abonnement</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetAbonnementsEcheance.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L122">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetAbonnementsEcheance_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetAbonnementsEcheance" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance">GetAbonnementsEcheance()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">récupère les abonnements qui prennent fin dans 30 jours</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Abonnement&gt; GetAbonnementsEcheance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Abonnement.html">Abonnement</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetAllDvd.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetAllDvd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L48">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetAllDvd_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllDvd*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetAllDvd" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllDvd">GetAllDvd()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">getter sur la liste des Dvd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Dvd&gt; GetAllDvd()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Dvd.html">Dvd</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets dvd</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetAllEtatsDocument.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L141">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetAllEtatsDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetAllEtatsDocument" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllEtatsDocument">GetAllEtatsDocument()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">récupère les états</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Etat&gt; GetAllEtatsDocument()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Etat.html">Etat</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets Etat</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetAllGenres.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetAllGenres%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L30">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetAllGenres_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllGenres*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetAllGenres" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllGenres">GetAllGenres()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">getter sur la liste des genres</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Categorie&gt; GetAllGenres()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Categorie.html">Categorie</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets Genre</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetAllLivres.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetAllLivres%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L39">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetAllLivres_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllLivres*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetAllLivres" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllLivres">GetAllLivres()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">getter sur la liste des livres</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Livre&gt; GetAllLivres()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Livre.html">Livre</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets Livre</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetAllPublics.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetAllPublics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L75">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetAllPublics_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllPublics*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetAllPublics" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllPublics">GetAllPublics()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">getter sur les publics</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Categorie&gt; GetAllPublics()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Categorie.html">Categorie</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets Public</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetAllRayons.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetAllRayons%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L66">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetAllRayons_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllRayons*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetAllRayons" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllRayons">GetAllRayons()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">getter sur les rayons</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Categorie&gt; GetAllRayons()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Categorie.html">Categorie</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets Rayon</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetAllRevues.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetAllRevues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L57">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetAllRevues_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllRevues*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetAllRevues" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllRevues">GetAllRevues()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">getter sur la liste des revues</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Revue&gt; GetAllRevues()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Revue.html">Revue</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets Revue</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetAllSuivis.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L94">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetAllSuivis_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetAllSuivis" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis">GetAllSuivis()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">getter sur les suivis</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Suivi&gt; GetAllSuivis()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Suivi.html">Suivi</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets Suivi</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetCommandesDocument_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L104">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetCommandesDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetCommandesDocument_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetCommandesDocument(System.String)">GetCommandesDocument(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">récupère les commandes d&apos;un document</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CommandeDocument&gt; GetCommandesDocument(string idDocument)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idDocument</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.CommandeDocument.html">CommandeDocument</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets CommandeDocument</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetExemplairesDocument_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L132">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetExemplairesDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetExemplairesDocument_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument(System.String)">GetExemplairesDocument(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">récupère les exemplaires d&apos;un document</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Exemplaire&gt; GetExemplairesDocument(string idDocument)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idDocument</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Exemplaire.html">Exemplaire</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets Exemplaire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_GetExemplairesRevue_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L85">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_GetExemplairesRevue_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_GetExemplairesRevue_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue(System.String)">GetExemplairesRevue(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">récupère les exemplaires d&apos;une revue</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Exemplaire&gt; GetExemplairesRevue(string idDocument)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idDocument</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">id de la revue concernée</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MediaTekDocuments.model.Exemplaire.html">Exemplaire</a>&gt;</td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Liste d&apos;objets Exemplaire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_ModifierDocument_System_String_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.ModifierDocument(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L181">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_ModifierDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.ModifierDocument*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_ModifierDocument_System_String_System_String_System_String_System_String_System_String_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.ModifierDocument(System.String,System.String,System.String,System.String,System.String,System.String)">ModifierDocument(String, String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Modifie un document dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ModifierDocument(string Id, string Titre, string Image, string IdGenre, string IdPublic, string IdRayon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Titre</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Image</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">IdGenre</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">IdPublic</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">IdRayon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la modification a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_ModifierDvd_System_String_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.ModifierDvd(System.String%2CSystem.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L253">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_ModifierDvd_" data-uid="MediaTekDocuments.controller.FrmMediatekController.ModifierDvd*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_ModifierDvd_System_String_System_String_System_String_System_Int32_" data-uid="MediaTekDocuments.controller.FrmMediatekController.ModifierDvd(System.String,System.String,System.String,System.Int32)">ModifierDvd(String, String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Modifie un dvd dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ModifierDvd(string Id, string Synopsis, string Realisateur, int Duree)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Synopsis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Realisateur</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">Duree</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la modification a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_ModifierEtatExemplaireDocument_MediaTekDocuments_model_Exemplaire_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L375">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_ModifierEtatExemplaireDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_ModifierEtatExemplaireDocument_MediaTekDocuments_model_Exemplaire_" data-uid="MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument(MediaTekDocuments.model.Exemplaire)">ModifierEtatExemplaireDocument(Exemplaire)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Modifie l&apos;état d&apos;un exemplaire d&apos;un document dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ModifierEtatExemplaireDocument(Exemplaire exemplaire)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MediaTekDocuments.model.Exemplaire.html">Exemplaire</a></td>
+        <td><span class="parametername">exemplaire</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la modification a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_ModifierLivre_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.ModifierLivre(System.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L217">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_ModifierLivre_" data-uid="MediaTekDocuments.controller.FrmMediatekController.ModifierLivre*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_ModifierLivre_System_String_System_String_System_String_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.ModifierLivre(System.String,System.String,System.String,System.String)">ModifierLivre(String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Modifie un livre dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ModifierLivre(string Id, string Isbn, string Auteur, string Collection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Isbn</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Auteur</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Collection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la modification a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_ModifierRevue_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.ModifierRevue(System.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L287">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_ModifierRevue_" data-uid="MediaTekDocuments.controller.FrmMediatekController.ModifierRevue*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_ModifierRevue_System_String_System_String_System_Int32_" data-uid="MediaTekDocuments.controller.FrmMediatekController.ModifierRevue(System.String,System.String,System.Int32)">ModifierRevue(String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Modifie une revue dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ModifierRevue(string Id, string Periodicite, int DelaiMiseADispo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Periodicite</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">DelaiMiseADispo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la modification a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_SupprimerAbonnementRevue_MediaTekDocuments_model_Abonnement_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L365">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_SupprimerAbonnementRevue_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_SupprimerAbonnementRevue_MediaTekDocuments_model_Abonnement_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue(MediaTekDocuments.model.Abonnement)">SupprimerAbonnementRevue(Abonnement)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Supprimme un abonnement de revue dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupprimerAbonnementRevue(Abonnement abonnement)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MediaTekDocuments.model.Abonnement.html">Abonnement</a></td>
+        <td><span class="parametername">abonnement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la suppression a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_SupprimerCommandeDocument_MediaTekDocuments_model_CommandeDocument_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L343">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_SupprimerCommandeDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_SupprimerCommandeDocument_MediaTekDocuments_model_CommandeDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument(MediaTekDocuments.model.CommandeDocument)">SupprimerCommandeDocument(CommandeDocument)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Supprimme une commande de livre dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupprimerCommandeDocument(CommandeDocument commandesDocument)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MediaTekDocuments.model.CommandeDocument.html">CommandeDocument</a></td>
+        <td><span class="parametername">commandesDocument</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la suppression a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_SupprimerDocument_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L191">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_SupprimerDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_SupprimerDocument_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerDocument(System.String)">SupprimerDocument(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Supprime un document dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupprimerDocument(string Id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la suppression a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_SupprimerDvd_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L263">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_SupprimerDvd_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_SupprimerDvd_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd(System.String)">SupprimerDvd(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Supprimme un dvd dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupprimerDvd(string Id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la suppression a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_SupprimerExemplaireDocument_MediaTekDocuments_model_Exemplaire_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L385">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_SupprimerExemplaireDocument_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_SupprimerExemplaireDocument_MediaTekDocuments_model_Exemplaire_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument(MediaTekDocuments.model.Exemplaire)">SupprimerExemplaireDocument(Exemplaire)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Supprime un exemplaire d&apos;un document dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupprimerExemplaireDocument(Exemplaire exemplaire)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MediaTekDocuments.model.Exemplaire.html">Exemplaire</a></td>
+        <td><span class="parametername">exemplaire</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la suppression a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_SupprimerLivre_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L227">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_SupprimerLivre_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_SupprimerLivre_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre(System.String)">SupprimerLivre(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Suppression d&apos;un livre en bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupprimerLivre(string Id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la suppression a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController_SupprimerRevue_System_String_.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L297">View Source</a>
+  </span>
+  <a id="MediaTekDocuments_controller_FrmMediatekController_SupprimerRevue_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue*"></a>
+  <h4 id="MediaTekDocuments_controller_FrmMediatekController_SupprimerRevue_System_String_" data-uid="MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue(System.String)">SupprimerRevue(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Supprime une revue dans la bdd</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupprimerRevue(string Id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/MediaTekDocuments.controller.FrmMediatekController.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True si la suppression a pu se faire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/fadwafa02/j/new/master/apiSpec/new?filename=MediaTekDocuments_controller_FrmMediatekController.md&amp;value=---%0Auid%3A%20MediaTekDocuments.controller.FrmMediatekController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/fadwafa02/j/blob/master/Desktop/brouillon/MediaTekDocuments/controller/FrmMediatekController.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

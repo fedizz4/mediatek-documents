@@ -1,0 +1,43 @@
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\bin\Debug\MediaTekDocuments.exe.config
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\bin\Debug\MediaTekDocuments.exe
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\bin\Debug\MediaTekDocuments.pdb
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.csproj.AssemblyReference.cache
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.csproj.SuggestedBindingRedirects.cache
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.Properties.Resources.resources
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.view.FrmAlerteFinAbonnement.resources
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.view.FrmAuthentification.resources
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.view.FrmMediatek.resources
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.csproj.GenerateResource.cache
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.csproj.CoreCompileInputs.cache
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.csproj.CopyComplete
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.exe
+C:\Users\MacBook Air\Downloads\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc (1)\MediatekDocuments-f07137148c2380c0fe5b79dcf3dc204295b6c3cc\MediaTekDocuments\obj\Debug\MediaTekDocuments.pdb
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\MediaTekDocuments.exe.config
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\MediaTekDocuments.exe
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\MediaTekDocuments.pdb
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.csproj.AssemblyReference.cache
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.csproj.SuggestedBindingRedirects.cache
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.Properties.Resources.resources
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.view.FrmAlerteFinAbonnement.resources
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.view.FrmAuthentification.resources
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.view.FrmMediatek.resources
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.csproj.GenerateResource.cache
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.csproj.CoreCompileInputs.cache
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.csproj.CopyComplete
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.exe
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.pdb
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\MediaTekDocuments.exe.manifest
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\MediaTekDocuments.application
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.exe.manifest
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\obj\Debug\MediaTekDocuments.application
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\log4net.dll
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\log4net.Ext.Json.dll
+C:\Users\MacBook Air\Desktop\brouillon\MediaTekDocuments\bin\Debug\log4net.xml

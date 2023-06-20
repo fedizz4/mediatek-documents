@@ -1,0 +1,59 @@
+### YamlMime:TableOfContent
+- uid: MediaTekDocuments.controller
+  name: MediaTekDocuments.controller
+  items:
+  - uid: MediaTekDocuments.controller.FrmAuthentificationController
+    name: FrmAuthentificationController
+  - uid: MediaTekDocuments.controller.FrmMediatekController
+    name: FrmMediatekController
+- uid: MediaTekDocuments.dal
+  name: MediaTekDocuments.dal
+  items:
+  - uid: MediaTekDocuments.dal.Access
+    name: Access
+- uid: MediaTekDocuments.model
+  name: MediaTekDocuments.model
+  items:
+  - uid: MediaTekDocuments.model.Abonnement
+    name: Abonnement
+  - uid: MediaTekDocuments.model.Categorie
+    name: Categorie
+  - uid: MediaTekDocuments.model.Commande
+    name: Commande
+  - uid: MediaTekDocuments.model.CommandeDocument
+    name: CommandeDocument
+  - uid: MediaTekDocuments.model.Document
+    name: Document
+  - uid: MediaTekDocuments.model.Dvd
+    name: Dvd
+  - uid: MediaTekDocuments.model.Etat
+    name: Etat
+  - uid: MediaTekDocuments.model.Exemplaire
+    name: Exemplaire
+  - uid: MediaTekDocuments.model.Genre
+    name: Genre
+  - uid: MediaTekDocuments.model.Livre
+    name: Livre
+  - uid: MediaTekDocuments.model.LivreDvd
+    name: LivreDvd
+  - uid: MediaTekDocuments.model.Public
+    name: Public
+  - uid: MediaTekDocuments.model.Rayon
+    name: Rayon
+  - uid: MediaTekDocuments.model.Revue
+    name: Revue
+  - uid: MediaTekDocuments.model.Service
+    name: Service
+  - uid: MediaTekDocuments.model.Suivi
+    name: Suivi
+  - uid: MediaTekDocuments.model.Utilisateur
+    name: Utilisateur
+- uid: MediaTekDocuments.view
+  name: MediaTekDocuments.view
+  items:
+  - uid: MediaTekDocuments.view.FrmAlerteFinAbonnement
+    name: FrmAlerteFinAbonnement
+  - uid: MediaTekDocuments.view.FrmAuthentification
+    name: FrmAuthentification
+  - uid: MediaTekDocuments.view.FrmMediatek
+    name: FrmMediatek

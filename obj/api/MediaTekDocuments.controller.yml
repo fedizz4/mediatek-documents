@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTekDocuments.controller
+  commentId: N:MediaTekDocuments.controller
+  id: MediaTekDocuments.controller
+  children:
+  - MediaTekDocuments.controller.FrmAuthentificationController
+  - MediaTekDocuments.controller.FrmMediatekController
+  langs:
+  - csharp
+  - vb
+  name: MediaTekDocuments.controller
+  nameWithType: MediaTekDocuments.controller
+  fullName: MediaTekDocuments.controller
+  type: Namespace
+  assemblies:
+  - MediaTekDocuments
+references:
+- uid: MediaTekDocuments.controller.FrmAuthentificationController
+  commentId: T:MediaTekDocuments.controller.FrmAuthentificationController
+  name: FrmAuthentificationController
+  nameWithType: FrmAuthentificationController
+  fullName: MediaTekDocuments.controller.FrmAuthentificationController
+- uid: MediaTekDocuments.controller.FrmMediatekController
+  commentId: T:MediaTekDocuments.controller.FrmMediatekController
+  parent: MediaTekDocuments.controller
+  name: FrmMediatekController
+  nameWithType: FrmMediatekController
+  fullName: MediaTekDocuments.controller.FrmMediatekController
+- uid: MediaTekDocuments.controller
+  commentId: N:MediaTekDocuments.controller
+  name: MediaTekDocuments.controller
+  nameWithType: MediaTekDocuments.controller
+  fullName: MediaTekDocuments.controller

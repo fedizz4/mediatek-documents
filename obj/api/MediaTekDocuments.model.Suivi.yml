@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTekDocuments.model.Suivi
+  commentId: T:MediaTekDocuments.model.Suivi
+  id: Suivi
+  parent: MediaTekDocuments.model
+  children:
+  - MediaTekDocuments.model.Suivi.#ctor(System.String,System.String)
+  - MediaTekDocuments.model.Suivi.Id
+  - MediaTekDocuments.model.Suivi.Libelle
+  langs:
+  - csharp
+  - vb
+  name: Suivi
+  nameWithType: Suivi
+  fullName: MediaTekDocuments.model.Suivi
+  type: Class
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Suivi.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Suivi
+    path: model/Suivi.cs
+    startLine: 4
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public class Suivi
+    content.vb: Public Class Suivi
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: MediaTekDocuments.model.Suivi.Id
+  commentId: P:MediaTekDocuments.model.Suivi.Id
+  id: Id
+  parent: MediaTekDocuments.model.Suivi
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Suivi.Id
+  fullName: MediaTekDocuments.model.Suivi.Id
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Suivi.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Id
+    path: model/Suivi.cs
+    startLine: 6
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: MediaTekDocuments.model.Suivi.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Suivi.Libelle
+  commentId: P:MediaTekDocuments.model.Suivi.Libelle
+  id: Libelle
+  parent: MediaTekDocuments.model.Suivi
+  langs:
+  - csharp
+  - vb
+  name: Libelle
+  nameWithType: Suivi.Libelle
+  fullName: MediaTekDocuments.model.Suivi.Libelle
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Suivi.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Libelle
+    path: model/Suivi.cs
+    startLine: 7
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string Libelle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Libelle As String
+  overload: MediaTekDocuments.model.Suivi.Libelle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Suivi.#ctor(System.String,System.String)
+  commentId: M:MediaTekDocuments.model.Suivi.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: MediaTekDocuments.model.Suivi
+  langs:
+  - csharp
+  - vb
+  name: Suivi(String, String)
+  nameWithType: Suivi.Suivi(String, String)
+  fullName: MediaTekDocuments.model.Suivi.Suivi(System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Suivi.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: .ctor
+    path: model/Suivi.cs
+    startLine: 9
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public Suivi(string id, string libelle)
+    parameters:
+    - id: id
+      type: System.String
+    - id: libelle
+      type: System.String
+    content.vb: Public Sub New(id As String, libelle As String)
+  overload: MediaTekDocuments.model.Suivi.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: MediaTekDocuments.model
+  commentId: N:MediaTekDocuments.model
+  name: MediaTekDocuments.model
+  nameWithType: MediaTekDocuments.model
+  fullName: MediaTekDocuments.model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MediaTekDocuments.model.Suivi.Id*
+  commentId: Overload:MediaTekDocuments.model.Suivi.Id
+  name: Id
+  nameWithType: Suivi.Id
+  fullName: MediaTekDocuments.model.Suivi.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: MediaTekDocuments.model.Suivi.Libelle*
+  commentId: Overload:MediaTekDocuments.model.Suivi.Libelle
+  name: Libelle
+  nameWithType: Suivi.Libelle
+  fullName: MediaTekDocuments.model.Suivi.Libelle
+- uid: MediaTekDocuments.model.Suivi.#ctor*
+  commentId: Overload:MediaTekDocuments.model.Suivi.#ctor
+  name: Suivi
+  nameWithType: Suivi.Suivi
+  fullName: MediaTekDocuments.model.Suivi.Suivi

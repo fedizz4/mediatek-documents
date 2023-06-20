@@ -1,0 +1,660 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTekDocuments.model.Exemplaire
+  commentId: T:MediaTekDocuments.model.Exemplaire
+  id: Exemplaire
+  parent: MediaTekDocuments.model
+  children:
+  - MediaTekDocuments.model.Exemplaire.#ctor(System.Int32,System.DateTime,System.String,System.String,System.String,System.String)
+  - MediaTekDocuments.model.Exemplaire.DateAchat
+  - MediaTekDocuments.model.Exemplaire.Id
+  - MediaTekDocuments.model.Exemplaire.IdEtat
+  - MediaTekDocuments.model.Exemplaire.Libelle
+  - MediaTekDocuments.model.Exemplaire.Numero
+  - MediaTekDocuments.model.Exemplaire.Photo
+  langs:
+  - csharp
+  - vb
+  name: Exemplaire
+  nameWithType: Exemplaire
+  fullName: MediaTekDocuments.model.Exemplaire
+  type: Class
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Exemplaire.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Exemplaire
+    path: model/Exemplaire.cs
+    startLine: 7
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  summary: "\nClasse métier Exemplaire (exemplaire d&apos;une revue)\n"
+  example: []
+  syntax:
+    content: public class Exemplaire
+    content.vb: Public Class Exemplaire
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: MediaTekDocuments.model.Exemplaire.Numero
+  commentId: P:MediaTekDocuments.model.Exemplaire.Numero
+  id: Numero
+  parent: MediaTekDocuments.model.Exemplaire
+  langs:
+  - csharp
+  - vb
+  name: Numero
+  nameWithType: Exemplaire.Numero
+  fullName: MediaTekDocuments.model.Exemplaire.Numero
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Exemplaire.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Numero
+    path: model/Exemplaire.cs
+    startLine: 9
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public int Numero { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Numero As Integer
+  overload: MediaTekDocuments.model.Exemplaire.Numero*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Exemplaire.Photo
+  commentId: P:MediaTekDocuments.model.Exemplaire.Photo
+  id: Photo
+  parent: MediaTekDocuments.model.Exemplaire
+  langs:
+  - csharp
+  - vb
+  name: Photo
+  nameWithType: Exemplaire.Photo
+  fullName: MediaTekDocuments.model.Exemplaire.Photo
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Exemplaire.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Photo
+    path: model/Exemplaire.cs
+    startLine: 10
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string Photo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Photo As String
+  overload: MediaTekDocuments.model.Exemplaire.Photo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Exemplaire.DateAchat
+  commentId: P:MediaTekDocuments.model.Exemplaire.DateAchat
+  id: DateAchat
+  parent: MediaTekDocuments.model.Exemplaire
+  langs:
+  - csharp
+  - vb
+  name: DateAchat
+  nameWithType: Exemplaire.DateAchat
+  fullName: MediaTekDocuments.model.Exemplaire.DateAchat
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Exemplaire.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: DateAchat
+    path: model/Exemplaire.cs
+    startLine: 11
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public DateTime DateAchat { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateAchat As Date
+  overload: MediaTekDocuments.model.Exemplaire.DateAchat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Exemplaire.IdEtat
+  commentId: P:MediaTekDocuments.model.Exemplaire.IdEtat
+  id: IdEtat
+  parent: MediaTekDocuments.model.Exemplaire
+  langs:
+  - csharp
+  - vb
+  name: IdEtat
+  nameWithType: Exemplaire.IdEtat
+  fullName: MediaTekDocuments.model.Exemplaire.IdEtat
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Exemplaire.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: IdEtat
+    path: model/Exemplaire.cs
+    startLine: 12
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string IdEtat { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IdEtat As String
+  overload: MediaTekDocuments.model.Exemplaire.IdEtat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Exemplaire.Id
+  commentId: P:MediaTekDocuments.model.Exemplaire.Id
+  id: Id
+  parent: MediaTekDocuments.model.Exemplaire
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Exemplaire.Id
+  fullName: MediaTekDocuments.model.Exemplaire.Id
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Exemplaire.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Id
+    path: model/Exemplaire.cs
+    startLine: 13
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: MediaTekDocuments.model.Exemplaire.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Exemplaire.Libelle
+  commentId: P:MediaTekDocuments.model.Exemplaire.Libelle
+  id: Libelle
+  parent: MediaTekDocuments.model.Exemplaire
+  langs:
+  - csharp
+  - vb
+  name: Libelle
+  nameWithType: Exemplaire.Libelle
+  fullName: MediaTekDocuments.model.Exemplaire.Libelle
+  type: Property
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Exemplaire.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: Libelle
+    path: model/Exemplaire.cs
+    startLine: 14
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public string Libelle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Libelle As String
+  overload: MediaTekDocuments.model.Exemplaire.Libelle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: MediaTekDocuments.model.Exemplaire.#ctor(System.Int32,System.DateTime,System.String,System.String,System.String,System.String)
+  commentId: M:MediaTekDocuments.model.Exemplaire.#ctor(System.Int32,System.DateTime,System.String,System.String,System.String,System.String)
+  id: '#ctor(System.Int32,System.DateTime,System.String,System.String,System.String,System.String)'
+  parent: MediaTekDocuments.model.Exemplaire
+  langs:
+  - csharp
+  - vb
+  name: Exemplaire(Int32, DateTime, String, String, String, String)
+  nameWithType: Exemplaire.Exemplaire(Int32, DateTime, String, String, String, String)
+  fullName: MediaTekDocuments.model.Exemplaire.Exemplaire(System.Int32, System.DateTime, System.String, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Desktop/brouillon/MediaTekDocuments/model/Exemplaire.cs
+      branch: master
+      repo: https://github.com/fadwafa02/j.git
+    id: .ctor
+    path: model/Exemplaire.cs
+    startLine: 16
+  assemblies:
+  - MediaTekDocuments
+  namespace: MediaTekDocuments.model
+  syntax:
+    content: public Exemplaire(int numero, DateTime dateAchat, string photo, string idEtat, string idDocument, string libelle)
+    parameters:
+    - id: numero
+      type: System.Int32
+    - id: dateAchat
+      type: System.DateTime
+    - id: photo
+      type: System.String
+    - id: idEtat
+      type: System.String
+    - id: idDocument
+      type: System.String
+    - id: libelle
+      type: System.String
+    content.vb: Public Sub New(numero As Integer, dateAchat As Date, photo As String, idEtat As String, idDocument As String, libelle As String)
+  overload: MediaTekDocuments.model.Exemplaire.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: MediaTekDocuments.model
+  commentId: N:MediaTekDocuments.model
+  name: MediaTekDocuments.model
+  nameWithType: MediaTekDocuments.model
+  fullName: MediaTekDocuments.model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MediaTekDocuments.model.Exemplaire.Numero*
+  commentId: Overload:MediaTekDocuments.model.Exemplaire.Numero
+  name: Numero
+  nameWithType: Exemplaire.Numero
+  fullName: MediaTekDocuments.model.Exemplaire.Numero
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: MediaTekDocuments.model.Exemplaire.Photo*
+  commentId: Overload:MediaTekDocuments.model.Exemplaire.Photo
+  name: Photo
+  nameWithType: Exemplaire.Photo
+  fullName: MediaTekDocuments.model.Exemplaire.Photo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: MediaTekDocuments.model.Exemplaire.DateAchat*
+  commentId: Overload:MediaTekDocuments.model.Exemplaire.DateAchat
+  name: DateAchat
+  nameWithType: Exemplaire.DateAchat
+  fullName: MediaTekDocuments.model.Exemplaire.DateAchat
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: MediaTekDocuments.model.Exemplaire.IdEtat*
+  commentId: Overload:MediaTekDocuments.model.Exemplaire.IdEtat
+  name: IdEtat
+  nameWithType: Exemplaire.IdEtat
+  fullName: MediaTekDocuments.model.Exemplaire.IdEtat
+- uid: MediaTekDocuments.model.Exemplaire.Id*
+  commentId: Overload:MediaTekDocuments.model.Exemplaire.Id
+  name: Id
+  nameWithType: Exemplaire.Id
+  fullName: MediaTekDocuments.model.Exemplaire.Id
+- uid: MediaTekDocuments.model.Exemplaire.Libelle*
+  commentId: Overload:MediaTekDocuments.model.Exemplaire.Libelle
+  name: Libelle
+  nameWithType: Exemplaire.Libelle
+  fullName: MediaTekDocuments.model.Exemplaire.Libelle
+- uid: MediaTekDocuments.model.Exemplaire.#ctor*
+  commentId: Overload:MediaTekDocuments.model.Exemplaire.#ctor
+  name: Exemplaire
+  nameWithType: Exemplaire.Exemplaire
+  fullName: MediaTekDocuments.model.Exemplaire.Exemplaire

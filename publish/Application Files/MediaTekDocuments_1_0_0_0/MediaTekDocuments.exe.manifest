@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MediaTekDocuments.exe" version="1.0.0.0" publicKeyToken="1bb195c14d90cff5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MediaTekDocuments" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MediaTekDocuments.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options de manifeste UAC
+          Pour changer le niveau du contrôle de compte d'utilisateur Windows, remplacez le
+          nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Pour utiliser la virtualisation des fichiers et du Registre afin d'assurer
+         une compatibilité ascendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MediaTekDocuments.exe" size="168456">
+      <assemblyIdentity name="MediaTekDocuments" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PYfuhvqx/6R/i3EODgErVnxcfmDmmf47nQXyGJY077A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="701992">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tiSUnfiw46YVP9+3MKfG9JkLZZLuDZIuF4hDPSdmEPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Net.Http.Formatting.dll" size="179680">
+      <assemblyIdentity name="System.Net.Http.Formatting" version="5.2.9.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AGZBMLljrOXxJDrkeGkm6oG8GBCG/HFJ1hI1Z8ME01s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MediaTekDocuments.exe.config" size="574">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pL1XhDUmBCf0VKUcuweXgbQFZ+XH0Wy87EZteMytS9k=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-7FT3UMI\MacBook Air" issuerKeyHash="9dfb88aaf362ad2853734e0a3ca26fe86f1fe77d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jO7G8VgAzbRsKmE4UtbqZoZAzxqKwndjoCNJpJTPhlA=</DigestValue></Reference></SignedInfo><SignatureValue>HY+xrWLQcYTu1+47oNldYKbKfVun4c52PFJrm44sKQTP9Oe1TjZTn8H6z8U5Av/f/PbbgC3W+knTe5z2SKfFuCLOb06NlJKrMUn1LPXvkTA49ePJMuEmXfIT0yHmeKPGFrlh2OWE3o1Wfpty4+AZz7wKZTX6tX3+LOG9MO9LlJY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wJLDio6DpYQLeveHiGJ5nBPqvzDKRpqL4RjRCBKYCKDM0DlpP2LsyJ2oSeW39sBe40wPUUEQyUc4uORaf1cRUubc725Op2vFtwBl5lwLkSIUDBUkS+PN56kM3+b1rgtmC7M1AYolWmeoGgb+xesl/Hi2gFH68iGqRtB4C9WtnlU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5086cf94a44923a06377c28a1acf408666ead65238612a6cb4cd0058f1c6ee8c" Description="" Url=""><as:assemblyIdentity name="MediaTekDocuments.exe" version="1.0.0.0" publicKeyToken="1bb195c14d90cff5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-7FT3UMI\MacBook Air</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Gw59wr1VCqCQnbn5cWGi0M02jENQrD0kHejKX2JCLoc=</DigestValue></Reference></SignedInfo><SignatureValue>rxenjUhGpu30EN85dySzgoueXL7aiRCI39cNfNGFUsUwTMz6gIGSolWqr/RD62M3uGwfsIbIyVcaryzd3e2KxksHAdECh/1oKEAlRghhN0aFUzBwTdLdKBR5behJHOhKzhyY6tLgjCUjgiDRxpdZrpaoS1iaw0404wTp8DFewq4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wJLDio6DpYQLeveHiGJ5nBPqvzDKRpqL4RjRCBKYCKDM0DlpP2LsyJ2oSeW39sBe40wPUUEQyUc4uORaf1cRUubc725Op2vFtwBl5lwLkSIUDBUkS+PN56kM3+b1rgtmC7M1AYolWmeoGgb+xesl/Hi2gFH68iGqRtB4C9WtnlU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQS62Ux3KZu61P8Vc+FsGQ5DANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtADcARgBUADMAVQBNAEkAXABNAGEAYwBCAG8AbwBrACAAQQBpAHIwHhcNMjMwNjE5MTQyNjEwWhcNMjQwNjE4MjAyNjEwWjBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtADcARgBUADMAVQBNAEkAXABNAGEAYwBCAG8AbwBrACAAQQBpAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMCSw4qOg6WEC3r3h4hieZwT6r8wykaai+EY0QgSmAigzNA5aT9i7MidqEnlt/bAXuNMD1FBEMlHOLjkWn9XEVLm3O9uTqdrxbcAZeZcC5EiFAwVJEvjzeepDN/m9a4LZguzNQGKJVpnqBoG/sXrJfx4toBR+vIhqkbQeAvVrZ5VAgMBAAEwDQYJKoZIhvcNAQELBQADgYEASNGlp3i5DmCaDDqxvvkqjEv3g1uMhOylxqaqVULodXKmjEPTvw5A0LvMFxGhPU3CQU+CHl46OonrMZIabMXMkAnxJgc11VQPjNT9AvGBOtYXTI59jbKKongATU9BjH02G9/fzM/TlBxruOJiJ7SUefvbC+fB80hhrS7yHMvRGE8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
